@@ -5,7 +5,7 @@ This repo is purely for the purposes of downloading images from GBIF using speci
 - moth_nonmoth_dataset.ipynb: downloads images of moths and non-moths in the uk
 - moth_nonmoth_dataset.py: does the same but can be executed in background (`nohup moth_nonmoth_dataset.py`)
 
-# Setting up the environment
+## Setting up the environment
 
 The repository uses conda to manage the environment and packages which are specified in the `environment.yml` file.
 
@@ -13,7 +13,7 @@ For first time use, run `conda env create -f environment.yml`. This will create 
 
 Then, run `conda activate gbif_download_standalone`
 
-# Pre-commits
+## Pre-commits
 
 Pre-commits are specified in the `.pre-commit-config.yaml` file.
 
