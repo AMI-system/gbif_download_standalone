@@ -1,0 +1,17 @@
+name: gbif_download_standalone
+channels:
+  - defaults
+  - pytorch
+  - anaconda
+dependencies:
+  - python
+  - matplotlib
+  - numpy
+  - pip
+  - pandas
+  - pre-commit
+  - python-dwca-reader
+  - isort
+  - flake8
+  - pip:
+    - pygbif
