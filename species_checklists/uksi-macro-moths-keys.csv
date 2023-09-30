@@ -1,0 +1,11 @@
+accepted_taxon_key,order_name,family_name,genus_name,search_species_name,gbif_species_name,confidence,status,match_type,rank,source
+5101394,Lepidoptera,Cossidae,Cossus,"Cossus cossus Linnaeus, 1758",Cossus cossus,100,ACCEPTED,EXACT,SPECIES,Tbilisi30Sept2023
+1731598,Lepidoptera,Cossidae,Phragmataecia,"Phragmataecia castaneae Hübner, 1790",Phragmataecia castaneae,100,ACCEPTED,EXACT,SPECIES,Tbilisi30Sept2023
+1730978,Lepidoptera,Cossidae,Zeuzera,"Zeuzera pyrina Linnaeus, 1761",Zeuzera pyrina,100,ACCEPTED,EXACT,SPECIES,Tbilisi30Sept2023
+1952229,Lepidoptera,Drepanidae,Achlya,"Achlya flavicornis Linnaeus, 1758",Achlya flavicornis,100,ACCEPTED,EXACT,SPECIES,Tbilisi30Sept2023
+1951557,Lepidoptera,Drepanidae,Cilix,"Cilix glaucata Scopoli, 1763",Cilix glaucata,100,ACCEPTED,EXACT,SPECIES,Tbilisi30Sept2023
+1952130,Lepidoptera,Drepanidae,Cymatophorina,"Cymatophorina diluta Denis & Schiffermüller, 1775",Cymatophorina diluta,100,ACCEPTED,EXACT,SPECIES,Tbilisi30Sept2023
+5143147,Lepidoptera,Drepanidae,Drepana,"Drepana curvatula Borkhausen, 1790",Drepana curvatula,100,ACCEPTED,EXACT,SPECIES,Tbilisi30Sept2023
+5143129,Lepidoptera,Drepanidae,Drepana,"Drepana falcataria Linnaeus, 1758",Drepana falcataria,100,ACCEPTED,EXACT,SPECIES,Tbilisi30Sept2023
+1952014,Lepidoptera,Drepanidae,Falcaria,"Falcaria lacertinaria Linnaeus, 1758",Falcaria lacertinaria,100,ACCEPTED,EXACT,SPECIES,Tbilisi30Sept2023
+1952062,Lepidoptera,Drepanidae,Habrosyne,"Habrosyne pyritoides Hufnagel, 1766",Habrosyne pyritoides,100,ACCEPTED,EXACT,SPECIES,Tbilisi30Sept2023

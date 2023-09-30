@@ -116,7 +116,9 @@ def save_taxon_keys(args):
     )
 
     # fetch taxonomy data from GBIF
-    for name in species_list:
+    for count, name in enumerate(species_list):
+
+        print("Fetching for", name, count, "of", len(species_list))
         data = get_gbif_key_backbone(name, args.place)
         data_final = pd.concat([data_final, data], ignore_index=True)
 
