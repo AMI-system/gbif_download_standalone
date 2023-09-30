@@ -9,6 +9,7 @@ About         : This script fetches unique taxon keys for species list from GBIF
 """
 
 import argparse
+import concurrent.futures
 
 import pandas as pd
 from pygbif import species as species_api
@@ -18,6 +19,8 @@ def get_gbif_key_backbone(name, place):
     """given a species name, this function returns the unique gbif key and other
     attributes using backbone API
     """
+
+    print("Fetching for", name)
 
     # default values
     acc_taxon_key = [-1]
@@ -116,14 +119,29 @@ def save_taxon_keys(args):
     )
 
     # fetch taxonomy data from GBIF
-    for count, name in enumerate(species_list):
+    with concurrent.futures.ThreadPoolExecutor() as executor:
+        results = list(
+            executor.map(
+                get_gbif_key_backbone,
+                species_list,
+                [args.place] * len(species_list)
+                )
+            )
 
-        print("Fetching for", name, count, "of", len(species_list))
-        data = get_gbif_key_backbone(name, args.place)
-        data_final = pd.concat([data_final, data], ignore_index=True)
+    data_final = pd.concat([data_final] + results, ignore_index=True)
 
     # save the file
     data_final.to_csv(args.output_filepath, index=False)
+
+    # # fetch taxonomy data from GBIF
+    # for count, name in enumerate(species_list):
+
+    #     print("Fetching for", name, count, "of", len(species_list))
+    #     data = get_gbif_key_backbone(name, args.place)
+    #     data_final = pd.concat([data_final, data], ignore_index=True)
+
+    # # save the file
+    # data_final.to_csv(args.output_filepath, index=False)
 
 
 if __name__ == "__main__":
