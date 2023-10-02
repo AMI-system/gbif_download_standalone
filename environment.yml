@@ -9,7 +9,7 @@ dependencies:
   - numpy
   - pip
   - pandas
-  - pre-commit
+  - pre_commit
   - isort
   - flake8
   - pip:
