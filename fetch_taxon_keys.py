@@ -15,27 +15,39 @@ import pandas as pd
 from pygbif import species as species_api
 
 
-def get_gbif_key_backbone(name, place):
+def get_gbif_key_backbone(name_species, name_authority, place):
     """given a species name, this function returns the unique gbif key and other
     attributes using backbone API
     """
 
-    print("Fetching for", name)
+    print("Fetching for", name_species)
 
     # default values
-    acc_taxon_key = [-1]
-    order = ["NotAvail"]
-    family = ["NotAvail"]
-    genus = ["NotAvail"]
-    search_species = [name]
-    gbif_species = [
+    acc_taxon_key  = [-1]
+    order          = ["NotAvail"]
+    family         = ["NotAvail"]
+    genus          = ["NotAvail"]
+    search_species = [name_species]
+    gbif_species   = [
         "NotAvail"
     ]  # the name returned on search, can be different from the search
-    status = ["NotAvail"]
-    rank = ["NotAvail"]
-    place = [place]
+    status         = ["NotAvail"]
+    rank           = ["NotAvail"]
+    place          = [place]
 
-    data = species_api.name_backbone(name=name, strict=True, rank="species")
+    data = species_api.name_backbone(name=name_species, strict=True, rank="species")
+
+    if data["matchType"] == "NONE" or data["matchType"] == "HIGHERRANK":
+
+        # Try searching with authority as well
+        search_name = name_species + " " + name_authority
+
+        # Change the default value
+        search_species = [search_name]
+
+        print("Could not find data for ", name_species, " Retrying for ", search_name)
+
+        data = species_api.name_backbone(name=search_name, strict=True, rank="species")
 
     # add entries to the fields
     confidence = [data["confidence"]]
@@ -96,9 +108,12 @@ def save_taxon_keys(args):
 
     # fetch species names from the list
     data = pd.read_csv(args.species_filepath, index_col=False)
-    species_list = []
+    species_list   = []
+    authority_list = []
+
     for indx in data.index:
-        species_list.append(data[args.column_name][indx])
+        species_list.append(data[args.column_name_species][indx])
+        authority_list.append(data[args.column_name_authority][indx])
 
     # define all columns
     data_final = pd.DataFrame(
@@ -124,6 +139,7 @@ def save_taxon_keys(args):
             executor.map(
                 get_gbif_key_backbone,
                 species_list,
+                authority_list,
                 [args.place] * len(species_list)
                 )
             )
@@ -133,11 +149,11 @@ def save_taxon_keys(args):
     # save the file
     data_final.to_csv(args.output_filepath, index=False)
 
-    # # fetch taxonomy data from GBIF
+    # fetch taxonomy data from GBIF
     # for count, name in enumerate(species_list):
 
     #     print("Fetching for", name, count, "of", len(species_list))
-    #     data = get_gbif_key_backbone(name, args.place)
+    #     data = get_gbif_key_backbone(name, authority_list[count], args.place)
     #     data_final = pd.concat([data_final, data], ignore_index=True)
 
     # # save the file
@@ -150,7 +166,12 @@ if __name__ == "__main__":
         "--species_filepath", help="path of the species list", required=True
     )
     parser.add_argument(
-        "--column_name", help="column name of the species entries", required=True
+        "--column_name_species",
+        help="column name of the species entries", required=True
+    )
+    parser.add_argument(
+        "--column_name_authority",
+        help="column name of the preferred authority entries", required=True
     )
     parser.add_argument(
         "--output_filepath",
