@@ -40,14 +40,21 @@ def get_gbif_key_backbone(name_species, name_authority, place):
     if data["matchType"] == "NONE" or data["matchType"] == "HIGHERRANK":
 
         # Try searching with the authority in the name as well
-        search_name = name_species + " " + name_authority
+        if isinstance(name_authority, str):
 
-        print("Could not find data for ", name_species, " Retrying for ", search_name)
+            search_name = name_species + " " + name_authority
 
-        # Change the default value
-        search_species = [search_name]
+            print("Could not find data for ",
+                  name_species,
+                  " Retrying for ",
+                  search_name)
 
-        data = species_api.name_backbone(name=search_name, strict=True, rank="species")
+            # Change the default value
+            search_species = [search_name]
+
+            data = species_api.name_backbone(name=search_name,
+                                             strict=True,
+                                             rank="species")
 
     # add entries to the fields
     confidence = [data["confidence"]]
@@ -136,7 +143,7 @@ def save_taxon_keys(args):
     if args.use_pooling:
 
         # fetch taxonomy data from GBIF using multiprocessing
-        with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
             results = list(
                 executor.map(
                     get_gbif_key_backbone,
