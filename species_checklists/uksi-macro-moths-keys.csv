@@ -261,7 +261,7 @@ accepted_taxon_key,order_name,family_name,genus_name,search_species_name,gbif_sp
 8394261,Lepidoptera,Geometridae,Eupithecia,"Eupithecia irriguata Hübner, 1813",Eupithecia irriguata,100,ACCEPTED,EXACT,SPECIES,Tbilisi03Oct2023
 1982406,Lepidoptera,Geometridae,Eupithecia,"Eupithecia lariciata Freyer, 1841",Eupithecia lariciata,100,ACCEPTED,EXACT,SPECIES,Tbilisi03Oct2023
 1983648,Lepidoptera,Geometridae,Eupithecia,"Eupithecia linariata Denis & Schiffermüller, 1775",Eupithecia linariata,100,ACCEPTED,EXACT,SPECIES,Tbilisi03Oct2023
--1,NotAvail,NotAvail,NotAvail,,NotAvail,100,NotAvail,NONE,NotAvail,Tbilisi03Oct2023
+1983088,Lepidoptera,Geometridae,Eupithecia,Eupithecia massiliata,Eupithecia massiliata,99,ACCEPTED,EXACT,SPECIES,Tbilisi03Oct2023
 1982770,Lepidoptera,Geometridae,Eupithecia,"Eupithecia millefoliata Rössler, 1866",Eupithecia millefoliata,100,ACCEPTED,EXACT,SPECIES,Tbilisi03Oct2023
 8015895,Lepidoptera,Geometridae,Eupithecia,"Eupithecia nanata Hübner, 1813",Eupithecia nanata,100,ACCEPTED,EXACT,SPECIES,Tbilisi03Oct2023
 1983888,Lepidoptera,Geometridae,Eupithecia,"Eupithecia phoeniceata Rambur, 1834",Eupithecia phoeniceata,100,ACCEPTED,EXACT,SPECIES,Tbilisi03Oct2023
@@ -519,7 +519,7 @@ accepted_taxon_key,order_name,family_name,genus_name,search_species_name,gbif_sp
 1771204,Lepidoptera,Noctuidae,Agrotis,"Agrotis ripae Hübner, 1823",Agrotis ripae,100,ACCEPTED,EXACT,SPECIES,Tbilisi03Oct2023
 1771040,Lepidoptera,Noctuidae,Agrotis,"Agrotis segetum Denis & Schiffermüller, 1775",Agrotis segetum,100,ACCEPTED,EXACT,SPECIES,Tbilisi03Oct2023
 1770875,Lepidoptera,Noctuidae,Agrotis,"Agrotis spinifera Hübner, 1808",Agrotis biconica,100,SYNONYM,EXACT,SPECIES,Tbilisi03Oct2023
--1,NotAvail,NotAvail,NotAvail,,NotAvail,100,NotAvail,NONE,NotAvail,Tbilisi03Oct2023
+4533720,Lepidoptera,Noctuidae,Agrotis,Agrotis syricola,Agrotis catalaunensis,98,SYNONYM,EXACT,SPECIES,Tbilisi03Oct2023
 1770821,Lepidoptera,Noctuidae,Agrotis,"Agrotis trux Hübner, 1824",Agrotis trux,100,ACCEPTED,EXACT,SPECIES,Tbilisi03Oct2023
 1770880,Lepidoptera,Noctuidae,Agrotis,"Agrotis vestigialis Hufnagel, 1766",Agrotis vestigialis,100,ACCEPTED,EXACT,SPECIES,Tbilisi03Oct2023
 4534719,Lepidoptera,Noctuidae,Allophyes,"Allophyes oxyacanthae Linnaeus, 1758",Allophyes oxyacanthae,100,ACCEPTED,EXACT,SPECIES,Tbilisi03Oct2023
