@@ -4,7 +4,7 @@
 """
 Author        : Aditya Jain
 Edited by     : Levan Bokeria
-Last modified : Sept 27, 2023
+Last modified : 4 October, 2023
 About         : This script fetches unique taxon keys for species list from GBIF
 """
 
@@ -39,13 +39,13 @@ def get_gbif_key_backbone(name_species, name_authority, place):
 
     if data["matchType"] == "NONE" or data["matchType"] == "HIGHERRANK":
 
-        # Try searching with authority as well
+        # Try searching with the authority in the name as well
         search_name = name_species + " " + name_authority
+
+        print("Could not find data for ", name_species, " Retrying for ", search_name)
 
         # Change the default value
         search_species = [search_name]
-
-        print("Could not find data for ", name_species, " Retrying for ", search_name)
 
         data = species_api.name_backbone(name=search_name, strict=True, rank="species")
 
@@ -133,7 +133,7 @@ def save_taxon_keys(args):
         dtype=object,
     )
 
-    # fetch taxonomy data from GBIF
+    # fetch taxonomy data from GBIF using multiprocessing
     with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
         results = list(
             executor.map(
@@ -148,16 +148,6 @@ def save_taxon_keys(args):
 
     # save the file
     data_final.to_csv(args.output_filepath, index=False)
-
-    # fetch taxonomy data from GBIF
-    # for count, name in enumerate(species_list):
-
-    #     print("Fetching for", name, count, "of", len(species_list))
-    #     data = get_gbif_key_backbone(name, authority_list[count], args.place)
-    #     data_final = pd.concat([data_final, data], ignore_index=True)
-
-    # # save the file
-    # data_final.to_csv(args.output_filepath, index=False)
 
 
 if __name__ == "__main__":
