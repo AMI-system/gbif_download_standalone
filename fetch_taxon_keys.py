@@ -134,7 +134,7 @@ def save_taxon_keys(args):
     )
 
     # fetch taxonomy data from GBIF
-    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
         results = list(
             executor.map(
                 get_gbif_key_backbone,
