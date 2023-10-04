@@ -9,9 +9,9 @@ dependencies:
   - numpy
   - pip
   - pandas
-  - pre-commit
-  - python-dwca-reader
+  - pre_commit
   - isort
   - flake8
   - pip:
     - pygbif
+    - python-dwca-reader
