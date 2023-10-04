@@ -133,18 +133,27 @@ def save_taxon_keys(args):
         dtype=object,
     )
 
-    # fetch taxonomy data from GBIF using multiprocessing
-    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
-        results = list(
-            executor.map(
-                get_gbif_key_backbone,
-                species_list,
-                authority_list,
-                [args.place] * len(species_list)
-                )
-            )
+    if args.use_pooling:
 
-    data_final = pd.concat([data_final] + results, ignore_index=True)
+        # fetch taxonomy data from GBIF using multiprocessing
+        with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor:
+            results = list(
+                executor.map(
+                    get_gbif_key_backbone,
+                    species_list,
+                    authority_list,
+                    [args.place] * len(species_list)
+                    )
+                )
+
+        data_final = pd.concat([data_final] + results, ignore_index=True)
+
+    else:
+
+        # fetch taxonomy data from GBIF
+        for count, name in enumerate(species_list):
+            data = get_gbif_key_backbone(name, authority_list[count], args.place)
+            data_final = pd.concat([data_final, data], ignore_index=True)
 
     # save the file
     data_final.to_csv(args.output_filepath, index=False)
@@ -170,6 +179,9 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--place", help="source name from which the list is obtained", required=True
+    )
+    parser.add_argument(
+        "--use_pooling", help="whether or not to use multiple workers", required=True
     )
     args = parser.parse_args()
 
