@@ -23,17 +23,19 @@ def get_gbif_key_backbone(name_species, name_authority, place):
     print("Fetching for", name_species)
 
     # default values
-    acc_taxon_key  = [-1]
-    order          = ["NotAvail"]
-    family         = ["NotAvail"]
-    genus          = ["NotAvail"]
-    search_species = [name_species]
-    gbif_species   = [
+    acc_taxon_key           = [-1]
+    order                   = ["NotAvail"]
+    family                  = ["NotAvail"]
+    genus                   = ["NotAvail"]
+    species_name_provided   = [name_species]
+    authority_name_provided = [name_authority]
+    search_species          = [name_species]
+    gbif_species            = [
         "NotAvail"
     ]  # the name returned on search, can be different from the search
-    status         = ["NotAvail"]
-    rank           = ["NotAvail"]
-    place          = [place]
+    status                  = ["NotAvail"]
+    rank                    = ["NotAvail"]
+    place                   = [place]
 
     data = species_api.name_backbone(name=name_species, strict=True, rank="species")
 
@@ -84,6 +86,8 @@ def get_gbif_key_backbone(name_species, name_authority, place):
                 order,
                 family,
                 genus,
+                species_name_provided,
+                authority_name_provided,
                 search_species,
                 gbif_species,
                 confidence,
@@ -98,6 +102,8 @@ def get_gbif_key_backbone(name_species, name_authority, place):
             "order_name",
             "family_name",
             "genus_name",
+            "species_name_provided",
+            "authority_name_provided",
             "search_species_name",
             "gbif_species_name",
             "confidence",
@@ -129,6 +135,8 @@ def save_taxon_keys(args):
             "order_name",
             "family_name",
             "genus_name",
+            "species_name_provided",
+            "authority_name_provided",
             "search_species_name",
             "gbif_species_name",
             "confidence",
@@ -143,7 +151,7 @@ def save_taxon_keys(args):
     if args.use_pooling:
 
         # fetch taxonomy data from GBIF using multiprocessing
-        with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor:
             results = list(
                 executor.map(
                     get_gbif_key_backbone,
