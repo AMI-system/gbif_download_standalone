@@ -1,3 +1,7 @@
 [flake8]
 max-line-length = 88
 extend-ignore = E203,E221
+exclude =
+    fetch_gbif.py
+    moth_nonmoth_dataset.py
+    taxon_keys.py
