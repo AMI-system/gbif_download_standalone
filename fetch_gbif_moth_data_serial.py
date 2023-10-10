@@ -9,19 +9,13 @@ About	      : Fetches data from GBIF using Darwin Core Archive (DwC-A)
 
 import argparse
 import json
-import math
 import os
 import shutil
 import urllib
 from multiprocessing import Pool
 
-import numpy as np
 import pandas as pd
-import pygbif
-import tqdm
 from dwca.read import DwCAReader
-from pygbif import occurrences as occ
-from pygbif import species as species_api
 
 
 def remove_synonyms(data: pd.DataFrame):

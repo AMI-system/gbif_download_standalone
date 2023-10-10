@@ -6,3 +6,4 @@ exclude =
     moth_nonmoth_dataset.py
     taxon_keys.py
     fetch_gbif_moth_data_serial.py
+    fetch_gbif_moth_data_serial.ipynb

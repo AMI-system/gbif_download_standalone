@@ -1,0 +1,17 @@
+accepted_taxon_key,order_name,family_name,genus_name,species_name_provided,authority_name_provided,search_species_name,gbif_species_name,confidence,status,match_type,rank,source
+1940838,Lepidoptera,Sesiidae,Bembecia,Bembecia ichneumoniformis,"Denis & Schiffermüller, 1775",Bembecia ichneumoniformis,Bembecia ichneumoniformis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1939879,Lepidoptera,Sesiidae,Paranthrene,Paranthrene tabaniformis,"Rottemburg, 1775",Paranthrene tabaniformis,Paranthrene tabaniformis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1940807,Lepidoptera,Sesiidae,Pennisetia,Pennisetia hylaeiformis,"Laspeyres, 1801",Pennisetia hylaeiformis,Pennisetia hylaeiformis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1940158,Lepidoptera,Sesiidae,Pyropteron,Pyropteron chrysidiformis,"Esper, 1782",Pyropteron chrysidiformis,Pyropteron chrysidiformis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+4525870,Lepidoptera,Sesiidae,Pyropteron,Pyropteron muscaeformis,"Esper, 1783",Pyropteron muscaeformis,Pyropteron muscaeformis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5141493,Lepidoptera,Sesiidae,Sesia,Sesia apiformis,"Clerck, 1759",Sesia apiformis,Sesia apiformis,98,ACCEPTED,EXACT,SPECIES,London06October2023
+5141501,Lepidoptera,Sesiidae,Sesia,Sesia bembeciformis,"Hübner, 1806",Sesia bembeciformis,Sesia bembeciformis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1940717,Lepidoptera,Sesiidae,Synanthedon,Synanthedon andrenaeformis,"Laspeyres, 1801",Synanthedon andrenaeformis,Synanthedon andrenaeformis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1940744,Lepidoptera,Sesiidae,Synanthedon,Synanthedon culiciformis,"Linnaeus, 1758",Synanthedon culiciformis,Synanthedon culiciformis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1940598,Lepidoptera,Sesiidae,Synanthedon,Synanthedon flaviventris,"Staudinger, 1883",Synanthedon flaviventris,Synanthedon flaviventris,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1940510,Lepidoptera,Sesiidae,Synanthedon,Synanthedon formicaeformis,"Esper, 1782",Synanthedon formicaeformis,Synanthedon formicaeformis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+4525777,Lepidoptera,Sesiidae,Synanthedon,Synanthedon myopaeformis,"Borkhausen, 1789",Synanthedon myopaeformis,Synanthedon myopaeformis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1940639,Lepidoptera,Sesiidae,Synanthedon,Synanthedon scoliaeformis,"Borkhausen, 1789",Synanthedon scoliaeformis,Synanthedon scoliaeformis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1940768,Lepidoptera,Sesiidae,Synanthedon,Synanthedon spheciformis,"Denis & Schiffermüller, 1775",Synanthedon spheciformis,Synanthedon spheciformis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1940575,Lepidoptera,Sesiidae,Synanthedon,Synanthedon tipuliformis,"Clerck, 1759",Synanthedon tipuliformis,Synanthedon tipuliformis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1940644,Lepidoptera,Sesiidae,Synanthedon,Synanthedon vespiformis,"Linnaeus, 1761",Synanthedon vespiformis,Synanthedon vespiformis,99,ACCEPTED,EXACT,SPECIES,London06October2023
