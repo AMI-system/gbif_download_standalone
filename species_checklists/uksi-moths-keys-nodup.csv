@@ -43,8 +43,6 @@ accepted_taxon_key,order_name,family_name,genus_name,species_name_provided,autho
 1830271,Lepidoptera,Argyresthiidae,Argyresthia,Argyresthia trifasciata,"Staudinger, 1871",Argyresthia trifasciata,Argyresthia trifasciata,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1845965,Lepidoptera,Autostichidae,Oegoconia,Oegoconia caradjai,"Popescu-Gorj & Căpuşe, 1965",Oegoconia caradjai,Oegoconia caradjai,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1845962,Lepidoptera,Autostichidae,Oegoconia,Oegoconia deauratella,"Herrich-Schäffer, 1854",Oegoconia deauratella,Oegoconia quadripuncta,99,SYNONYM,EXACT,SPECIES,London06October2023
-1845962,Lepidoptera,Autostichidae,Oegoconia,Oegoconia novimundi,"Busck, 1915",Oegoconia novimundi,Oegoconia quadripuncta,99,SYNONYM,EXACT,SPECIES,London06October2023
-1845962,Lepidoptera,Autostichidae,Oegoconia,Oegoconia quadripuncta,"Haworth, 1828",Oegoconia quadripuncta,Oegoconia quadripuncta,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1845866,Lepidoptera,Autostichidae,Symmoca,Symmoca signatella,"Herrich-Schäffer, 1854",Symmoca signatella,Symmoca signatella,99,ACCEPTED,EXACT,SPECIES,London06October2023
 11897068,Lepidoptera,Batrachedridae,Batrachedra,Batrachedra confusella,"Berggren et al, 2022",Batrachedra confusella,Batrachedra confusella,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1852926,Lepidoptera,Batrachedridae,Batrachedra,Batrachedra parvulipunctella,"Chrétien, 1915",Batrachedra parvulipunctella,Batrachedra parvulipunctella,99,ACCEPTED,EXACT,SPECIES,London06October2023
@@ -173,7 +171,6 @@ accepted_taxon_key,order_name,family_name,genus_name,species_name_provided,autho
 5121544,Lepidoptera,Coleophoridae,Coleophora,Coleophora serpylletorum,"Hering, 1889",Coleophora serpylletorum,Coleophora serpylletorum,99,ACCEPTED,EXACT,SPECIES,London06October2023
 5121517,Lepidoptera,Coleophoridae,Coleophora,Coleophora serratella,"Linnaeus, 1761",Coleophora serratella,Coleophora serratella,99,ACCEPTED,EXACT,SPECIES,London06October2023
 5121324,Lepidoptera,Coleophoridae,Coleophora,Coleophora siccifolia,"Stainton, 1856",Coleophora siccifolia,Coleophora siccifolia,99,ACCEPTED,EXACT,SPECIES,London06October2023
-5121351,Lepidoptera,Coleophoridae,Coleophora,Coleophora solitariella,"Zeller, 1849",Coleophora solitariella,Coleophora lithargyrinella,99,SYNONYM,EXACT,SPECIES,London06October2023
 6097239,Lepidoptera,Coleophoridae,Coleophora,Coleophora spinella,"Schrank, 1802",Coleophora spinella,Coleophora spinella,99,ACCEPTED,EXACT,SPECIES,London06October2023
 5120828,Lepidoptera,Coleophoridae,Coleophora,Coleophora squamosella,"Stainton, 1856",Coleophora squamosella,Coleophora squamosella,99,ACCEPTED,EXACT,SPECIES,London06October2023
 5120684,Lepidoptera,Coleophoridae,Coleophora,Coleophora sternipennella,"Zetterstedt, 1839",Coleophora sternipennella,Coleophora sternipennella,99,ACCEPTED,EXACT,SPECIES,London06October2023
@@ -292,7 +289,6 @@ accepted_taxon_key,order_name,family_name,genus_name,species_name_provided,autho
 1879765,Lepidoptera,Crambidae,Eudonia,Eudonia mercurella,"Linnaeus, 1758",Eudonia mercurella,Eudonia mercurella,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1879534,Lepidoptera,Crambidae,Eudonia,Eudonia murana,"Curtis, 1827",Eudonia murana,Eudonia murana,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1879630,Lepidoptera,Crambidae,Eudonia,Eudonia pallida,"Curtis, 1827",Eudonia pallida,Eudonia truncicolella,98,SYNONYM,EXACT,SPECIES,London06October2023
-1879630,Lepidoptera,Crambidae,Eudonia,Eudonia truncicolella,"Stainton, 1849",Eudonia truncicolella,Eudonia truncicolella,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1891473,Lepidoptera,Crambidae,Evergestis,Evergestis extimalis,"Scopoli, 1763",Evergestis extimalis,Evergestis extimalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
 4532022,Lepidoptera,Crambidae,Evergestis,Evergestis forficalis,"Linnaeus, 1758",Evergestis forficalis,Evergestis forficalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1891494,Lepidoptera,Crambidae,Evergestis,Evergestis limbata,"Linnaeus, 1767",Evergestis limbata,Evergestis limbata,99,ACCEPTED,EXACT,SPECIES,London06October2023
@@ -392,7 +388,6 @@ accepted_taxon_key,order_name,family_name,genus_name,species_name_provided,autho
 1840376,Lepidoptera,Depressariidae,Agonopterix,Agonopterix rotundella,"Douglas, 1846",Agonopterix rotundella,Agonopterix rotundella,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1840621,Lepidoptera,Depressariidae,Agonopterix,Agonopterix scopariella,"Heinemann, 1870",Agonopterix scopariella,Agonopterix scopariella,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1840478,Lepidoptera,Depressariidae,Agonopterix,Agonopterix subpropinquella,"Stainton, 1849",Agonopterix subpropinquella,Agonopterix subpropinquella,99,ACCEPTED,EXACT,SPECIES,London06October2023
-1840297,Lepidoptera,Depressariidae,Agonopterix,Agonopterix umbellana,"Fabricius, 1794","Agonopterix umbellana Fabricius, 1794",Agonopterix heracliana,100,SYNONYM,EXACT,SPECIES,London06October2023
 1840483,Lepidoptera,Depressariidae,Agonopterix,Agonopterix yeatiana,"Fabricius, 1781",Agonopterix yeatiana,Agonopterix yeatiana,98,ACCEPTED,EXACT,SPECIES,London06October2023
 8015612,Lepidoptera,Depressariidae,Depressaria,Depressaria albipunctella,"Denis & Schiffermüller, 1775",Depressaria albipunctella,Depressaria albipunctella,99,ACCEPTED,EXACT,SPECIES,London06October2023
 7958169,Lepidoptera,Depressariidae,Depressaria,Depressaria badiella,"Hübner, 1796",Depressaria badiella,Depressaria badiella,99,ACCEPTED,EXACT,SPECIES,London06October2023
@@ -440,7 +435,6 @@ accepted_taxon_key,order_name,family_name,genus_name,species_name_provided,autho
 5880257,Lepidoptera,Elachistidae,Elachista,Elachista albifrontella,"Hübner, 1817",Elachista albifrontella,Elachista albifrontella,99,ACCEPTED,EXACT,SPECIES,London06October2023
 5880260,Lepidoptera,Elachistidae,Elachista,Elachista alpinella,"Stainton, 1854",Elachista alpinella,Elachista alpinella,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1832927,Lepidoptera,Elachistidae,Elachista,Elachista apicipunctella,"Stainton, 1849",Elachista apicipunctella,Elachista apicipunctella,99,ACCEPTED,EXACT,SPECIES,London06October2023
-1832853,Lepidoptera,Elachistidae,Elachista,Elachista argentella,"Clerck, 1759",Elachista argentella,Elachista argentella,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1833084,Lepidoptera,Elachistidae,Elachista,Elachista atricomella,"Stainton, 1849",Elachista atricomella,Elachista atricomella,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1832953,Lepidoptera,Elachistidae,Elachista,Elachista bedellella,"Sircom, 1848",Elachista bedellella,Elachista bedellella,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1832862,Lepidoptera,Elachistidae,Elachista,Elachista biatomella,"Stainton, 1848",Elachista biatomella,Elachista biatomella,99,ACCEPTED,EXACT,SPECIES,London06October2023
@@ -490,7 +484,6 @@ accepted_taxon_key,order_name,family_name,genus_name,species_name_provided,autho
 1869478,Lepidoptera,Epermeniidae,Epermenia,Epermenia chaerophyllella,"Goeze, 1783",Epermenia chaerophyllella,Epermenia chaerophyllellus,97,ACCEPTED,FUZZY,SPECIES,London06October2023
 1869489,Lepidoptera,Epermeniidae,Epermenia,Epermenia falciformis,"Haworth, 1828",Epermenia falciformis,Epermenia illigerella,99,SYNONYM,EXACT,SPECIES,London06October2023
 4525960,Lepidoptera,Epermeniidae,Epermenia,Epermenia farreni,"Walsingham, 1894",Epermenia farreni,Epermenia farreni,99,ACCEPTED,EXACT,SPECIES,London06October2023
-1869489,Lepidoptera,Epermeniidae,Epermenia,Epermenia illigerella,"Hübner, 1813",Epermenia illigerella,Epermenia illigerella,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1869472,Lepidoptera,Epermeniidae,Epermenia,Epermenia insecurella,"Stainton, 1849",Epermenia insecurella,Epermenia insecurella,99,ACCEPTED,EXACT,SPECIES,London06October2023
 4525949,Lepidoptera,Epermeniidae,Epermenia,Epermenia profugella,"Stainton, 1856",Epermenia profugella,Epermenia profugella,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1869512,Lepidoptera,Epermeniidae,Phaulernis,Phaulernis dentella,"Zeller, 1839",Phaulernis dentella,Phaulernis dentella,99,ACCEPTED,EXACT,SPECIES,London06October2023
@@ -536,7 +529,6 @@ accepted_taxon_key,order_name,family_name,genus_name,species_name_provided,autho
 4532253,Lepidoptera,Noctuidae,Eublemma,Eublemma minutata,"Fabricius, 1794",Eublemma minutata,Eublemma minutata,99,ACCEPTED,EXACT,SPECIES,London06October2023
 4532203,Lepidoptera,Noctuidae,Eublemma,Eublemma ostrina,"Hübner, 1808",Eublemma ostrina,Eublemma ostrina,99,ACCEPTED,EXACT,SPECIES,London06October2023
 4532206,Lepidoptera,Noctuidae,Eublemma,Eublemma parva,"Hübner, 1808",Eublemma parva,Eublemma parva,99,ACCEPTED,EXACT,SPECIES,London06October2023
-4532253,Lepidoptera,Noctuidae,Eublemma,Eublemma paula,"Hübner, 1809",Eublemma paula,Eublemma minutata,99,SYNONYM,EXACT,SPECIES,London06October2023
 4532239,Lepidoptera,Noctuidae,Eublemma,Eublemma purpurina,"Denis & Schiffermüller, 1775",Eublemma purpurina,Eublemma purpurina,99,ACCEPTED,EXACT,SPECIES,London06October2023
 5117791,Lepidoptera,Erebidae,Euchromia,Euchromia lethe,"Fabricius, 1775",Euchromia lethe,Euchromia lethe,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1798408,Lepidoptera,Erebidae,Euclidia,Euclidia glyphica,"Linnaeus, 1758",Euclidia glyphica,Euclidia glyphica,99,ACCEPTED,EXACT,SPECIES,London06October2023
@@ -601,7 +593,6 @@ accepted_taxon_key,order_name,family_name,genus_name,species_name_provided,autho
 1798346,Lepidoptera,Erebidae,Trisateles,Trisateles emortualis,"Denis & Schiffermüller, 1775",Trisateles emortualis,Trisateles emortualis,99,ACCEPTED,EXACT,SPECIES,London06October2023
 5115777,Lepidoptera,Erebidae,Tyria,Tyria jacobaeae,"Linnaeus, 1758",Tyria jacobaeae,Tyria jacobaeae,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1803218,Lepidoptera,Erebidae,Utetheisa,Utetheisa ornatrix,"Linnaeus, 1758",Utetheisa ornatrix,Utetheisa ornatrix,99,ACCEPTED,EXACT,SPECIES,London06October2023
-1803218,Lepidoptera,Erebidae,Utetheisa,Utetheisa bella,"Linnaeus, 1758",Utetheisa bella,Utetheisa ornatrix,99,SYNONYM,EXACT,SPECIES,London06October2023
 1803163,Lepidoptera,Erebidae,Utetheisa,Utetheisa pulchella,"Linnaeus, 1758",Utetheisa pulchella,Utetheisa pulchella,99,ACCEPTED,EXACT,SPECIES,London06October2023
 4532508,Lepidoptera,Erebidae,Zanclognatha,Zanclognatha lunalis,"Scopoli, 1763",Zanclognatha lunalis,Zanclognatha lunalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
 4532510,Lepidoptera,Erebidae,Zanclognatha,Zanclognatha zelleralis,"Wocke, 1850",Zanclognatha zelleralis,Zanclognatha zelleralis,99,ACCEPTED,EXACT,SPECIES,London06October2023
@@ -610,7 +601,6 @@ accepted_taxon_key,order_name,family_name,genus_name,species_name_provided,autho
 1731834,Lepidoptera,Eriocraniidae,Eriocrania,Eriocrania salopiella,"Stainton, 1854",Eriocrania salopiella,Eriocrania salopiella,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1731820,Lepidoptera,Eriocraniidae,Eriocrania,Eriocrania sangii,"Wood, 1891",Eriocrania sangii,Eriocrania sangii,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1731826,Lepidoptera,Eriocraniidae,Eriocrania,Eriocrania semipurpurella,"Stephens, 1835",Eriocrania semipurpurella,Eriocrania semipurpurella,99,ACCEPTED,EXACT,SPECIES,London06October2023
-1731837,Lepidoptera,Eriocraniidae,Eriocrania,Eriocrania sparrmannella,"Bosc, 1791",Eriocrania sparrmannella,Eriocrania sparrmannella,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1731858,Lepidoptera,Eriocraniidae,Heringocrania,Eriocrania unimaculella,"Zetterstedt, 1839",Eriocrania unimaculella,Heringocrania unimaculella,99,SYNONYM,EXACT,SPECIES,London06October2023
 4522964,Lepidoptera,Eriocraniidae,Paracrania,Paracrania chrysolepidella,"Zeller, 1851",Paracrania chrysolepidella,Paracrania chrysolepidella,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1845270,Lepidoptera,Ethmiidae,Ethmia,Ethmia bipunctella,"Fabricius, 1775",Ethmia bipunctella,Ethmia bipunctella,99,ACCEPTED,EXACT,SPECIES,London06October2023
@@ -712,7 +702,6 @@ accepted_taxon_key,order_name,family_name,genus_name,species_name_provided,autho
 1847566,Lepidoptera,Gelechiidae,Isophrictis,Isophrictis anthemidella,"Wocke, 1871",Isophrictis anthemidella,Isophrictis anthemidella,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1847572,Lepidoptera,Gelechiidae,Isophrictis,Isophrictis striatella,"Denis & Schiffermüller, 1775",Isophrictis striatella,Isophrictis striatella,99,ACCEPTED,EXACT,SPECIES,London06October2023
 9611525,Lepidoptera,Gelechiidae,Mesophleps,Mesophelps ochracella,"Turati, 1926",Mesophelps ochracella,Mesophleps ochracella,99,SYNONYM,EXACT,SPECIES,London06October2023
-9611525,Lepidoptera,Gelechiidae,Mesophleps,Mesophleps ochracella,"Turati, 1926",Mesophleps ochracella,Mesophleps ochracella,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1850827,Lepidoptera,Gelechiidae,Mesophleps,Mesophleps silacella,"Hübner, 1796",Mesophleps silacella,Mesophleps silacella,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1848847,Lepidoptera,Gelechiidae,Metzneria,Metzneria aestivella,"Zeller, 1839",Metzneria aestivella,Metzneria aestivella,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1848886,Lepidoptera,Gelechiidae,Metzneria,Metzneria aprilella,"Herrich-Schäffer, 1854",Metzneria aprilella,Metzneria aprilella,99,ACCEPTED,EXACT,SPECIES,London06October2023
@@ -1176,7 +1165,6 @@ accepted_taxon_key,order_name,family_name,genus_name,species_name_provided,autho
 1749192,Lepidoptera,Gracillariidae,Parornix,Parornix fagivora,"Frey, 1861",Parornix fagivora,Parornix fagivora,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1749162,Lepidoptera,Gracillariidae,Parornix,Parornix finitimella,"Zeller, 1850",Parornix finitimella,Parornix finitimella,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1749208,Lepidoptera,Gracillariidae,Parornix,Parornix loganella,"Stainton, 1848",Parornix loganella,Parornix loganella,99,ACCEPTED,EXACT,SPECIES,London06October2023
-1749164,Lepidoptera,Gracillariidae,Parornix,Parornix scoticella,"Stainton, 1850",Parornix scoticella,Parornix scoticella,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1749210,Lepidoptera,Gracillariidae,Parornix,Parornix torquillella,"Zeller, 1850",Parornix torquillella,Parornix torquillella,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1749580,Lepidoptera,Gracillariidae,Phyllocnistis,Phyllocnistis citrella,"Stainton, 1856",Phyllocnistis citrella,Phyllocnistis citrella,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1749647,Lepidoptera,Gracillariidae,Phyllocnistis,Phyllocnistis ramulicola,"Langmaid & Corley, 2007",Phyllocnistis ramulicola,Phyllocnistis ramulicola,99,ACCEPTED,EXACT,SPECIES,London06October2023
@@ -1246,7 +1234,6 @@ accepted_taxon_key,order_name,family_name,genus_name,species_name_provided,autho
 1831736,Lepidoptera,Heliodinidae,Heliodines,Heliodines roesella,"Linnaeus, 1758",Heliodines roesella,Heliodines roesella,99,ACCEPTED,EXACT,SPECIES,London06October2023
 4522954,Lepidoptera,Heliozelidae,Antispila,Antispila metallella,"Denis & Schiffermüller, 1775",Antispila metallella,Antispila metallella,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1861331,Lepidoptera,Heliozelidae,Antispila,Antispila treitschkiella,"Fischer von Röslerstamm, 1843",Antispila treitschkiella,Antispila petryi,99,SYNONYM,EXACT,SPECIES,London06October2023
-1861331,Lepidoptera,Heliozelidae,Antispila,Antispila treitschkiella sensu auctt.,"Fischer von Röslerstamm, 1843",Antispila treitschkiella sensu auctt.,Antispila petryi,99,SYNONYM,EXACT,SPECIES,London06October2023
 1861210,Lepidoptera,Heliozelidae,Heliozela,Heliozela hammoniella,"Sorhagen, 1885",Heliozela hammoniella,Heliozela hammoniella,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1861213,Lepidoptera,Heliozelidae,Heliozela,Heliozela resplendella,"Stainton, 1851",Heliozela resplendella,Heliozela resplendella,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1861205,Lepidoptera,Heliozelidae,Heliozela,Heliozela sericiella,"Haworth, 1828",Heliozela sericiella,Heliozela sericiella,99,ACCEPTED,EXACT,SPECIES,London06October2023
@@ -1306,11 +1293,9 @@ accepted_taxon_key,order_name,family_name,genus_name,species_name_provided,autho
 1846159,Lepidoptera,Momphidae,Mompha,Mompha propinquella,"Stainton, 1851",Mompha propinquella,Mompha propinquella,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1846236,Lepidoptera,Momphidae,Mompha,Mompha raschkiella,"Zeller, 1839",Mompha raschkiella,Mompha raschkiella,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1846111,Lepidoptera,Momphidae,Mompha,Mompha sturnipennella,"Treitschke, 1833",Mompha sturnipennella,Mompha subbistrigella,96,SYNONYM,FUZZY,SPECIES,London06October2023
-1846111,Lepidoptera,Momphidae,Mompha,Mompha subbistrigella,"Haworth, 1828",Mompha subbistrigella,Mompha subbistrigella,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1846166,Lepidoptera,Momphidae,Mompha,Mompha terminella,"Humphreys & Westwood, 1845",Mompha terminella,Mompha terminella,99,ACCEPTED,EXACT,SPECIES,London06October2023
 6097279,Lepidoptera,Nepticulidae,Bohemannia,Bohemannia auriciliella,"Joannis, 1908",Bohemannia auriciliella,Bohemannia auriciliella,98,ACCEPTED,EXACT,SPECIES,London06October2023
 6097278,Lepidoptera,Nepticulidae,Bohemannia,Bohemannia pulverosella,"Stainton, 1849",Bohemannia pulverosella,Bohemannia pulverosella,98,ACCEPTED,EXACT,SPECIES,London06October2023
-5102596,Lepidoptera,Nepticulidae,Bohemannia,Bohemannia quadrimaculella,"Boheman, 1853",Bohemannia quadrimaculella,Bohemannia quadrimaculella,98,ACCEPTED,EXACT,SPECIES,London06October2023
 5102596,Lepidoptera,Nepticulidae,Bohemannia,Bohemannia quadrimaculella,"Boheman, 1853",Bohemannia quadrimaculella,Bohemannia quadrimaculella,98,ACCEPTED,EXACT,SPECIES,London06October2023
 1735861,Lepidoptera,Nepticulidae,Ectoedemia,Ectoedemia agrimoniae,"Frey, 1858",Ectoedemia agrimoniae,Ectoedemia agrimoniae,98,ACCEPTED,EXACT,SPECIES,London06October2023
 1735844,Lepidoptera,Nepticulidae,Ectoedemia,Ectoedemia albifasciella,"Heinemann, 1871",Ectoedemia albifasciella,Ectoedemia albifasciella,98,ACCEPTED,EXACT,SPECIES,London06October2023
@@ -1446,7 +1431,6 @@ accepted_taxon_key,order_name,family_name,genus_name,species_name_provided,autho
 1771204,Lepidoptera,Noctuidae,Agrotis,Agrotis ripae,"Hübner, 1823",Agrotis ripae,Agrotis ripae,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1771040,Lepidoptera,Noctuidae,Agrotis,Agrotis segetum,"Denis & Schiffermüller, 1775",Agrotis segetum,Agrotis segetum,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1770875,Lepidoptera,Noctuidae,Agrotis,Agrotis spinifera,"Hübner, 1808","Agrotis spinifera Hübner, 1808",Agrotis biconica,100,SYNONYM,EXACT,SPECIES,London06October2023
-4533720,Lepidoptera,Noctuidae,Agrotis,Agrotis syricola,,Agrotis syricola,Agrotis catalaunensis,98,SYNONYM,EXACT,SPECIES,London06October2023
 1770821,Lepidoptera,Noctuidae,Agrotis,Agrotis trux,"Hübner, 1824",Agrotis trux,Agrotis trux,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1770880,Lepidoptera,Noctuidae,Agrotis,Agrotis vestigialis,"Hufnagel, 1766",Agrotis vestigialis,Agrotis vestigialis,99,ACCEPTED,EXACT,SPECIES,London06October2023
 4534719,Lepidoptera,Noctuidae,Allophyes,Allophyes oxyacanthae,"Linnaeus, 1758",Allophyes oxyacanthae,Allophyes oxyacanthae,99,ACCEPTED,EXACT,SPECIES,London06October2023
@@ -1473,7 +1457,6 @@ accepted_taxon_key,order_name,family_name,genus_name,species_name_provided,autho
 1796139,Lepidoptera,Noctuidae,Apamea,Apamea epomidion,"Haworth, 1809",Apamea epomidion,Apamea epomidion,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1795848,Lepidoptera,Noctuidae,Apamea,Apamea exulis,"Lefebvre, 1836",Apamea exulis,Apamea exulis,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1795930,Lepidoptera,Noctuidae,Apamea,Apamea furva,"Denis & Schiffermüller, 1775",Apamea furva,Apamea furva,99,ACCEPTED,EXACT,SPECIES,London06October2023
-8007222,Lepidoptera,Noctuidae,Apamea,Apamea infesta,"Ochsenheimer, 1816",Apamea infesta,Apamea anceps,99,SYNONYM,EXACT,SPECIES,London06October2023
 1795854,Lepidoptera,Noctuidae,Apamea,Apamea lateritia,"Hufnagel, 1766",Apamea lateritia,Apamea lateritia,99,ACCEPTED,EXACT,SPECIES,London06October2023
 4534486,Lepidoptera,Noctuidae,Apamea,Apamea lithoxylaea,"Denis & Schiffermüller, 1775",Apamea lithoxylaea,Apamea lithoxylaea,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1796145,Lepidoptera,Noctuidae,Apamea,Apamea monoglypha,"Hufnagel, 1766",Apamea monoglypha,Apamea monoglypha,99,ACCEPTED,EXACT,SPECIES,London06October2023
@@ -1682,7 +1665,6 @@ accepted_taxon_key,order_name,family_name,genus_name,species_name_provided,autho
 1783971,Lepidoptera,Noctuidae,Meganephria,Meganephria bimaculosa,"Linnaeus, 1767",Meganephria bimaculosa,Meganephria bimaculosa,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1765767,Lepidoptera,Noctuidae,Melanchra,Melanchra persicariae,"Linnaeus, 1761",Melanchra persicariae,Melanchra persicariae,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1788425,Lepidoptera,Noctuidae,Mesapamea,Mesapamea didyma,"Esper, 1788",Mesapamea didyma,Mesapamea secalis,99,SYNONYM,EXACT,SPECIES,London06October2023
-1788425,Lepidoptera,Noctuidae,Mesapamea,Mesapamea secalis,"Linnaeus, 1758",Mesapamea secalis,Mesapamea secalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1787417,Lepidoptera,Noctuidae,Mesogona,Mesogona acetosellae,"Denis & Schiffermüller, 1775",Mesogona acetosellae,Mesogona acetosellae,98,ACCEPTED,EXACT,SPECIES,London06October2023
 1760104,Lepidoptera,Noctuidae,Mesoligia,Mesoligia furuncula,"Denis & Schiffermüller, 1775",Mesoligia furuncula,Mesoligia furuncula,98,ACCEPTED,EXACT,SPECIES,London06October2023
 4533347,Lepidoptera,Noctuidae,Mniotype,Mniotype adusta,"Esper, 1790",Mniotype adusta,Mniotype adusta,99,ACCEPTED,EXACT,SPECIES,London06October2023
@@ -1872,7 +1854,6 @@ accepted_taxon_key,order_name,family_name,genus_name,species_name_provided,autho
 4528658,Lepidoptera,Oecophoridae,Oecophora,Alabonia geoffrella,"Linnaeus, 1767",Alabonia geoffrella,Alabonia geoffrella,98,DOUBTFUL,EXACT,SPECIES,London06October2023
 1838676,Lepidoptera,Oecophoridae,Aplota,Aplota palpellus,"Haworth, 1828",Aplota palpellus,Aplota palpella,97,ACCEPTED,FUZZY,SPECIES,London06October2023
 1838321,Lepidoptera,Oecophoridae,Barea,Barea asbolaea,"Meyrick, 1883",Barea asbolaea,Barea asbolaea,99,ACCEPTED,EXACT,SPECIES,London06October2023
-1838321,Lepidoptera,Oecophoridae,Barea,Barea asbolaea,"Meyrick, 1883",Barea asbolaea,Barea asbolaea,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1841153,Lepidoptera,Oecophoridae,Batia,Batia internella,"Jäckh, 1972",Batia internella,Batia internella,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1841158,Lepidoptera,Oecophoridae,Batia,Batia lambdella,"Donovan, 1793",Batia lambdella,Batia lambdella,98,ACCEPTED,EXACT,SPECIES,London06October2023
 1841159,Lepidoptera,Oecophoridae,Batia,Batia lunaris,"Haworth, 1828",Batia lunaris,Batia lunaris,99,ACCEPTED,EXACT,SPECIES,London06October2023
@@ -1933,7 +1914,6 @@ accepted_taxon_key,order_name,family_name,genus_name,species_name_provided,autho
 1853593,Lepidoptera,Psychidae,Acanthopsyche,Acanthopsyche atra,"Linnaeus, 1767",Acanthopsyche atra,Acanthopsyche atra,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1853800,Lepidoptera,Psychidae,Bacotia,Bacotia claustrella,"Bruand, 1845",Bacotia claustrella,Bacotia claustrella,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1854237,Lepidoptera,Psychidae,Bankesia,Bankesia conspurcatella,"Zeller, 1850",Bankesia conspurcatella,Bankesia conspurcatella,99,ACCEPTED,EXACT,SPECIES,London06October2023
-1854237,Lepidoptera,Psychidae,Bankesia,Bankesia douglasii,"Stainton, 1854",Bankesia douglasii,Bankesia conspurcatella,99,SYNONYM,EXACT,SPECIES,London06October2023
 5122439,Lepidoptera,Psychidae,Canephora,Canephora hirsuta,"Poda, 1761",Canephora hirsuta,Canephora hirsuta,99,ACCEPTED,EXACT,SPECIES,London06October2023
 4526098,Lepidoptera,Psychidae,Dahlica,Dahlica inconspicuella,"Stainton, 1849",Dahlica inconspicuella,Dahlica inconspicuella,99,ACCEPTED,EXACT,SPECIES,London06October2023
 4526100,Lepidoptera,Psychidae,Dahlica,Dahlica lichenella,"Linnaeus, 1761",Dahlica lichenella,Dahlica lichenella,99,ACCEPTED,EXACT,SPECIES,London06October2023
@@ -1988,12 +1968,10 @@ accepted_taxon_key,order_name,family_name,genus_name,species_name_provided,autho
 1858739,Lepidoptera,Pterophoridae,Stenoptilia,Stenoptilia annadactyla,"Sutter, 1988",Stenoptilia annadactyla,Stenoptilia annadactyla,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1858778,Lepidoptera,Pterophoridae,Stenoptilia,Stenoptilia bipunctidactyla,"Scopoli, 1763",Stenoptilia bipunctidactyla,Stenoptilia bipunctidactyla,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1858743,Lepidoptera,Pterophoridae,Stenoptilia,Stenoptilia gallobritannidactyla,"Gibeaux, 1985",Stenoptilia gallobritannidactyla,Stenoptilia aridus,96,SYNONYM,FUZZY,SPECIES,London06October2023
-1858743,Lepidoptera,Pterophoridae,Stenoptilia,Stenoptilia inopinata,"Bigot & Picard, 2002",Stenoptilia inopinata,Stenoptilia aridus,99,SYNONYM,EXACT,SPECIES,London06October2023
 1858766,Lepidoptera,Pterophoridae,Stenoptilia,Stenoptilia islandicus,"Staudinger, 1857",Stenoptilia islandicus,Stenoptilia islandicus,99,ACCEPTED,EXACT,SPECIES,London06October2023
 4536329,Lepidoptera,Pterophoridae,Stenoptilia,Stenoptilia millieridactyla,"Bruand, 1861",Stenoptilia millieridactyla,Stenoptilia millieridactylus,97,ACCEPTED,FUZZY,SPECIES,London06October2023
 1858765,Lepidoptera,Pterophoridae,Stenoptilia,Stenoptilia pneumonanthes,"Büttner, 1880",Stenoptilia pneumonanthes,Stenoptilia pneumonanthes,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1858775,Lepidoptera,Pterophoridae,Stenoptilia,Stenoptilia pterodactyla,"Linnaeus, 1761",Stenoptilia pterodactyla,Stenoptilia pterodactyla,99,ACCEPTED,EXACT,SPECIES,London06October2023
-1858778,Lepidoptera,Pterophoridae,Stenoptilia,Stenoptilia scabiodactylus,"Gregson, 1869",Stenoptilia scabiodactylus,Stenoptilia bipunctidactyla,99,SYNONYM,EXACT,SPECIES,London06October2023
 1858762,Lepidoptera,Pterophoridae,Stenoptilia,Stenoptilia zophodactylus,"Duponchel, 1840",Stenoptilia zophodactylus,Stenoptilia zophodactylus,99,ACCEPTED,EXACT,SPECIES,London06October2023
 6097269,Lepidoptera,Pterophoridae,Wheeleria,Wheeleria spilodactylus,"Curtis, 1827",Wheeleria spilodactylus,Wheeleria spilodactylus,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1870988,Lepidoptera,Pyralidae,Achroia,Achroia grisella,"Fabricius, 1794",Achroia grisella,Achroia grisella,99,ACCEPTED,EXACT,SPECIES,London06October2023
@@ -2333,7 +2311,6 @@ accepted_taxon_key,order_name,family_name,genus_name,species_name_provided,autho
 1744593,Lepidoptera,Tortricidae,Syricoris,Celypha lacunana,"Denis & Schiffermüller, 1775",Celypha lacunana,Syricoris lacunana,99,SYNONYM,EXACT,SPECIES,London06October2023
 1744588,Lepidoptera,Tortricidae,Syricoris,Celypha rivulana,"Scopoli, 1763",Celypha rivulana,Syricoris rivulana,99,SYNONYM,EXACT,SPECIES,London06October2023
 4529908,Lepidoptera,Tortricidae,Celypha,Celypha rosaceana,"Schläger, 1847",Celypha rosaceana,Celypha rufana,99,SYNONYM,EXACT,SPECIES,London06October2023
-4529908,Lepidoptera,Tortricidae,Celypha,Celypha rufana,"Scopoli, 1763",Celypha rufana,Celypha rufana,99,ACCEPTED,EXACT,SPECIES,London06October2023
 4529915,Lepidoptera,Tortricidae,Celypha,Celypha rurestrana,"Duponchel, 1843",Celypha rurestrana,Celypha rurestrana,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1743775,Lepidoptera,Tortricidae,Celypha,Celypha striana,"Denis & Schiffermüller, 1775",Celypha striana,Celypha striana,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1743770,Lepidoptera,Tortricidae,Celypha,Celypha woodiana,"Barrett, 1882",Celypha woodiana,Celypha woodiana,99,ACCEPTED,EXACT,SPECIES,London06October2023
@@ -2358,7 +2335,6 @@ accepted_taxon_key,order_name,family_name,genus_name,species_name_provided,autho
 1739128,Lepidoptera,Tortricidae,Cnephasia,Cnephasia incertana,"Treitschke, 1835",Cnephasia incertana,Cnephasia incertana,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1739290,Lepidoptera,Tortricidae,Cnephasia,Cnephasia longana,"Haworth, 1811",Cnephasia longana,Cnephasia longana,99,ACCEPTED,EXACT,SPECIES,London06October2023
 7794941,Lepidoptera,Tortricidae,Cnephasia,Cnephasia pasiuana,"Hübner, 1799",Cnephasia pasiuana,Cnephasia pasiuana,99,ACCEPTED,EXACT,SPECIES,London06October2023
-7794941,Lepidoptera,Tortricidae,Cnephasia,Cnephasia pumicana,"Zeller, 1847",Cnephasia pumicana,Cnephasia pasiuana,99,SYNONYM,EXACT,SPECIES,London06October2023
 1739272,Lepidoptera,Tortricidae,Cnephasia,Cnephasia stephensiana,"Doubleday, 1849",Cnephasia stephensiana,Cnephasia stephensiana,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1741593,Lepidoptera,Tortricidae,Cochylis,Cochylichroa atricapitana,"Stephens, 1852",Cochylichroa atricapitana,Cochylis atricapitana,99,SYNONYM,EXACT,SPECIES,London06October2023
 1739471,Lepidoptera,Tortricidae,Cochylidia,Cochylidia heydeniana,"Herrich-Schäffer, 1851",Cochylidia heydeniana,Cochylidia heydeniana,99,ACCEPTED,EXACT,SPECIES,London06October2023
@@ -2480,7 +2456,6 @@ accepted_taxon_key,order_name,family_name,genus_name,species_name_provided,autho
 5103502,Lepidoptera,Tortricidae,Eucosma,Eucosma obumbratana,"Lienig & Zeller, 1846",Eucosma obumbratana,Eucosma obumbratana,99,ACCEPTED,EXACT,SPECIES,London06October2023
 5103454,Lepidoptera,Tortricidae,Eucosma,Eucosma parvulana,"Wilkinson, 1859",Eucosma parvulana,Eucosma parvulana,99,ACCEPTED,EXACT,SPECIES,London06October2023
 5103613,Lepidoptera,Tortricidae,Eucosma,Eucosma pupillana,"Clerck, 1759",Eucosma pupillana,Eucosma pupillana,98,ACCEPTED,EXACT,SPECIES,London06October2023
-7975250,Lepidoptera,Tortricidae,Eucosma,Eucosma rubescana,"Constant, 1895",Eucosma rubescana,Eucosma aspidiscana,99,SYNONYM,EXACT,SPECIES,London06October2023
 5103443,Lepidoptera,Tortricidae,Eucosma,Eucosma tripoliana,"Barrett, 1880",Eucosma tripoliana,Eucosma tripoliana,99,ACCEPTED,EXACT,SPECIES,London06October2023
 7964262,Lepidoptera,Tortricidae,Eucosmomorpha,Eucosmomorpha albersana,"Hübner, 1813",Eucosmomorpha albersana,Eucosmomorpha albersana,99,ACCEPTED,EXACT,SPECIES,London06October2023
 8313553,Lepidoptera,Tortricidae,Eudemis,Eudemis porphyrana,"Hübner, 1799",Eudemis porphyrana,Eudemis porphyrana,99,ACCEPTED,EXACT,SPECIES,London06October2023
@@ -2584,7 +2559,6 @@ accepted_taxon_key,order_name,family_name,genus_name,species_name_provided,autho
 1744542,Lepidoptera,Tortricidae,Phalonidia,Phalonidia curvistrigana,"Stainton, 1859",Phalonidia curvistrigana,Phalonidia curvistrigana,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1744509,Lepidoptera,Tortricidae,Phalonidia,Phalonidia gilvicomana,"Zeller, 1847",Phalonidia gilvicomana,Phalonidia gilvicomana,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1744498,Lepidoptera,Tortricidae,Phalonidia,Phalonidia manniana,"Fischer von Röslerstamm, 1839",Phalonidia manniana,Phalonidia manniana,99,ACCEPTED,EXACT,SPECIES,London06October2023
-1744498,Lepidoptera,Tortricidae,Phalonidia,Phalonidia udana,"Guenée, 1845",Phalonidia udana,Phalonidia manniana,99,SYNONYM,EXACT,SPECIES,London06October2023
 7422165,Lepidoptera,Tortricidae,Phaneta,Phaneta pauperana,"Duponchel, 1843",Phaneta pauperana,Phaneta pauperana,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1742263,Lepidoptera,Tortricidae,Olethreutes,Phiaris metallicana,"Hübner, 1799",Phiaris metallicana,Olethreutes metallicana,99,SYNONYM,EXACT,SPECIES,London06October2023
 10807169,Lepidoptera,Tortricidae,Olethreutes,Phiaris micana,"Denis & Schiffermüller, 1775",Phiaris micana,Olethreutes micana,99,SYNONYM,EXACT,SPECIES,London06October2023
@@ -2654,9 +2628,7 @@ accepted_taxon_key,order_name,family_name,genus_name,species_name_provided,autho
 1830380,Lepidoptera,Yponomeutidae,Yponomeuta,Yponomeuta evonymella,"Linnaeus, 1758",Yponomeuta evonymella,Yponomeuta evonymella,98,ACCEPTED,EXACT,SPECIES,London06October2023
 1830408,Lepidoptera,Yponomeutidae,Yponomeuta,Yponomeuta irrorella,"Hübner, 1796",Yponomeuta irrorella,Yponomeuta irrorella,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1830457,Lepidoptera,Yponomeutidae,Yponomeuta,Yponomeuta malinellus,"Zeller, 1838",Yponomeuta malinellus,Yponomeuta padella,96,SYNONYM,FUZZY,SPECIES,London06October2023
-1830457,Lepidoptera,Yponomeutidae,Yponomeuta,Yponomeuta padella,"Linnaeus, 1758",Yponomeuta padella,Yponomeuta padella,99,ACCEPTED,EXACT,SPECIES,London06October2023
 1830410,Lepidoptera,Yponomeutidae,Yponomeuta,Yponomeuta plumbella,"Denis & Schiffermüller, 1775",Yponomeuta plumbella,Yponomeuta plumbella,99,ACCEPTED,EXACT,SPECIES,London06October2023
-1830457,Lepidoptera,Yponomeutidae,Yponomeuta,Yponomeuta rorrella,"Hübner, 1796",Yponomeuta rorrella,Yponomeuta padella,96,SYNONYM,FUZZY,SPECIES,London06October2023
 1830407,Lepidoptera,Yponomeutidae,Yponomeuta,Yponomeuta sedella,"Treitschke, 1832",Yponomeuta sedella,Yponomeuta vigintipunctata,99,SYNONYM,EXACT,SPECIES,London06October2023
 5119513,Lepidoptera,Yponomeutidae,Zelleria,Zelleria hepariella,"Stainton, 1849",Zelleria hepariella,Zelleria hepariella,99,ACCEPTED,EXACT,SPECIES,London06October2023
 5119506,Lepidoptera,Yponomeutidae,Zelleria,Zelleria oleastrella,"Millière, 1864",Zelleria oleastrella,Zelleria oleastrella,99,ACCEPTED,EXACT,SPECIES,London06October2023
