@@ -1,7 +1,8 @@
 __pycache__/
 .ipynb_checkpoints/
 output_data/
-
+log_files/
+preprocess_dwca/split_log.log
 
 *.py[cod]
 *$py.class
