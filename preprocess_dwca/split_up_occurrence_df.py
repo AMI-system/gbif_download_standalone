@@ -9,9 +9,14 @@ About	      : Split the Occurrence CSV file by species
 
 import argparse
 import concurrent.futures
+import logging
 import os
 
 import pandas as pd
+
+# Configure logging
+logging.basicConfig(filename='split_log.log', level=logging.INFO,
+                    format='%(asctime)s [%(levelname)s] - %(message)s')
 
 
 def split_occurrence(args):
@@ -43,9 +48,9 @@ def save_group(group):
 
     try:
         group_df.to_csv(os.path.join(args.write_directory, filename), index=False)
-        # print(f"Success for {group_name}")
+        logging.info(f"Successfully saved {filename} with {len(group_df)} rows")
     except Exception as e:
-        print(f"Couldn't save {group_name}: {str(e)}")
+        logging.error(f"Couldn't save {filename}: {str(e)}")
 
 
 # Select only numeric acceptedTaxonKey rows
