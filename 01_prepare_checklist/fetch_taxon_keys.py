@@ -148,7 +148,7 @@ def save_taxon_keys(args):
         dtype=object,
     )
 
-    if args.use_pooling:
+    if args.use_multithreading:
 
         # fetch taxonomy data from GBIF using multiprocessing
         with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor:
@@ -196,7 +196,9 @@ if __name__ == "__main__":
         "--place", help="source name from which the list is obtained", required=True
     )
     parser.add_argument(
-        "--use_pooling", help="whether or not to use multiple workers", required=True
+        "--use_multithreading",
+        help="whether or not to use multiple workers",
+        required=True
     )
     args = parser.parse_args()
 
