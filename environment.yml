@@ -1,4 +1,3 @@
-name: gbif_download_standalone
 channels:
   - defaults
   - pytorch
