@@ -26,18 +26,24 @@ def split_occurrence(args):
         os.makedirs(args.write_directory)
 
     # Load the occurrence CSV file
+    print("Loading the occurrence file...")
     occ_df = pd.read_csv(args.occ_file, parse_dates=True, on_bad_lines="skip")
+    print("Finished loading the occurrence file")
 
     # Select only the rows with numeric acceptedTaxonKeys
+    print("Selecting only numerical acceptedTaxonKey rows...")
     mask   = occ_df["acceptedTaxonKey"].apply(is_number)
     occ_df = occ_df[mask].copy()
+    print("Finished")
 
     # Create groups
     groups = list(occ_df.groupby("acceptedTaxonKey"))
 
     # Use multi-threading
+    print("Starting to save groups...")
     with concurrent.futures.ThreadPoolExecutor() as executor:
         executor.map(save_group, groups)
+    print("Finished saving all the groups!")
 
 
 def save_group(group):
@@ -78,11 +84,6 @@ if __name__ == "__main__":
     parser.add_argument(
         "--occ_file", help="path of the occurrence CSV file", required=True
     )
-    # parser.add_argument(
-    #     "--use_multithreading",
-    #     help="False/True; to use multithreading",
-    #     required=True,
-    # )
 
     args = parser.parse_args()
 
