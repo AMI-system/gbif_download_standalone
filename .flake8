@@ -7,3 +7,4 @@ exclude =
     taxon_keys.py
     fetch_gbif_moth_data_serial.py
     fetch_gbif_moth_data_serial.ipynb
+    03_download_images/fetch_gbif_moth_data.py
