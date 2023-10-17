@@ -13,8 +13,8 @@ import logging
 import os
 import sys
 import time
-import urllib
 from concurrent.futures import ProcessPoolExecutor, ThreadPoolExecutor
+from urllib.request import urlretrieve
 
 import pandas as pd
 
@@ -106,10 +106,10 @@ def fetch_image_data(i_taxon_key: int):
         total_occ = len(i_occ_df)
         print(f"Downloading for {species_name}", flush=True)
     else:
-        # logger.warning(
-        #     f"No occurrence csv file found for {species_name}, taxon key {i_taxon_key}"
-        #     )
-        print("No occurrence file")
+        logger.warning(
+            f"No occurrence csv file found for {species_name}, taxon key {i_taxon_key}"
+            )
+        # print("No occurrence file")
         return
 
     # creating hierarchical folder structure for image storage
@@ -182,7 +182,7 @@ def fetch_image_data(i_taxon_key: int):
 
             # download image
             try:
-                urllib.request.urlretrieve(
+                urlretrieve(
                     image_url, write_location + "/" + str(obs_id) + ".jpg"
                 )
                 image_count += 1
@@ -216,7 +216,7 @@ def fetch_image_data(i_taxon_key: int):
 
     return
 
-def download_images_concurrently(taxon_keys,use_parallel,use_multiproc,n_workers):
+def download_images_concurrently(taxon_keys,use_parallel,use_multiproc):
 
     begin = time.time()
 
@@ -225,14 +225,18 @@ def download_images_concurrently(taxon_keys,use_parallel,use_multiproc,n_workers
 
         if use_multiproc:
 
-            with ProcessPoolExecutor(max_workers=n_workers) as executor:
+            try:
+                with ProcessPoolExecutor() as executor:
 
-                # You can use the executor to parallelize your function call:
-                executor.map(fetch_image_data, taxon_keys)
+                    # You can use the executor to parallelize your function call:
+                    executor.map(fetch_image_data, taxon_keys)
+
+            except Exception as e:
+                print(f"Error: {e}")
 
         else:
 
-            with ThreadPoolExecutor(max_workers=n_workers) as executor:
+            with ThreadPoolExecutor() as executor:
 
                 # You can use the executor to parallelize your function call:
                 results = list(executor.map(fetch_image_data, taxon_keys))
@@ -303,12 +307,12 @@ if __name__ == "__main__":
 
     # Start the run
     n_workers       = 10
-    use_parallel    = False
+    use_parallel    = True
     use_multiproc   = False
     max_data_sp     = 10
     skip_non_adults = True
 
     # Lastly, call the function with your taxon keys:
     print("Calling download function...")
-    download_images_concurrently(taxon_keys,use_parallel,use_multiproc,n_workers)
+    download_images_concurrently(taxon_keys,use_parallel,use_multiproc)
     print("Done with the download function")
