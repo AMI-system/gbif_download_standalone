@@ -27,7 +27,9 @@ def split_occurrence(args):
 
     # Load the occurrence CSV file
     print("Loading the occurrence file...")
-    occ_df = pd.read_csv(args.occ_file, parse_dates=True, on_bad_lines="skip")
+    occ_df = pd.read_csv(args.occ_file,
+                         parse_dates=True,
+                         on_bad_lines="skip")
     print("Finished loading the occurrence file")
 
     # Select only the rows with numeric acceptedTaxonKeys
@@ -36,8 +38,38 @@ def split_occurrence(args):
     occ_df = occ_df[mask].copy()
     print("Finished")
 
+    print("Converting all strings to floats")
+    occ_df["acceptedTaxonKey"] = occ_df["acceptedTaxonKey"].apply(convert_str_to_float)
+    print("Finished. Printing resulting types...")
+
+    # Pring type counts
+    counts1 = occ_df["acceptedTaxonKey"].apply(custom_type).value_counts()
+    print(counts1)
+
+    # Remove the rows with non-0 fraction
+    mask = ~occ_df["acceptedTaxonKey"].apply(
+        lambda x: isinstance(x, float) and x != int(x)
+        )
+    print("Number of rows with non-0 fraction in the acceptedTaxonKey:",
+          len(occ_df) - len(mask))
+    if not len(mask) == len(occ_df):
+        print("Removing these...")
+        occ_df = occ_df[mask]
+        print("Finished")
+
+    # Convert everything to integer
+    print("Converting all taxon keys to integer")
+    occ_df["acceptedTaxonKey"] = occ_df["acceptedTaxonKey"].astype(int)
+    print("Finished")
+
+    # Last check of types
+    counts2 = occ_df["acceptedTaxonKey"].apply(custom_type).value_counts()
+    print(counts2)
+
     # Create groups
+    print("Creating a list of groups...")
     groups = list(occ_df.groupby("acceptedTaxonKey"))
+    print("Finished")
 
     # Use multi-threading
     print("Starting to save groups...")
@@ -57,6 +89,26 @@ def save_group(group):
         logging.info(f"Successfully saved {filename} with {len(group_df)} rows")
     except Exception as e:
         logging.error(f"Couldn't save {filename}: {str(e)}")
+
+
+# Custom function to convert strings to floats when possible
+def convert_str_to_float(x):
+    if isinstance(x, str):  # Check if x is a string
+        try:
+            return float(x)  # Try to convert x to a float
+        except ValueError:  # Handle exception if conversion is not possible
+            return x  # Return the original string if conversion fails
+    else:
+        return x  # Return x unchanged if it's not a string
+
+
+def custom_type(x):
+    if pd.isna(x):
+        return 'missing'
+    elif isinstance(x, bool):
+        return 'bool'
+    else:
+        return type(x).__name__
 
 
 # Select only numeric acceptedTaxonKey rows

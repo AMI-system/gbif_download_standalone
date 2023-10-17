@@ -6,7 +6,6 @@ The scripts in this folder load the multimedia and occurrence dataframes from a 
 Run `extract_and_shorten.py` to load the multimedia and occurrence files from the dwca zip file, loading only specific columns and saving them as CSV files. This significantly reduces the size of these dataframes.
 
 ```bash
-python fetch_taxon_keys.py \
 
 python extract_and_shorten_dwca.py \
 --write_directory "/bask/homes/r/rybf4168/vjgo8416-amber/data/gbif-species-trainer-AMI-fork/" \
@@ -43,13 +42,3 @@ Description of the arguments to the script:
 * `--output_filepath`: Output file path with csv as extension. **Required**.
 * `--place`: A placeholder name which identifies the source of the species list - important when combining multiple lists. **Required**.
 * `--use_multithreading`: Whether or not to use multithreading when checking the names. Number of workers are set to max=2, due to API call limitations. **Required**.
-
-### 3. Cross check with CEH
-
-Check the resulting checklist with CEH, by sharing it as a google docs file. They should confirm that any species not found on GBIF were spelled correctly, and any FUZZY matches are correct.
-
-### 4. Remove duplicate species
-
-Species often have synonyms, and checklist often contain accepted species names along with their synonyms. In run as is, images for both will be downloaded in a folder named according to the accepted species name, needlessly duplicating the process.
-
-Run `remove_duplicate_species.ipynb` to identify duplicate rows and remove them, so images are downloaded only once per species.
