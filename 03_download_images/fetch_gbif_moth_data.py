@@ -7,6 +7,7 @@ Last modified : Oct 11th, 2023
 About	      : Split the Occurrence CSV file by species
 """
 
+import argparse
 import datetime
 import json
 import logging
@@ -50,6 +51,7 @@ def fetch_meta_data(data: pd.DataFrame):
 
     return meta_data
 
+
 def setup_logger():
 
     # Specify the directory where you want to save the log files
@@ -75,8 +77,10 @@ def setup_logger():
     logging.basicConfig(filename=log_filename, level=logging.INFO,
                         format='%(asctime)s - %(levelname)s - %(message)s')
 
+
 def fetch_image_data(i_taxon_key: int):
-    global skip_non_adults, max_data_sp
+    global skip_non_adults, max_data_sp, moth_data, write_directory, occ_files, \
+        media_df, logger
 
     # get taxa information specific to the species
     taxon_data = moth_data[moth_data["accepted_taxon_key"] == i_taxon_key]
@@ -85,7 +89,7 @@ def fetch_image_data(i_taxon_key: int):
     genus_name          = taxon_data["genus_name"].item()
     species_name        = taxon_data["gbif_species_name"].item()
     write_location      = os.path.join(
-        output_location_path,family_name,genus_name,species_name
+        write_directory,family_name,genus_name,species_name
         )
 
     # Does meta_data exist for this species?
@@ -99,9 +103,9 @@ def fetch_image_data(i_taxon_key: int):
 
 
     # Read the occurrence dataframe
-    if os.path.isfile(os.path.join(dwca_occurrence_df_path,
+    if os.path.isfile(os.path.join(occ_files,
                                     str(i_taxon_key) + ".csv")):
-        i_occ_df = pd.read_csv(os.path.join(dwca_occurrence_df_path,
+        i_occ_df = pd.read_csv(os.path.join(occ_files,
                                             str(i_taxon_key) + ".csv"))
         total_occ = len(i_occ_df)
         print(f"Downloading for {species_name}", flush=True)
@@ -216,10 +220,13 @@ def fetch_image_data(i_taxon_key: int):
 
     return
 
+
 def download_images_concurrently(taxon_keys,use_parallel,use_multiproc):
 
-    begin = time.time()
+    global skip_non_adults, max_data_sp, moth_data, write_directory, occ_files, \
+        media_df, logger
 
+    begin = time.time()
 
     if use_parallel:
 
@@ -256,63 +263,69 @@ def download_images_concurrently(taxon_keys,use_parallel,use_multiproc):
           flush=True)
 
 
+def prep_and_read_files(args):
+
+        global skip_non_adults, max_data_sp, moth_data, write_directory, occ_files, \
+            media_df, logger
+
+        max_data_sp     = args.max_data_sp
+        skip_non_adults = args.skip_non_adults
+        write_directory = args.write_directory
+        occ_files       = args.occ_files
+
+        # Read the multimedia file
+        print("reading media")
+        media_df = pd.read_csv(args.media_file)
+        print("done")
+
+        # read species list
+        moth_data = pd.read_csv(args.species_checklist)
+
+        taxon_keys = list(moth_data["accepted_taxon_key"])
+        taxon_keys = [int(taxon) for taxon in taxon_keys]
+
+        # Setup logger
+        setup_logger()
+        logger = logging.getLogger()
+
+        # Lastly, call the function with your taxon keys:
+        print("Calling download function...")
+        download_images_concurrently(taxon_keys,
+                                     args.use_parallel,
+                                     args.use_multiproc)
+        print("Done with the download function")
+
+
 if __name__ == "__main__":
-    # parser = argparse.ArgumentParser()
-    # parser.add_argument(
-    #     "--write_directory", help="path of the folder to save the data", required=True
-    # )
-    # parser.add_argument(
-    #     "--occ_file", help="path of the occurrence CSV file", required=True
-    # )
 
-    # args = parser.parse_args()
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--write_directory", help="path of the folder to save the data", required=True
+    )
+    parser.add_argument(
+        "--occ_files", help="path of the species occurrence CSV files", required=True
+    )
+    parser.add_argument(
+        "--media_file", help="path of the multimedia CSV file", required=True
+    )
+    parser.add_argument(
+        "--species_checklist", help="path of the species checlist file", required=True
+    )
+    parser.add_argument(
+        "--use_parallel", help="use multithreading/multiprocessing or not",
+        required=True
+    )
+    parser.add_argument(
+        "--use_multiproc", help="use multiprocessing or not", required=True
+    )
+    parser.add_argument(
+        "--max_data_sp", help="number of images per species", required=True
+    )
+    parser.add_argument(
+        "--skip_non_adults", help="get only images labeled as adult or with no label",
+        required=True
+    )
 
-    # split_occurrence(args)
+    args = parser.parse_args()
 
-
-    # Define the arguments
-    if sys.platform.startswith("linux"):
-        data_dir = "/bask/projects/v/vjgo8416-amber/data/gbif-species-trainer-AMI-fork/"
-    elif sys.platform == "darwin":
-        data_dir = "/Users/lbokeria/Documents/projects/gbif-species-trainer-data/"
-    else:
-        print("Not linux or mac!")
-
-    species_checklist_path = os.path.join(
-        "/Users/lbokeria/Documents/projects/gbif_download_standalone",
-        "species_checklists",
-        "uksi-moths-keys-nodup-small.csv")
-
-    dwca_occurrence_df_path = os.path.join(data_dir,"occurrence_dataframes")
-
-    dwca_multimedia_df_path = os.path.join(data_dir,"dwca_files","multimedia_lepidoptera.csv")
-
-    output_location_path = os.path.join(data_dir,"gbif_images","sandbox")
-
-    # Read the multimedia file
-    print("reading media")
-    media_df = pd.read_csv(dwca_multimedia_df_path)
-    print("done")
-
-    # read species list
-    moth_data = pd.read_csv(species_checklist_path)
-
-    taxon_keys = list(moth_data["accepted_taxon_key"])
-    taxon_keys = [int(taxon) for taxon in taxon_keys]
-
-
-    # Setup logger
-    setup_logger()
-    logger = logging.getLogger()
-
-    # Start the run
-    n_workers       = 10
-    use_parallel    = True
-    use_multiproc   = False
-    max_data_sp     = 10
-    skip_non_adults = True
-
-    # Lastly, call the function with your taxon keys:
-    print("Calling download function...")
-    download_images_concurrently(taxon_keys,use_parallel,use_multiproc)
-    print("Done with the download function")
+    prep_and_read_files(args)
