@@ -22,7 +22,7 @@ conda activate "${CONDA_ENV_PATH}"
 
 # Execute your python programme
 
-python extract_and_shorten_dwca.py \
---write_directory /bask/homes/r/rybf4168/vjgo8416-amber/data/gbif_download_standalone/ \
+python shorten_dwca.py \
+--write_directory /bask/homes/r/rybf4168/vjgo8416-amber/data/gbif_download_standalone/dwca_preprocessed/ \
 --dwca_file_name lepidoptera_20231018 \
---dwca_file /bask/homes/r/rybf4168/vjgo8416-amber/data/gbif_download_standalone/dwca_files/lepidoptera_20231018.zip
+--dwca_file_dir /bask/homes/r/rybf4168/vjgo8416-amber/data/gbif_download_standalone/dwca_files/lepidoptera_20231018/

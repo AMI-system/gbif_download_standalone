@@ -40,7 +40,7 @@ def extract_and_shorten(args):
     ]
 
     # Read the dwca files
-    with DwCAReader(path=args.dwca_file) as dwca:
+    with DwCAReader(path=args.dwca_file_dir) as dwca:
 
         print('Starting reading the multimedia file...')
 
@@ -86,8 +86,8 @@ if __name__ == "__main__":
         required=True
     )
     parser.add_argument(
-        "--dwca_file",
-        help="path of the dwca file to extract",
+        "--dwca_file_dir",
+        help="path of the extracted dwca files",
         required=True
     )
     parser.add_argument(
