@@ -264,7 +264,7 @@ def download_images_concurrently(taxon_keys,use_parallel,use_multiproc):
     else:
 
         for i_taxon_key in taxon_keys:
-            print(f"Calling for {i_taxon_key}")
+            # print(f"Calling for {i_taxon_key}")
             fetch_image_data(i_taxon_key)
 
 

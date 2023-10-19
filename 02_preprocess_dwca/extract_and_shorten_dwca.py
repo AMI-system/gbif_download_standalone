@@ -40,8 +40,7 @@ def extract_and_shorten(args):
     ]
 
     # Read the dwca files
-    with DwCAReader(path=args.dwca_file,
-                    tmp_dir=args.temp_directory) as dwca:
+    with DwCAReader(path=args.dwca_file) as dwca:
 
         print('Starting reading the multimedia file...')
 
@@ -84,11 +83,6 @@ if __name__ == "__main__":
     parser.add_argument(
         "--write_directory",
         help="path of the folder to save the preprocessed csv files",
-        required=True
-    )
-    parser.add_argument(
-        "--temp_directory",
-        help="path of the temporary folder where dwca zip file is extracted",
         required=True
     )
     parser.add_argument(
