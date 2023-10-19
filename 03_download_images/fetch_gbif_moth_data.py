@@ -92,6 +92,8 @@ def fetch_image_data(i_taxon_key: int):
         write_directory,family_name,genus_name,species_name
         )
 
+    # print("Write location is:", write_location)
+
     # Does meta_data exist for this species?
     if os.path.isfile(os.path.join(write_location,"meta_data.json")):
         # Load it
@@ -113,7 +115,7 @@ def fetch_image_data(i_taxon_key: int):
         logger.warning(
             f"No occurrence csv file found for {species_name}, taxon key {i_taxon_key}"
             )
-        # print("No occurrence file")
+        print("No occurrence file")
         return
 
     # creating hierarchical folder structure for image storage
@@ -151,6 +153,7 @@ def fetch_image_data(i_taxon_key: int):
                         image_count += 1
 
                         if image_count >= max_data_sp:
+                            # print("Reached max images line 156")
                             break
                         else:
                             continue
@@ -186,6 +189,7 @@ def fetch_image_data(i_taxon_key: int):
 
             # download image
             try:
+                # print("Trying the image download", image_url)
                 urlretrieve(
                     image_url, write_location + "/" + str(obs_id) + ".jpg"
                 )
@@ -200,6 +204,7 @@ def fetch_image_data(i_taxon_key: int):
                 image_downloaded = False
 
             # Get meta data for this occurrence
+            # print("Getting metadata")
             occ_meta_data = fetch_meta_data(row)
             occ_meta_data["image_is_downloaded"] = image_downloaded
             occ_meta_data["image_url_works"] = url_works
@@ -207,13 +212,21 @@ def fetch_image_data(i_taxon_key: int):
             occ_meta_data["image_is_thumbnail"] = ""
 
             species_meta_data[str(obs_id) + ".jpg"] = occ_meta_data
+            # print("Got metadata")
 
-            if image_count >= max_data_sp:
-                break
+            try:
+                if image_count >= max_data_sp:
+                    # print("reached the max images")
+                    break
+            except Exception as e:
+                print(f"Error checking image count: '{image_count}'. Error: {e}")
+
 
         # Dump metadata
+        # print("Writing metadata")
         with open(write_location + "/" + "meta_data.json", "w") as outfile:
             json.dump(species_meta_data, outfile)
+        # print("Wrote metadata")
 
     print(f"Downloading complete for {species_name} with {image_count} images.",
             flush=True)
@@ -268,7 +281,7 @@ def prep_and_read_files(args):
         global skip_non_adults, max_data_sp, moth_data, write_directory, occ_files, \
             media_df, logger
 
-        max_data_sp     = args.max_data_sp
+        max_data_sp     = int(args.max_data_sp)
         skip_non_adults = args.skip_non_adults
         write_directory = args.write_directory
         occ_files       = args.occ_files

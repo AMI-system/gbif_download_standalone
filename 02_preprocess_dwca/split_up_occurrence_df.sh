@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --account vjgo8416-amber
 #SBATCH --qos turing
-#SBATCH --time 10:00:00
+#SBATCH --time 03:00:00
 #SBATCH --nodes 1
 #SBATCH --cpus-per-task 36
 #SBATCH --mem=100G
@@ -23,5 +23,5 @@ conda activate "${CONDA_ENV_PATH}"
 # Execute your python programme
 
 python split_up_occurrence_df.py \
---write_directory "/bask/homes/r/rybf4168/vjgo8416-amber/data/gbif_download_standalone/dwca_preprocessed/occurrence_dataframes/" \
---occ_file "/bask/homes/r/rybf4168/vjgo8416-amber/data/gbif_download_standalone/dwca_preprocessed/occurrence_lepidoptera.csv"
+--write_directory "/bask/homes/r/rybf4168/vjgo8416-amber/data/gbif_download_standalone/dwca_preprocessed/occurrence_dataframes_20231018/" \
+--occ_file "/bask/homes/r/rybf4168/vjgo8416-amber/data/gbif_download_standalone/dwca_preprocessed/occurrence_lepidoptera_20231018.csv"

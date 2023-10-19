@@ -1,10 +1,10 @@
 #!/bin/bash
 #SBATCH --account vjgo8416-amber
 #SBATCH --qos turing
-#SBATCH --time 01:15:00
+#SBATCH --time 20:00:00
 #SBATCH --nodes 1
 #SBATCH --cpus-per-task 36
-#SBATCH --mem=400G
+#SBATCH --mem=200G
 
 # Module loading
 module purge # unloads and loaded modules and resets the environment
@@ -21,13 +21,12 @@ export CONDA_ENV_PATH="/bask/projects/v/vjgo8416-amber/conda_envs/gbif_download_
 conda activate "${CONDA_ENV_PATH}"
 
 # Execute your python programme
-
-python extract_and_shorten_dwca.py \
---write_directory "/Users/lbokeria/Documents/projects/gbif-species-trainer-data/gbif_images/sandbox" \
---occ_files "/Users/lbokeria/Documents/projects/gbif-species-trainer-data/occurrence_dataframes/" \
---media_file "/Users/lbokeria/Documents/projects/gbif-species-trainer-data/dwca_files/multimedia_lepidoptera.csv" \
---species_checklist "/Users/lbokeria/Documents/projects/gbif_download_standalone/species_checklists/uksi-moths-keys-nodup.csv" \
---use_parallel False \
+python fetch_gbif_moth_data.py \
+--write_directory "/bask/homes/r/rybf4168/vjgo8416-amber/data/gbif_download_standalone/gbif_images/sandbox2" \
+--occ_files "/bask/homes/r/rybf4168/vjgo8416-amber/data/gbif-species-trainer-AMI-fork/occurrence_dataframes/" \
+--media_file "/bask/homes/r/rybf4168/vjgo8416-amber/data/gbif_download_standalone/dwca_preprocessed/multimedia_lepidoptera.csv" \
+--species_checklist "/bask/homes/r/rybf4168/vjgo8416-amber/projects/gbif_download_standalone/species_checklists/uksi-moths-keys-nodup.csv" \
+--use_parallel True \
 --use_multiproc False \
---max_data_sp 2 \
+--max_data_sp 1000 \
 --skip_non_adults True

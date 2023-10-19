@@ -1,10 +1,10 @@
 #!/bin/bash
 #SBATCH --account vjgo8416-amber
 #SBATCH --qos turing
-#SBATCH --time 01:15:00
+#SBATCH --time 02:15:00
 #SBATCH --nodes 1
 #SBATCH --cpus-per-task 36
-#SBATCH --mem=400G
+#SBATCH --mem=200G
 
 # Module loading
 module purge # unloads and loaded modules and resets the environment
@@ -23,7 +23,7 @@ conda activate "${CONDA_ENV_PATH}"
 # Execute your python programme
 
 python extract_and_shorten_dwca.py \
---write_directory /bask/homes/r/rybf4168/vjgo8416-amber/data/gbif-species-trainer-AMI-fork/ \
---temp_directory /bask/homes/r/rybf4168/vjgo8416-amber/data/gbif-species-trainer-AMI-fork/temp/ \
---dwca_file_name lepidoptera \
---dwca_file /bask/homes/r/rybf4168/vjgo8416-amber/data/gbif-species-trainer-AMI-fork/dwca_files/lepidoptera.zip
+--write_directory /bask/homes/r/rybf4168/vjgo8416-amber/data/gbif_download_standalone/ \
+--temp_directory /bask/homes/r/rybf4168/vjgo8416-amber/data/gbif_download_standalone/temp/ \
+--dwca_file_name lepidoptera_20231018 \
+--dwca_file /bask/homes/r/rybf4168/vjgo8416-amber/data/gbif_download_standalone/dwca_files/lepidoptera_20231018.zip
