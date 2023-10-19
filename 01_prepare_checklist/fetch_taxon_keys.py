@@ -202,4 +202,5 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
 
+    print("Starting the function...")
     save_taxon_keys(args)
