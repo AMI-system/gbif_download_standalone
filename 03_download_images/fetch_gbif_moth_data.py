@@ -94,29 +94,47 @@ def fetch_image_data(i_taxon_key: int):
 
     # print("Write location is:", write_location)
 
-    # Does meta_data exist for this species?
-    if os.path.isfile(os.path.join(write_location,"meta_data.json")):
-        # Load it
-        with open(os.path.join(write_location,"meta_data.json")) as file:
-            species_meta_data = json.load(file)
-    else:
-        # Creat it
-        species_meta_data = {}
-
-
     # Read the occurrence dataframe
     if os.path.isfile(os.path.join(occ_files,
                                     str(i_taxon_key) + ".csv")):
         i_occ_df = pd.read_csv(os.path.join(occ_files,
                                             str(i_taxon_key) + ".csv"))
         total_occ = len(i_occ_df)
-        print(f"Downloading for {species_name}", flush=True)
     else:
         logger.warning(
             f"No occurrence csv file found for {species_name}, taxon key {i_taxon_key}"
             )
         print("No occurrence file")
         return
+
+    # Does meta_data exist for this species?
+    if os.path.isfile(os.path.join(write_location,"meta_data.json")):
+        # Load it
+        with open(os.path.join(write_location,"meta_data.json")) as file:
+            species_meta_data = json.load(file)
+
+        # Count the number of images for this species
+        count_md = 0
+
+        for key, value in species_meta_data.items():
+            if value.get("image_is_downloaded") == True:
+                count_md += 1
+
+        print(f"{species_name} already has {count_md} images downloaded", flush=True)
+
+        # Do we have enough images already
+        if count_md >= max_data_sp:
+            print(f"{species_name} has ENOUGH images, skipping", flush=True)
+            return
+        else:
+            print(f"Downloading for {species_name}", flush=True)
+
+
+    else:
+        # Creat it
+        print(f"Downloading for {species_name}", flush=True)
+        print("Creating metadata")
+        species_meta_data = {}
 
     # creating hierarchical folder structure for image storage
     if not os.path.isdir(write_location):

@@ -1,0 +1,11 @@
+,accepted_taxon_key,order_name,family_name,genus_name,species_name_provided,authority_name_provided,search_species_name,gbif_species_name,confidence,status,match_type,rank,source
+0,1860942,Lepidoptera,Adelidae,Nemophora,Nemophora aurisparsella,,Nemophora aurisparsella,Nemophora aurisparsella,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1,1860786,Lepidoptera,Adelidae,Nemophora,Nemophora decisella,"Walker, 1863",Nemophora decisella,Nemophora decisella,99,ACCEPTED,EXACT,SPECIES,London06October2023
+2,1830702,Lepidoptera,Attevidae,Atteva,Atteva fabriciella,,Atteva fabriciella,Atteva fabriciella,99,ACCEPTED,EXACT,SPECIES,London06October2023
+3,9004359,Lepidoptera,Attevidae,Atteva,Atteva wallengreni,,Atteva wallengreni,Atteva wallengreni,99,ACCEPTED,EXACT,SPECIES,London06October2023
+4,11537408,Lepidoptera,Bombycidae,Gunda,Gunda subnotata,"Walker,1859",Gunda subnotata,Gunda subnotata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5,1868409,Lepidoptera,Bombycidae,Ocinara,Ocinara albicollis,,Ocinara albicollis,Ocinara albicollis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6,1868499,Lepidoptera,Bombycidae,Penicillifera,Penicillifera apicalis,,Penicillifera apicalis,Penicillifera apicalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+7,4702564,Lepidoptera,Bombycidae,Trilocha,Trilocha varians,"Walker, 1865",Trilocha varians,Trilocha varians,99,ACCEPTED,EXACT,SPECIES,London06October2023
+8,6217651,Lepidoptera,Brachodidae,Phycodes,Nigilgia anactis,,Nigilgia anactis,Phycodes limata,99,SYNONYM,EXACT,SPECIES,London06October2023
+9,5141344,Lepidoptera,Callidulidae,Tetragonus,Tetragonus catamitus,"Geyer,1832",Tetragonus catamitus,Tetragonus catamitus,99,ACCEPTED,EXACT,SPECIES,London06October2023
