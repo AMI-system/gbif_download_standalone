@@ -1,10 +1,10 @@
 #!/bin/bash
 #SBATCH --account vjgo8416-amber
 #SBATCH --qos turing
-#SBATCH --time 00:10:00
+#SBATCH --time 20:00:00
 #SBATCH --nodes 1
 #SBATCH --cpus-per-task 36
-#SBATCH --mem=50G
+#SBATCH --mem=200G
 
 # Module loading
 module purge # unloads and loaded modules and resets the environment
