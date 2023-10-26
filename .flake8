@@ -9,3 +9,4 @@ exclude =
     fetch_gbif_moth_data_serial.ipynb
     03_download_images/fetch_gbif_moth_data.py
     03_download_images/fetch_gbif_moth_data2.py
+    helper_scripts/calculate_data_stats.py
