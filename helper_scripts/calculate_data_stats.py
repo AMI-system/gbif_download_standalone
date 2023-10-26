@@ -14,9 +14,9 @@ else:
 ######################################
 checklist_name = "uksi-moths-keys-nodup"
 
-gbif_img_loc = os.path.join(data_dir,"gbif_images")
+gbif_img_loc = os.path.join(data_dir, "gbif_images")
 
-df = pd.read_csv(os.path.join("../species_checklists",checklist_name+".csv"))
+df = pd.read_csv(os.path.join("../species_checklists", checklist_name+".csv"))
 
 df["n_imgs"] = ""
 for idx, row in df.iterrows():
@@ -27,19 +27,19 @@ for idx, row in df.iterrows():
 
     # Check if directory exists
     species_dir = (
-        os.path.join(gbif_img_loc,family,genus,species)
+        os.path.join(gbif_img_loc, family, genus, species)
         )
 
     if os.path.isdir(species_dir):
         n_images_on_disk = len(
-            [f for f in os.listdir(species_dir) if f.lower().endswith('.jpg') ]
+            [f for f in os.listdir(species_dir) if f.lower().endswith('.jpg')]
             )
         # print(f"{species} Count files method has", n_images_on_disk, "images")
 
         # Load metadata
         try:
 
-            with open(os.path.join(species_dir,"meta_data.json")) as file:
+            with open(os.path.join(species_dir, "meta_data.json")) as file:
 
                 meta_data = json.load(file)
 
@@ -49,15 +49,13 @@ for idx, row in df.iterrows():
             try:
                 # 2nd way of counting images
                 md2 = pd.read_json(
-                    os.path.join(species_dir,"meta_data.json"), orient = 'index'
+                    os.path.join(species_dir, "meta_data.json"), orient='index'
                     )
 
                 if md2.empty:
                     md2_n_imgs_downloaded = 0
                 else:
                     md2_n_imgs_downloaded = md2["image_is_downloaded"].sum()
-
-                # print(f"{species} Count dataframe metadata has", md2_n_imgs_downloaded, "images")
 
             except Exception as e:
                 print(e)
@@ -74,7 +72,7 @@ for idx, row in df.iterrows():
                 )
         except Exception as e:
             pass
-            print(f"No metadata for {species_dir}")
+            print(f"No metadata for {species_dir}. Error {e}")
 
     else:
 
@@ -86,4 +84,4 @@ for idx, row in df.iterrows():
     df.loc[idx, "n_imgs"] = n_images_on_disk
 
 # Save the df
-df.to_csv(os.path.join("../data_stats_files/","data_stats_"+checklist_name+".csv"))
+df.to_csv(os.path.join("../data_stats_files/", "data_stats_"+checklist_name+".csv"))
