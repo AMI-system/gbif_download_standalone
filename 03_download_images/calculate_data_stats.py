@@ -12,7 +12,7 @@ else:
     print("Not linux or mac!")
 
 ######################################
-checklist_name = "singapore-moths-keys-nodup"
+checklist_name = "uksi-moths-keys-nodup"
 
 gbif_img_loc = os.path.join(data_dir, "gbif_images")
 
