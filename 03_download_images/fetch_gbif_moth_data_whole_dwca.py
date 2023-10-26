@@ -80,8 +80,9 @@ def setup_logger():
 
 
 def fetch_image_data(i_taxon_key: int):
+
     global skip_non_adults, max_data_sp, moth_data, write_directory, occ_files, \
-        logger, media_df, occ_df
+        media_df, occurrence_logger, metadata_logger, image_logger
 
     # get taxa information specific to the species
     taxon_data = moth_data[moth_data["accepted_taxon_key"] == i_taxon_key]
@@ -95,50 +96,37 @@ def fetch_image_data(i_taxon_key: int):
 
     # print("Write location is:", write_location)
 
-    # Get the relevant occurrences
-    i_occ_df = occ_df.loc[occ_df["acceptedTaxonKey"] == i_taxon_key]
-    total_occ = len(i_occ_df)
-
-    # # Read the occurrence dataframe
-    # if os.path.isfile(os.path.join(occ_files,
-    #                                 str(i_taxon_key) + ".csv")):
-    #     i_occ_df = pd.read_csv(os.path.join(occ_files,
-    #                                         str(i_taxon_key) + ".csv"))
-    #     total_occ = len(i_occ_df)
-    # else:
-    #     logger.warning(
-    #         f"No occurrence csv file found for {species_name}, taxon key {i_taxon_key}"
-    #         )
-    #     print("No occurrence file")
-    #     return
+    # Count the number of images for this species
+    image_count = 0
 
     # Does meta_data exist for this species?
     if os.path.isfile(os.path.join(write_location,"meta_data.json")):
         # Load it
         with open(os.path.join(write_location,"meta_data.json")) as file:
-            species_meta_data = json.load(file)
+            species_md = json.load(file)
 
         # Count the number of images for this species
         count_md = 0
-
-        for key, value in species_meta_data.items():
+        for key, value in species_md.items():
             if value.get("image_is_downloaded") == True:
                 count_md += 1
-
-        print(f"{species_name} already has {count_md} images downloaded", flush=True)
+        image_count = count_md
 
         # Do we have enough images already
-        if count_md >= max_data_sp:
+        if image_count >= max_data_sp:
             print(f"{species_name} has ENOUGH images, skipping", flush=True)
             return
         else:
-            print(f"Downloading for {species_name}", flush=True)
+            print(
+                f"Downloading for {species_name} which already has "
+                f"{image_count} images",
+                flush=True
+                )
 
     else:
-        # Creat it
+        # Creat the metadata
         print(f"Downloading for {species_name}", flush=True)
-        print("Creating metadata")
-        species_meta_data = {}
+        species_md = {}
 
     # creating hierarchical folder structure for image storage
     if not os.path.isdir(write_location):
@@ -148,7 +136,9 @@ def fetch_image_data(i_taxon_key: int):
             print(f"Could not create the directory for {write_location}", flush=True)
             return
 
-    image_count = 0
+    # Get the relevant occurrences
+    i_occ_df = occ_df.loc[occ_df["acceptedTaxonKey"] == i_taxon_key]
+    total_occ = len(i_occ_df)
 
     if total_occ != 0:
         # print(f"{species_name} has some occurrences")
@@ -165,27 +155,11 @@ def fetch_image_data(i_taxon_key: int):
 
             obs_id = row["id"]
 
-            # Is there already an image, or is corrupt or a thumbnail, or broken URL?
-            if len(species_meta_data) != 0:
-
-                if str(obs_id)+".jpg" in species_meta_data.keys():
-
-                    if species_meta_data[str(obs_id)+".jpg"]["image_is_downloaded"]:
-                        # print(f"{obs_id} already downloaded")
-                        image_count += 1
-
-                        if image_count >= max_data_sp:
-                            # print("Reached max images line 156")
-                            break
-                        else:
-                            continue
-
-                    if (
-                        (not species_meta_data[str(obs_id)+".jpg"]["image_url_works"]) or
-                        species_meta_data[str(obs_id)+".jpg"]["image_is_corrupted"] or
-                        species_meta_data[str(obs_id)+".jpg"]["image_is_thumbnail"]
-                    ):
-                        # print(f"{obs_id} already downloaded/corrupt/thumbnail/broken URL")
+            # Is there already an entry for this image in the metadata file?
+            # Then, its either downloaded, or is corrupt or a thumbnail, or broken URL.
+            # So skip
+            if len(species_md) != 0:
+                if str(obs_id)+".jpg" in species_md.keys():
                         continue
 
             # check occurrence entry in media dataframe
@@ -212,29 +186,59 @@ def fetch_image_data(i_taxon_key: int):
             # download image
             try:
                 # print("Trying the image download", image_url)
-                urlretrieve(
-                    image_url, write_location + "/" + str(obs_id) + ".jpg"
-                )
-                image_count += 1
-                url_works = True
+                image_write_path = os.path.join(write_location,str(obs_id)+".jpg")
+
+                urlretrieve(image_url, image_write_path)
+
+                url_works        = True
                 image_downloaded = True
+                image_count += 1
 
             except Exception as e:
-                print(f"Error downloading URL: '{image_url}'. Error: {e}")
 
-                url_works = False
+                image_logger.warning(
+                    f"Error downloading URL: '{image_url}'. Error: {e}"
+                    )
+                # print(f"Error downloading URL: '{image_url}'. Error: {e}")
+
+                url_works        = False
                 image_downloaded = False
+
+                # Sometimes the image still gets saved to disk but is corrupted.
+                # If this happened, delete it
+                if os.path.exists(image_write_path):
+                    os.remove(image_write_path)
+
+                    # Log this
+                    image_logger.warning(
+                        f"Image download failed but corrupted file was still created. "
+                        f"Deleting {image_write_path}"
+                        )
+                    # print(
+                    #     f"Image download failed but corrupted file still created. "
+                    #     f"Deleting {image_write_path}"
+                    #     )
 
             # Get meta data for this occurrence
             # print("Getting metadata")
-            occ_meta_data = fetch_meta_data(row)
-            occ_meta_data["image_is_downloaded"] = image_downloaded
-            occ_meta_data["image_url_works"] = url_works
-            occ_meta_data["image_is_corrupted"] = ""
-            occ_meta_data["image_is_thumbnail"] = ""
+            try:
+                occ_meta_data                        = fetch_meta_data(row)
+                occ_meta_data["image_is_downloaded"] = image_downloaded
+                occ_meta_data["image_url_works"]     = url_works
+                occ_meta_data["image_is_corrupted"]  = ""
+                occ_meta_data["image_is_thumbnail"]  = ""
 
-            species_meta_data[str(obs_id) + ".jpg"] = occ_meta_data
-            # print("Got metadata")
+                species_md[str(obs_id) + ".jpg"]     = occ_meta_data
+                # print("Got metadata")
+            except Exception as e:
+                # print(
+                #     f"Couldn't create metadata {species_name}, taxon key {i_taxon_key}."
+                #     f"Error {e}"
+                #     )
+                metadata_logger.warning(
+                    f"Couldnt create metadata {species_name}, taxon key {i_taxon_key}."
+                    f"Error {e}"
+                    )
 
             try:
                 if image_count >= max_data_sp:
@@ -243,11 +247,20 @@ def fetch_image_data(i_taxon_key: int):
             except Exception as e:
                 print(f"Error checking image count: '{image_count}'. Error: {e}")
 
-
         # Dump metadata
         # print("Writing metadata")
-        with open(write_location + "/" + "meta_data.json", "w") as outfile:
-            json.dump(species_meta_data, outfile)
+        try:
+            with open(write_location + "/" + "meta_data.json", "w") as outfile:
+                json.dump(species_md, outfile)
+        except Exception as e:
+            # print(
+            #     f"Couldn't save metadata {species_name}, taxon key {i_taxon_key}."
+            #     f"Error {e}"
+            # )
+            metadata_logger.warning(
+                f"Couldnt save metadata {species_name}, taxon key {i_taxon_key}."
+                f"Error {e}"
+            )
         # print("Wrote metadata")
 
     print(f"Downloading complete for {species_name} with {image_count} images.",
@@ -256,16 +269,72 @@ def fetch_image_data(i_taxon_key: int):
     return
 
 
-def download_images_concurrently(taxon_keys,use_parallel,use_multiproc):
+def prep_and_read_files(args):
 
-    global skip_non_adults, max_data_sp, moth_data, write_directory, occ_files, \
-        logger, media_df, occ_df
+    global skip_non_adults, max_data_sp, moth_data, write_directory, \
+        occurrence_logger, metadata_logger, image_logger, media_df, occ_df
 
+    max_data_sp     = int(args.max_data_sp)
+    skip_non_adults = args.skip_non_adults
+    write_directory = args.write_directory
+
+    # read species list
+    moth_data = pd.read_csv(args.species_checklist)
+    taxon_keys = list(moth_data["accepted_taxon_key"])
+    taxon_keys = [int(taxon) for taxon in taxon_keys]
+
+    # Read the media and occurrence files
+    multimedia_fields_to_keep = [
+        "coreid",
+        "identifier",
+    ]
+
+    occurrence_fields_to_keep = [
+        "id",
+        "decimalLatitude",
+        "decimalLongitude",
+        "order",
+        "family",
+        "genus",
+        "species",
+        "acceptedScientificName",
+        "year",
+        "month",
+        "day",
+        "datasetName",
+        "taxonID",
+        "acceptedTaxonKey",
+        "lifeStage",
+        "basisOfRecord",
+    ]
+
+    with DwCAReader(args.dwca_dir) as dwca:
+        media_df = dwca.pd_read("multimedia.txt",
+                                parse_dates=True,
+                                on_bad_lines="skip",
+                                usecols=multimedia_fields_to_keep)
+
+        occ_df = dwca.pd_read("occurrence.txt",
+                                parse_dates=True,
+                                on_bad_lines="skip",
+                                usecols=occurrence_fields_to_keep)
+
+    # Setup logger
+    setup_logger('occurrence_logger', 'occurrence_log')
+    setup_logger('metadata_logger', 'metadata_log')
+    setup_logger('image_logger', 'image_log')
+
+    occurrence_logger = logging.getLogger('occurrence_logger')
+    image_logger      = logging.getLogger('image_logger')
+    metadata_logger   = logging.getLogger('metadata_logger')
+
+
+    # Lastly, call the function with your taxon keys:
     begin = time.time()
 
-    if use_parallel:
+    if args.use_parallel:
 
-        if use_multiproc:
+        if args.use_multiproc:
 
             try:
                 with ProcessPoolExecutor() as executor:
@@ -296,71 +365,6 @@ def download_images_concurrently(taxon_keys,use_parallel,use_multiproc):
           round(end - begin),
           "seconds",
           flush=True)
-
-
-def prep_and_read_files(args):
-
-        global skip_non_adults, max_data_sp, moth_data, write_directory, logger, \
-            media_df, occ_df
-
-        max_data_sp     = int(args.max_data_sp)
-        skip_non_adults = args.skip_non_adults
-        write_directory = args.write_directory
-        dwca_dir        = args.dwca_dir
-
-        # read species list
-        moth_data = pd.read_csv(args.species_checklist)
-
-        taxon_keys = list(moth_data["accepted_taxon_key"])
-        taxon_keys = [int(taxon) for taxon in taxon_keys]
-
-        # Read the media and occurrence files
-        multimedia_fields_to_keep = [
-            "coreid",
-            "identifier",
-        ]
-
-        occurrence_fields_to_keep = [
-            "id",
-            "decimalLatitude",
-            "decimalLongitude",
-            "order",
-            "family",
-            "genus",
-            "species",
-            "acceptedScientificName",
-            "year",
-            "month",
-            "day",
-            "datasetName",
-            "taxonID",
-            "acceptedTaxonKey",
-            "lifeStage",
-            "basisOfRecord",
-        ]
-
-        with DwCAReader(dwca_dir) as dwca:
-            media_df = dwca.pd_read("multimedia.txt",
-                                    parse_dates=True,
-                                    on_bad_lines="skip",
-                                    usecols=multimedia_fields_to_keep)
-
-            occ_df = dwca.pd_read("occurrence.txt",
-                                  parse_dates=True,
-                                  on_bad_lines="skip",
-                                  usecols=occurrence_fields_to_keep)
-
-        # Setup logger
-        setup_logger()
-        logger = logging.getLogger()
-
-        # Lastly, call the function with your taxon keys:
-        print("Calling download function...")
-        download_images_concurrently(taxon_keys,
-                                     args.use_parallel,
-                                     args.use_multiproc)
-        print("Done with the download function")
-
 
 if __name__ == "__main__":
 
