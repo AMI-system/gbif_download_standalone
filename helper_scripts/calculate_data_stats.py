@@ -84,3 +84,6 @@ for idx, row in df.iterrows():
 
     # Record this
     df.loc[idx, "n_imgs"] = n_images_on_disk
+
+# Save the df
+df.to_csv(os.path.join("../data_stats_files/","data_stats_"+checklist_name+".csv"))
