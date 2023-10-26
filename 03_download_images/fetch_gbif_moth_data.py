@@ -108,13 +108,9 @@ def fetch_image_data(i_taxon_key: int):
 
         # Count the number of images for this species
         count_md = 0
-
         for key, value in species_md.items():
             if value.get("image_is_downloaded") == True:
                 count_md += 1
-
-        print(f"{species_name} already has {count_md} images downloaded", flush=True)
-
         image_count = count_md
 
         # Do we have enough images already
@@ -122,7 +118,11 @@ def fetch_image_data(i_taxon_key: int):
             print(f"{species_name} has ENOUGH images, skipping", flush=True)
             return
         else:
-            print(f"Downloading for {species_name}", flush=True)
+            print(
+                f"Downloading for {species_name} which already has "
+                f"{image_count} images",
+                flush=True
+                )
 
     else:
         # Creat the metadata
@@ -165,22 +165,11 @@ def fetch_image_data(i_taxon_key: int):
 
             obs_id = row["id"]
 
-            # Is there already an image, or is corrupt or a thumbnail, or broken URL?
+            # Is there already an entry for this image in the metadata file?
+            # Then, its either downloaded, or is corrupt or a thumbnail, or broken URL.
+            # So skip
             if len(species_md) != 0:
-
                 if str(obs_id)+".jpg" in species_md.keys():
-
-                    if species_md[str(obs_id)+".jpg"]["image_is_downloaded"]:
-                        # print(f"{obs_id} already downloaded")
-
-                        continue
-
-                    if (
-                        (not species_md[str(obs_id)+".jpg"]["image_url_works"]) or
-                        species_md[str(obs_id)+".jpg"]["image_is_corrupted"] or
-                        species_md[str(obs_id)+".jpg"]["image_is_thumbnail"]
-                    ):
-                        # print(f"{obs_id} already downloaded/corrupt/thumbnail/broken URL")
                         continue
 
             # check occurrence entry in media dataframe
@@ -290,16 +279,41 @@ def fetch_image_data(i_taxon_key: int):
     return
 
 
-def download_images_concurrently(taxon_keys,use_parallel,use_multiproc):
+def prep_and_read_files(args):
 
     global skip_non_adults, max_data_sp, moth_data, write_directory, occ_files, \
         media_df, occurrence_logger, metadata_logger, image_logger
 
+    max_data_sp     = int(args.max_data_sp)
+    skip_non_adults = args.skip_non_adults
+    write_directory = args.write_directory
+    occ_files       = args.occ_files
+
+    # Read the multimedia file
+    print("reading media")
+    media_df = pd.read_csv(args.media_file)
+    print("done")
+
+    # read species list
+    moth_data  = pd.read_csv(args.species_checklist)
+    taxon_keys = list(moth_data["accepted_taxon_key"])
+    taxon_keys = [int(taxon) for taxon in taxon_keys]
+
+    # Setup logger
+    setup_logger('occurrence_logger', 'occurrence_log')
+    setup_logger('metadata_logger', 'metadata_log')
+    setup_logger('image_logger', 'image_log')
+
+    occurrence_logger = logging.getLogger('occurrence_logger')
+    image_logger      = logging.getLogger('image_logger')
+    metadata_logger   = logging.getLogger('metadata_logger')
+
+    # Lastly, call the function with your taxon keys:
     begin = time.time()
 
-    if use_parallel:
+    if args.use_parallel:
 
-        if use_multiproc:
+        if args.use_multiproc:
 
             try:
                 with ProcessPoolExecutor() as executor:
@@ -330,44 +344,6 @@ def download_images_concurrently(taxon_keys,use_parallel,use_multiproc):
           round(end - begin),
           "seconds",
           flush=True)
-
-
-def prep_and_read_files(args):
-
-        global skip_non_adults, max_data_sp, moth_data, write_directory, occ_files, \
-            media_df, occurrence_logger, metadata_logger, image_logger
-
-        max_data_sp     = int(args.max_data_sp)
-        skip_non_adults = args.skip_non_adults
-        write_directory = args.write_directory
-        occ_files       = args.occ_files
-
-        # Read the multimedia file
-        print("reading media")
-        media_df = pd.read_csv(args.media_file)
-        print("done")
-
-        # read species list
-        moth_data = pd.read_csv(args.species_checklist)
-
-        taxon_keys = list(moth_data["accepted_taxon_key"])
-        taxon_keys = [int(taxon) for taxon in taxon_keys]
-
-        # Setup logger
-        setup_logger('occurrence_logger', 'occurrence_log')
-        setup_logger('metadata_logger', 'metadata_log')
-        setup_logger('image_logger', 'image_log')
-
-        occurrence_logger = logging.getLogger('occurrence_logger')
-        image_logger      = logging.getLogger('image_logger')
-        metadata_logger   = logging.getLogger('metadata_logger')
-
-        # Lastly, call the function with your taxon keys:
-        print("Calling download function...")
-        download_images_concurrently(taxon_keys,
-                                     args.use_parallel,
-                                     args.use_multiproc)
-        print("Done with the download function")
 
 
 if __name__ == "__main__":
