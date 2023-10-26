@@ -27,5 +27,6 @@ Using the dwca files and the checklist, get images from GBIF. Then, calculate a 
 
 ## License and authorship
 
-The code in this repository is adapted and modified from [RolnickLab Species Trainer repository](https://github.com/RolnickLab/gbif-species-trainer)
+The code in this repository is adapted and modified from [RolnickLab Species Trainer repository](https://github.com/RolnickLab/gbif-species-trainer).
+
 See the `LICENSE` file.
