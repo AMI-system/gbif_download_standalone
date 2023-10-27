@@ -1,6 +1,10 @@
-## Sequence to run
+## Two approaches to downloading GBIF images using dwca files
 
-The scripts in this folder load the multimedia and occurrence dataframes from a given dwca file directory, save them in an adapted CSV format, and split the occurrence dataframe into smaller dataframes for each species.
+1. Get the dwca file for your species checklist and extract it to a folder. That folder can then be used by code in `03_download_images/fetch_images_whole_dwca.py` to download images.
+2. Get the dwca file for your species checklist and extract it to a folder. Then, use code in `02_preprocess_dwca` to load the extracted occurrence.txt and multimedia.txt files, shorten them and save them as CSV files. Additionally, take the occurrence.csv file and split it into many smaller CSV files, one for each species. These adapted and split CSV files can then be used by code in `03_download_images/fetch_images_split_dwca.py` to download images.
+This second approach avoids having to load a huge occurrence.txt file in memory, and makes debugging easier.
+
+## Steps to take to preprocess dwca files:
 
 ### 1. Unzip the dwca file in a folder
 
@@ -22,7 +26,9 @@ Description of the arguments to the script:
 * `--dwca_file_dir`: Path to the unzipped dwca files. **Required**.
 * `--dwca_file_name`: Name which will be appended to the saved dataframes. Eg: "lepidoptera_20231018" **Required**.
 
-### 3. Split up occurrence dataframe
+### 3. Split up the occurrence dataframe
+
+Load the shortened occurrence.csv file and split it into smaller CSV files, one for each species.
 
 ```bash
 python split_up_occurrence_df.py \
