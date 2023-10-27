@@ -21,7 +21,7 @@ export CONDA_ENV_PATH="/bask/projects/v/vjgo8416-amber/conda_envs/gbif_download_
 conda activate "${CONDA_ENV_PATH}"
 
 # Execute your python programme
-python fetch_gbif_moth_data.py \
+python fetch_images_split_dwca.py \
 --write_directory "/bask/homes/r/rybf4168/vjgo8416-amber/data/gbif_download_standalone/gbif_images/" \
 --occ_files "/bask/homes/r/rybf4168/vjgo8416-amber/data/gbif_download_standalone/dwca_preprocessed/occurrence_dataframes_20231018/" \
 --media_file "/bask/homes/r/rybf4168/vjgo8416-amber/data/gbif_download_standalone/dwca_preprocessed/multimedia_lepidoptera_20231018.csv" \

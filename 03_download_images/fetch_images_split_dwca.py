@@ -18,7 +18,6 @@ from concurrent.futures import ProcessPoolExecutor, ThreadPoolExecutor
 from urllib.request import urlretrieve
 
 import pandas as pd
-from dwca.read import DwCAReader
 
 
 def fetch_meta_data(data: pd.DataFrame):
@@ -53,34 +52,36 @@ def fetch_meta_data(data: pd.DataFrame):
     return meta_data
 
 
-def setup_logger():
+def setup_logger(logger_name, log_suffix):
 
     # Specify the directory where you want to save the log files
-    log_dir = "log_files"
+    log_dir = "download_log_files"
 
     # Ensure the directory exists
     if not os.path.exists(log_dir):
         os.makedirs(log_dir)
 
     # Use the timestamp string to create a unique filename for the log file
-    timestamp    = datetime.datetime.now().strftime('%Y%m%d_%H%M%S')
-    log_filename = os.path.join(log_dir, f'download_log_{timestamp}.log')
+    timestamp    = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+    log_filename = os.path.join(log_dir, f"{log_suffix}_{timestamp}.log")
 
     # Get the root logger
-    logger = logging.getLogger()
+    logger = logging.getLogger(logger_name)
+    logger.setLevel(logging.INFO)
 
     # If logger has handlers, clear them
     for handler in logger.handlers[:]:
         handler.close()
         logger.removeHandler(handler)
 
-    # Configure the logger
-    logging.basicConfig(filename=log_filename, level=logging.INFO,
-                        format='%(asctime)s - %(levelname)s - %(message)s')
+    formatter    = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+    file_handler = logging.FileHandler(log_filename)
+    file_handler.setFormatter(formatter)
+
+    logger.addHandler(file_handler)
 
 
 def fetch_image_data(i_taxon_key: int):
-
     global skip_non_adults, max_data_sp, moth_data, write_directory, occ_files, \
         media_df, occurrence_logger, metadata_logger, image_logger
 
@@ -136,9 +137,18 @@ def fetch_image_data(i_taxon_key: int):
             print(f"Could not create the directory for {write_location}", flush=True)
             return
 
-    # Get the relevant occurrences
-    i_occ_df = occ_df.loc[occ_df["acceptedTaxonKey"] == i_taxon_key]
-    total_occ = len(i_occ_df)
+    # Read the occurrence dataframe
+    if os.path.isfile(os.path.join(occ_files,
+                                    str(i_taxon_key) + ".csv")):
+        i_occ_df = pd.read_csv(os.path.join(occ_files,
+                                            str(i_taxon_key) + ".csv"))
+        total_occ = len(i_occ_df)
+    else:
+        occurrence_logger.warning(
+            f"No occurrence csv file found for {species_name}, taxon key {i_taxon_key}"
+            )
+        # print("No occurrence file")
+        return
 
     if total_occ != 0:
         # print(f"{species_name} has some occurrences")
@@ -271,53 +281,23 @@ def fetch_image_data(i_taxon_key: int):
 
 def prep_and_read_files(args):
 
-    global skip_non_adults, max_data_sp, moth_data, write_directory, \
-        occurrence_logger, metadata_logger, image_logger, media_df, occ_df
+    global skip_non_adults, max_data_sp, moth_data, write_directory, occ_files, \
+        media_df, occurrence_logger, metadata_logger, image_logger
 
     max_data_sp     = int(args.max_data_sp)
     skip_non_adults = args.skip_non_adults
     write_directory = args.write_directory
+    occ_files       = args.occ_files
+
+    # Read the multimedia file
+    print("Reading the multimedia file...")
+    media_df = pd.read_csv(args.media_file)
+    print("Done reading the multimedia file!")
 
     # read species list
-    moth_data = pd.read_csv(args.species_checklist)
+    moth_data  = pd.read_csv(args.species_checklist)
     taxon_keys = list(moth_data["accepted_taxon_key"])
     taxon_keys = [int(taxon) for taxon in taxon_keys]
-
-    # Read the media and occurrence files
-    multimedia_fields_to_keep = [
-        "coreid",
-        "identifier",
-    ]
-
-    occurrence_fields_to_keep = [
-        "id",
-        "decimalLatitude",
-        "decimalLongitude",
-        "order",
-        "family",
-        "genus",
-        "species",
-        "acceptedScientificName",
-        "year",
-        "month",
-        "day",
-        "datasetName",
-        "taxonID",
-        "acceptedTaxonKey",
-        "lifeStage",
-        "basisOfRecord",
-    ]
-
-    with DwCAReader(args.dwca_dir) as dwca:
-        media_df = dwca.pd_read("multimedia.txt",
-                                parse_dates=True,
-                                on_bad_lines="skip",
-                                usecols=multimedia_fields_to_keep)
-
-        occ_df = dwca.pd_read("occurrence.txt",
-                                parse_dates=True,
-                                on_bad_lines="skip",
-                                usecols=occurrence_fields_to_keep)
 
     # Setup logger
     setup_logger('occurrence_logger', 'occurrence_log')
@@ -327,7 +307,6 @@ def prep_and_read_files(args):
     occurrence_logger = logging.getLogger('occurrence_logger')
     image_logger      = logging.getLogger('image_logger')
     metadata_logger   = logging.getLogger('metadata_logger')
-
 
     # Lastly, call the function with your taxon keys:
     begin = time.time()
@@ -366,6 +345,7 @@ def prep_and_read_files(args):
           "seconds",
           flush=True)
 
+
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
@@ -373,8 +353,10 @@ if __name__ == "__main__":
         "--write_directory", help="path of the folder to save the data", required=True
     )
     parser.add_argument(
-        "--dwca_dir", help="path to the folder with extracted dwca contents",
-        required=True
+        "--occ_files", help="path of the species occurrence CSV files", required=True
+    )
+    parser.add_argument(
+        "--media_file", help="path of the multimedia CSV file", required=True
     )
     parser.add_argument(
         "--species_checklist", help="path of the species checlist file", required=True
