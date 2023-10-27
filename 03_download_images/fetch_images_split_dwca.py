@@ -290,9 +290,9 @@ def prep_and_read_files(args):
     occ_files       = args.occ_files
 
     # Read the multimedia file
-    print("reading media")
+    print("reading the multimedia file...")
     media_df = pd.read_csv(args.media_file)
-    print("done")
+    print("Done reading the multimedia file!")
 
     # read species list
     moth_data  = pd.read_csv(args.species_checklist)
