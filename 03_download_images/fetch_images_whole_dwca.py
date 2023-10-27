@@ -12,7 +12,6 @@ import datetime
 import json
 import logging
 import os
-import sys
 import time
 from concurrent.futures import ProcessPoolExecutor, ThreadPoolExecutor
 from urllib.request import urlretrieve
@@ -53,7 +52,7 @@ def fetch_meta_data(data: pd.DataFrame):
     return meta_data
 
 
-def setup_logger():
+def setup_logger(logger_name, log_suffix):
 
     # Specify the directory where you want to save the log files
     log_dir = "download_log_files"
@@ -63,24 +62,26 @@ def setup_logger():
         os.makedirs(log_dir)
 
     # Use the timestamp string to create a unique filename for the log file
-    timestamp    = datetime.datetime.now().strftime('%Y%m%d_%H%M%S')
-    log_filename = os.path.join(log_dir, f'download_log_{timestamp}.log')
+    timestamp    = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+    log_filename = os.path.join(log_dir, f"{log_suffix}_{timestamp}.log")
 
     # Get the root logger
-    logger = logging.getLogger()
+    logger = logging.getLogger(logger_name)
+    logger.setLevel(logging.INFO)
 
     # If logger has handlers, clear them
     for handler in logger.handlers[:]:
         handler.close()
         logger.removeHandler(handler)
 
-    # Configure the logger
-    logging.basicConfig(filename=log_filename, level=logging.INFO,
-                        format='%(asctime)s - %(levelname)s - %(message)s')
+    formatter    = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+    file_handler = logging.FileHandler(log_filename)
+    file_handler.setFormatter(formatter)
+
+    logger.addHandler(file_handler)
 
 
 def fetch_image_data(i_taxon_key: int):
-
     global skip_non_adults, max_data_sp, moth_data, write_directory, occ_files, \
         media_df, occurrence_logger, metadata_logger, image_logger
 
@@ -139,6 +140,15 @@ def fetch_image_data(i_taxon_key: int):
     # Get the relevant occurrences
     i_occ_df = occ_df.loc[occ_df["acceptedTaxonKey"] == i_taxon_key]
     total_occ = len(i_occ_df)
+
+
+
+
+
+
+
+
+
 
     if total_occ != 0:
         # print(f"{species_name} has some occurrences")
