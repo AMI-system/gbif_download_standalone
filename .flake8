@@ -5,7 +5,7 @@ exclude =
     fetch_gbif.py
     moth_nonmoth_dataset.py
     taxon_keys.py
-    fetch_gbif_moth_data_serial.py
-    fetch_gbif_moth_data_serial.ipynb
-    03_download_images/fetch_gbif_moth_data_split_dwca.py
-    03_download_images/fetch_gbif_moth_data_whole_dwca.py
+    fetch_images_serial.py
+    fetch_images_serial.ipynb
+    03_download_images/fetch_images_split_dwca.py
+    03_download_images/fetch_images_whole_dwca.py
