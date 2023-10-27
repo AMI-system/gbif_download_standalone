@@ -51,14 +51,14 @@ python fetch_images_split_dwca.py \
 
 Description of the arguments to the script:
 
-`--write_directory`: Where to write GBIF images **Required**
-`--occ_files`: Path to the folder where separate occurrence.csv files are for each species. **Required**
-`--media_file`: Path to the folder where the adapted multimedia.csv file is. **Required**
-`--species_checklist`: Path to the species checklist. **Required**
-`--use_parallel`: Whether or not to paralellise over threads and processors. If False, will use a for loop to download for each species **Required**
-`--use_multiproc`: If `--use-parallel` is True, use either multithreading or multiprocessing. Multiprocessing does not currently work, although the code is set up to be adapted for it. **Required**
-`--max_data_sp`: Maximum number of images to download per species. **Required**
-`--skip_non_adults`: If True, download only images where the `lifeStage` field is either `adult` or empty, i.e. skip all non-adult life stages. **Required**
+* `--write_directory`: Where to write GBIF images **Required**
+* `--occ_files`: Path to the folder where separate occurrence.csv files are for each species. **Required**
+* `--media_file`: Path to the folder where the adapted multimedia.csv file is. **Required**
+* `--species_checklist`: Path to the species checklist. **Required**
+* `--use_parallel`: Whether or not to paralellise over threads and processors. If False, will use a for loop to download for each species **Required**
+* `--use_multiproc`: If `--use-parallel` is True, use either multithreading or multiprocessing. Multiprocessing does not currently work, although the code is set up to be adapted for it. **Required**
+* `--max_data_sp`: Maximum number of images to download per species. **Required**
+* `--skip_non_adults`: If True, download only images where the `lifeStage` field is either `adult` or empty, i.e. skip all non-adult life stages. **Required**
 
 ### 3. calculate_data_statistics.py
 
@@ -72,6 +72,6 @@ python calculate_data_statistics.py \
 ```
 
 Description of the arguments to the script:
-`--write_directory`: Where to write the data statistics file for a given checklist. **Required**
-`--species_checklist`: Path to the species checklist. **Required**
-`--gbif_img_dir`: Path to the folder with GBIF images. **Required**
+* `--write_directory`: Where to write the data statistics file for a given checklist. **Required**
+* `--species_checklist`: Path to the species checklist. **Required**
+* `--gbif_img_dir`: Path to the folder with GBIF images. **Required**
