@@ -1,90 +1,146 @@
-import json
+import argparse
+import datetime
+import logging
 import os
-import sys
 
 import pandas as pd
 
-if sys.platform.startswith("linux"):
-    data_dir = "/bask/projects/v/vjgo8416-amber/data/gbif_download_standalone/"
-elif sys.platform == "darwin":
-    data_dir = "/Users/lbokeria/Documents/projects/gbif-species-trainer-data/"
-else:
-    print("Not linux or mac!")
 
-######################################
-checklist_name = "singapore-moths-keys-nodup"
+def setup_logger(logger_name, log_suffix):
 
-gbif_img_loc = os.path.join(data_dir, "gbif_images")
+    # Specify the directory where you want to save the log files
+    log_dir = "data_stats_log_files"
 
-df = pd.read_csv(os.path.join("../species_checklists", checklist_name+".csv"))
+    # Ensure the directory exists
+    if not os.path.exists(log_dir):
+        os.makedirs(log_dir)
 
-df["n_imgs"] = ""
-for idx, row in df.iterrows():
+    # Use the timestamp string to create a unique filename for the log file
+    timestamp    = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+    log_filename = os.path.join(log_dir, f"{log_suffix}_{timestamp}.log")
 
-    family  = row["family_name"]
-    genus   = row["genus_name"]
-    species = row["gbif_species_name"]
+    # Get the root logger
+    logger = logging.getLogger(logger_name)
+    logger.setLevel(logging.INFO)
 
-    # Check if directory exists
-    species_dir = (
-        os.path.join(gbif_img_loc, family, genus, species)
-        )
+    # If logger has handlers, clear them
+    for handler in logger.handlers[:]:
+        handler.close()
+        logger.removeHandler(handler)
 
-    if os.path.isdir(species_dir):
-        n_images_on_disk = len(
-            [f for f in os.listdir(species_dir) if f.lower().endswith('.jpg')]
+    formatter    = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+    file_handler = logging.FileHandler(log_filename)
+    file_handler.setFormatter(formatter)
+
+    logger.addHandler(file_handler)
+
+
+def check_stats(args):
+
+    # Setup logger
+    setup_logger('mismatch_logger', 'mismatch_log')
+    setup_logger('metadata_logger', 'metadata_log')
+    # setup_logger('image_logger', 'image_log')
+
+    mismatch_logger = logging.getLogger('mismatch_logger')
+    metadata_logger = logging.getLogger('metadata_logger')
+    # metadata_logger   = logging.getLogger('metadata_logger')
+
+    df = pd.read_csv(args.species_checklist)
+
+    # Define a column for n images
+    df["n_imgs"] = ""
+
+    # Iterate through each species and check the count of images
+    for idx, row in df.iterrows():
+
+        family  = row["family_name"]
+        genus   = row["genus_name"]
+        species = row["gbif_species_name"]
+
+        # Check if directory exists
+        species_dir = (
+            os.path.join(args.gbif_img_dir, family, genus, species)
             )
-        # print(f"{species} Count files method has", n_images_on_disk, "images")
 
-        # Load metadata
-        try:
+        if os.path.isdir(species_dir):
+            n_images_on_disk = len(
+                [f for f in os.listdir(species_dir) if f.lower().endswith('.jpg')]
+                )
+            # print(f"{species} Count files method has", n_images_on_disk, "images")
 
-            with open(os.path.join(species_dir, "meta_data.json")) as file:
-
-                meta_data = json.load(file)
-
-            # Count the number of images for this species
-            md2_n_imgs_downloaded = 0
-
+            # Load metadata
             try:
-                # 2nd way of counting images
-                md2 = pd.read_json(
-                    os.path.join(species_dir, "meta_data.json"), orient='index'
+
+                # Count the number of images for this species
+                md2_n_imgs_downloaded = 0
+
+                try:
+                    # 2nd way of counting images
+                    md2 = pd.read_json(
+                        os.path.join(species_dir, "meta_data.json"), orient='index'
+                        )
+
+                    if md2.empty:
+                        md2_n_imgs_downloaded = 0
+                    else:
+                        md2_n_imgs_downloaded = md2["image_is_downloaded"].sum()
+
+                    # print(
+                        # f"{species} Count dataframe metadata has",
+                        # md2_n_imgs_downloaded, "images"
+                        # )
+
+                except Exception as e:
+                    print(e)
+                    print(f"{species} error counting dataframe way: {e}")
+
+                # Do n images match?
+                if n_images_on_disk == md2_n_imgs_downloaded:
+                    # print(f"N images match for {species_dir}")
+                    pass
+                else:
+                    print(
+                        f"Mismatch! File count {n_images_on_disk}, "
+                        f"metadata has {md2_n_imgs_downloaded}, {species_dir}"
                     )
 
-                if md2.empty:
-                    md2_n_imgs_downloaded = 0
-                else:
-                    md2_n_imgs_downloaded = md2["image_is_downloaded"].sum()
-
+                    mismatch_logger.warning(
+                        f"Mismatch! File count {n_images_on_disk}, "
+                        f"metadata has {md2_n_imgs_downloaded}, {species_dir}"
+                    )
             except Exception as e:
-                print(e)
-                print(f"{species} error counting dataframe way: {e}")
-
-            # Do n images match?
-            if n_images_on_disk == md2_n_imgs_downloaded:
-                # print(f"N images match for {species_dir}")
                 pass
-            else:
-                print(
-                    f"Mismatch! File count {n_images_on_disk}, "
-                    f"metadata has {md2_n_imgs_downloaded}, {species_dir}"
-                )
-        except Exception as e:
-            pass
-            print(f"No metadata for {species_dir}. Error {e}")
+                # print(f"No metadata for {species_dir}. Error {e}")
 
-    else:
+                metadata_logger.warning(f"No metadata for {species_dir}. Error {e}")
+        else:
 
-        n_images_on_disk = 0
+            n_images_on_disk = 0
 
-    # print(f"{species} has {n_images_on_disk} images")
+        # print(f"{species} has {n_images_on_disk} images")
 
-    # Record this
-    df.loc[idx, "n_imgs"] = n_images_on_disk
+        # Record this
+        df.loc[idx, "n_imgs"] = n_images_on_disk
 
-# Save the df
-df.to_csv(
-    os.path.join("../data_stats_files/", "data_stats_"+checklist_name+".csv"),
-    index=False
+    # Save the dataframe
+    save_name = os.path.basename(args.species_checklist)
+    df.to_csv(os.path.join(args.write_directory, "data_stats_"+save_name), index=False)
+
+
+if __name__ == "__main__":
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--write_directory", help="path of the folder to save the data", required=True
     )
+    parser.add_argument(
+        "--species_checklist", help="path of the species checlist file", required=True
+    )
+    parser.add_argument(
+        "--gbif_img_dir", help="path of the folder with gbif images", required=True
+    )
+
+    args = parser.parse_args()
+
+    check_stats(args)
