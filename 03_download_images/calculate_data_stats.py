@@ -132,7 +132,8 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        "--write_directory", help="path of the folder to save the data", required=True
+        "--write_directory", help="path of the folder to save the stats data",
+        required=True
     )
     parser.add_argument(
         "--species_checklist", help="path of the species checlist file", required=True
