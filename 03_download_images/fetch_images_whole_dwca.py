@@ -318,16 +318,23 @@ def prep_and_read_files(args):
         "basisOfRecord",
     ]
 
+    print("Starting to read dwca files. This could take a while...")
     with DwCAReader(args.dwca_dir) as dwca:
+
+        print("Reading the multimedia.txt...")
         media_df = dwca.pd_read("multimedia.txt",
                                 parse_dates=True,
                                 on_bad_lines="skip",
                                 usecols=multimedia_fields_to_keep)
 
+        print("Finished reading the multimedia.txt")
+
+        print("Reading the occurrence.txt...")
         occ_df = dwca.pd_read("occurrence.txt",
                                 parse_dates=True,
                                 on_bad_lines="skip",
                                 usecols=occurrence_fields_to_keep)
+        print("Finished reading the occurrence.txt...")
 
     # Setup logger
     setup_logger('occurrence_logger', 'occurrence_log')

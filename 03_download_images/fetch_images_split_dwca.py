@@ -290,7 +290,7 @@ def prep_and_read_files(args):
     occ_files       = args.occ_files
 
     # Read the multimedia file
-    print("reading the multimedia file...")
+    print("Reading the multimedia file...")
     media_df = pd.read_csv(args.media_file)
     print("Done reading the multimedia file!")
 
