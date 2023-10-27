@@ -56,7 +56,7 @@ def fetch_meta_data(data: pd.DataFrame):
 def setup_logger():
 
     # Specify the directory where you want to save the log files
-    log_dir = "log_files"
+    log_dir = "download_log_files"
 
     # Ensure the directory exists
     if not os.path.exists(log_dir):
