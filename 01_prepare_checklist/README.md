@@ -31,8 +31,10 @@ The description of the arguments to the script:
 
 Check the resulting checklist with CEH, by sharing it as a google docs file. They should confirm that any species not found on GBIF were spelled correctly, and any FUZZY matches are correct.
 
-### 4. Remove duplicate species
+### 4. Remove duplicate species and species not on GBIF
 
-Species often have synonyms, and checklist often contain accepted species names along with their synonyms. In run as is, images for both will be downloaded in a folder named according to the accepted species name, needlessly duplicating the process.
+Species often have synonyms, and checklist often contain accepted species names along with their synonyms. If run as is, images for both will be downloaded in a folder named according to the accepted species name, needlessly duplicating the process.
 
 Run `remove_duplicate_species.ipynb` to identify duplicate rows and remove them, so images are downloaded only once per species.
+
+The code also removes rows for species that are not available on GBIF, so that the downstream code that downloads GBIF images does not needlessly loop over them.
