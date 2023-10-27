@@ -23,9 +23,9 @@ conda activate "${CONDA_ENV_PATH}"
 # Execute your python programme
 
 python fetch_taxon_keys.py \
---species_filepath ../species_checklists/costarica-moths-preprocessed-part1.csv \
+--species_filepath ../species_checklists/costarica-moths-preprocessed.csv \
 --column_name_species species_name_provided \
 --column_name_authority authority_name_provided \
---output_filepath ../species_checklists/costarica-moths-keys-part1.csv \
+--output_filepath ../species_checklists/costarica-moths-keys.csv \
 --place London19Oct2023 \
 --use_multithreading True

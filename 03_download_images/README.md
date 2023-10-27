@@ -2,7 +2,7 @@
 
 Once you have prepared the species checklist and preprocessed the appropriate dwca file, you can download GBIF images using code in this folder.
 
-`fetch_images_whole_dwca.py` can use the dwca file directory where raw multimedia.txt and occurrence.txt files reside. These files are typically very large (especially for all of Lepidoptera) and might make it hard to dynamically use this code (e.g. when downloading and redoanloading or debugging)
+`fetch_images_whole_dwca.py` can use the dwca file directory where raw multimedia.txt and occurrence.txt files reside. These files are typically very large (especially for all of Lepidoptera) and might make it hard to dynamically use this code (e.g. when downloading and redownloading or debugging)
 
 `fetch_images_split_dwca.py` can use the adapted multimedia.csv file, and split occurrence CSV files for each species. This avoids having to load a huge occurrence.txt file in memory, as each smaller occurrence.csv files for each species gets loaded into memory by subprocesses.
 
@@ -25,13 +25,13 @@ python fetch_images_whole_dwca.py \
 
 Description of the arguments to the script:
 
-`--write_directory`: Where to write GBIF images **Required**
-`--dwca_dir`: Path to the dwca folder where extracted dwca files are. **Required**
-`--species_checklist`: Path to the species checklist. **Required**
-`--use_parallel`: Whether or not to paralellise over threads and processors. If False, will use a for loop to download for each species **Required**
-`--use_multiproc`: If `--use-parallel` is True, use either multithreading or multiprocessing. Multiprocessing does not currently work, although the code is set up to be adapted for it. **Required**
-`--max_data_sp`: Maximum number of images to download per species. **Required**
-`--skip_non_adults`: If True, download only images where the `lifeStage` field is either `adult` or empty, i.e. skip all non-adult life stages. **Required**
+* `--write_directory`: Where to write GBIF images **Required**
+* `--dwca_dir`: Path to the dwca folder where extracted dwca files are. **Required**
+* `--species_checklist`: Path to the species checklist. **Required**
+* `--use_parallel`: Whether or not to paralellise over threads and processors. If False, will use a for loop to download for each species **Required**
+* `--use_multiproc`: If `--use-parallel` is True, use either multithreading or multiprocessing. Multiprocessing does not currently work, although the code is set up to be adapted for it. **Required**
+* `--max_data_sp`: Maximum number of images to download per species. **Required**
+* `--skip_non_adults`: If True, download only images where the `lifeStage` field is either `adult` or empty, i.e. skip all non-adult life stages. **Required**
 
 ### fetch_images_split_dwca.py
 
