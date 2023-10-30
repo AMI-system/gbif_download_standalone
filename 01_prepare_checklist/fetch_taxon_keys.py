@@ -4,7 +4,7 @@
 """
 Author        : Aditya Jain
 Edited by     : Levan Bokeria
-Last modified : 4 October, 2023
+Last modified : 30 October, 2023
 About         : This script fetches unique taxon keys for species list from GBIF
 """
 
