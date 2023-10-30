@@ -2,8 +2,9 @@
 # coding: utf-8
 
 """
-Author	      : Levan Bokeria
-Last modified : Oct 11th, 2023
+Author        : Aditya Jain
+Edited by     : Levan Bokeria
+Last modified : 30 Oct, 2023
 About	      : Extract and shorten multimedia and occurrence data.
 """
 

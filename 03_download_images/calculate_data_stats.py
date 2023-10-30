@@ -1,3 +1,14 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+"""
+Author        : Aditya Jain
+Edited by     : Levan Bokeria
+Last modified : 30 Oct, 2023
+About	      : Calculate the image count for a given species list
+"""
+
+
 import argparse
 import datetime
 import logging
