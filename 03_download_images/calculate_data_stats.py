@@ -4,6 +4,7 @@ import logging
 import os
 
 import pandas as pd
+from pygbif import species as species_api
 
 
 def setup_logger(logger_name, log_suffix):
@@ -47,6 +48,8 @@ def check_stats(args):
     # metadata_logger   = logging.getLogger('metadata_logger')
 
     df = pd.read_csv(args.species_checklist)
+
+    df_mismatch = []
 
     # Define a column for n images
     df["n_imgs"] = ""
@@ -92,23 +95,36 @@ def check_stats(args):
                         # )
 
                 except Exception as e:
-                    print(e)
-                    print(f"{species} error counting dataframe way: {e}")
+                    # print(f"{species} error counting dataframe way: {e}")
+                    metadata_logger.warning(f"Error {e} for {species_dir}")
 
                 # Do n images match?
                 if n_images_on_disk == md2_n_imgs_downloaded:
                     # print(f"N images match for {species_dir}")
                     pass
                 else:
-                    print(
-                        f"Mismatch! File count {n_images_on_disk}, "
-                        f"metadata has {md2_n_imgs_downloaded}, {species_dir}"
-                    )
+                    # print(
+                    #     f"Mismatch! File count {n_images_on_disk}, "
+                    #     f"metadata has {md2_n_imgs_downloaded}, {species_dir}"
+                    # )
 
                     mismatch_logger.warning(
                         f"Mismatch! File count {n_images_on_disk}, "
                         f"metadata has {md2_n_imgs_downloaded}, {species_dir}"
                     )
+
+                    # Get GBIF scientificName for this species
+                    gbif_data = species_api.name_backbone(
+                        name=row["search_species_name"],
+                        strict=True,
+                        rank="species"
+                    )
+
+                    row["scientificName"] = gbif_data["scientificName"]
+
+                    # Save this row in a separate CSV file
+                    df_mismatch.append(row)
+
             except Exception as e:
                 pass
                 # print(f"No metadata for {species_dir}. Error {e}")
@@ -126,6 +142,13 @@ def check_stats(args):
     # Save the dataframe
     save_name = os.path.basename(args.species_checklist)
     df.to_csv(os.path.join(args.write_directory, "data_stats_"+save_name), index=False)
+
+    # Save the mismatch dataframe
+    df_mismatch = pd.DataFrame(df_mismatch)
+    df_mismatch.to_csv(
+        os.path.join("data_stats_log_files", "mismatch_list_"+save_name),
+        index=False
+    )
 
 
 if __name__ == "__main__":
