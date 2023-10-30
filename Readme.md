@@ -4,15 +4,19 @@
 
 The repository uses conda to manage the environment and packages which are specified in the `environment.yml` file.
 
-For first time use, run `conda env create -f environment.yml`. This will create a conda environment called "gbif_download_standalone".
+For first time use, create a new conda environment using `conda create --name gbif_download_standalone`. On Baskerville, the `--name` argument should be the full path to the location of the environment, e.g. `/bask/projects/v/vjgo8416-amber/conda_envs/gbif_download_standalone`
 
-Then, run `conda activate gbif_download_standalone`
+Run `conda activate gbif_download_standalone`.
+
+Update the environment with packages specified in `environment.yml`: `conda env update --file environment.yml --prune`
 
 ## Pre-commits
 
 Pre-commits are specified in the `.pre-commit-config.yaml` file.
 
 For first time use, run `pre-commit install --install-hooks`.
+
+Note various exceptions for flake8 specified in file `.flake8`
 
 ## Sequence of steps to take:
 
