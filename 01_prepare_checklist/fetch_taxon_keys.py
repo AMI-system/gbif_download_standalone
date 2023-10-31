@@ -37,8 +37,12 @@ def get_gbif_key_backbone(name_species, name_authority, place):
     rank                    = ["NotAvail"]
     place                   = [place]
 
+    # Perform the search
     data = species_api.name_backbone(name=name_species, strict=True, rank="species")
 
+    # If searching using the "species_name_provided" did not return results, try
+    # searching with a combination of "species_name_provided" and
+    # "authority_name_provided"
     if data["matchType"] == "NONE" or data["matchType"] == "HIGHERRANK":
 
         # Try searching with the authority in the name as well
@@ -72,8 +76,15 @@ def get_gbif_key_backbone(name_species, name_authority, place):
     if "rank" in data.keys():
         rank = [data["rank"]]
 
+    # If data was matched on GBIF:
     if data["matchType"] != "NONE" and data["matchType"] != "HIGHERRANK":
         gbif_species = [data["species"]]
+
+        # If the search species was a taxonomic synonym of another species name which
+        # is the accepted scientific name, then the returned data will contain the
+        # "acceptedUsageKey" which corresponds to the taxonomic key of the accepted
+        # scientific name. Use that "acceptedUsageKey" in this case,
+        # otherwise, use the "usageKey"
         if "acceptedUsageKey" in data.keys():
             acc_taxon_key = [data["acceptedUsageKey"]]
         else:
@@ -150,7 +161,9 @@ def save_taxon_keys(args):
 
     if args.use_multithreading:
 
-        # fetch taxonomy data from GBIF using multiprocessing
+        # fetch taxonomy data from GBIF using multithreading
+        # Note that setting max_workers > 2 might result in too frequent calls to the
+        # GBIF API. This will result in the GBIF server aborting our calls.
         with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor:
             results = list(
                 executor.map(
@@ -165,7 +178,7 @@ def save_taxon_keys(args):
 
     else:
 
-        # fetch taxonomy data from GBIF
+        # fetch taxonomy data from GBIF using a for loop
         for count, name in enumerate(species_list):
             data = get_gbif_key_backbone(name, authority_list[count], args.place)
             data_final = pd.concat([data_final, data], ignore_index=True)
