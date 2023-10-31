@@ -1,6 +1,6 @@
 [flake8]
 max-line-length = 88
 extend-ignore = E203,E221
-exclude =
-    03_download_images/fetch_images_split_dwca.py
-    03_download_images/fetch_images_whole_dwca.py
+; exclude =
+;     03_download_images/fetch_images_split_dwca.py
+;     03_download_images/fetch_images_whole_dwca.py

@@ -54,6 +54,7 @@ def fetch_meta_data(data: pd.DataFrame):
 
 
 def setup_logger(logger_name, log_suffix):
+    """Set up loggers to record any errors and exceptions"""
 
     # Specify the directory where you want to save the log files
     log_dir = "download_log_files"
@@ -83,6 +84,8 @@ def setup_logger(logger_name, log_suffix):
 
 
 def fetch_image_data(i_taxon_key: int):
+    """The main function to download images"""
+
     global skip_non_adults, max_data_sp, moth_data, write_directory, occ_files, \
         media_df, occurrence_logger, metadata_logger, image_logger
 
@@ -93,7 +96,7 @@ def fetch_image_data(i_taxon_key: int):
     genus_name          = taxon_data["genus_name"].item()
     species_name        = taxon_data["gbif_species_name"].item()
     write_location      = os.path.join(
-        write_directory,family_name,genus_name,species_name
+        write_directory, family_name, genus_name, species_name
         )
 
     # print("Write location is:", write_location)
@@ -102,15 +105,15 @@ def fetch_image_data(i_taxon_key: int):
     image_count = 0
 
     # Does meta_data exist for this species?
-    if os.path.isfile(os.path.join(write_location,"meta_data.json")):
+    if os.path.isfile(os.path.join(write_location, "meta_data.json")):
         # Load it
-        with open(os.path.join(write_location,"meta_data.json")) as file:
+        with open(os.path.join(write_location, "meta_data.json")) as file:
             species_md = json.load(file)
 
         # Count the number of images for this species
         count_md = 0
         for key, value in species_md.items():
-            if value.get("image_is_downloaded") == True:
+            if value.get("image_is_downloaded"):
                 count_md += 1
         image_count = count_md
 
@@ -126,7 +129,7 @@ def fetch_image_data(i_taxon_key: int):
                 )
 
     else:
-        # Creat the metadata
+        # Create the metadata
         print(f"Downloading for {species_name}", flush=True)
         species_md = {}
 
@@ -134,22 +137,14 @@ def fetch_image_data(i_taxon_key: int):
     if not os.path.isdir(write_location):
         try:
             os.makedirs(write_location)
-        except:
-            print(f"Could not create the directory for {write_location}", flush=True)
+        except Exception as e:
+            print(f"Could not create the directory for {write_location}. Error {e}",
+                  flush=True)
             return
 
     # Get the relevant occurrences
     i_occ_df = occ_df.loc[occ_df["acceptedTaxonKey"] == i_taxon_key]
     total_occ = len(i_occ_df)
-
-
-
-
-
-
-
-
-
 
     if total_occ != 0:
         # print(f"{species_name} has some occurrences")
@@ -171,7 +166,7 @@ def fetch_image_data(i_taxon_key: int):
             # So skip
             if len(species_md) != 0:
                 if str(obs_id)+".jpg" in species_md.keys():
-                        continue
+                    continue
 
             # check occurrence entry in media dataframe
             try:
@@ -197,7 +192,7 @@ def fetch_image_data(i_taxon_key: int):
             # download image
             try:
                 # print("Trying the image download", image_url)
-                image_write_path = os.path.join(write_location,str(obs_id)+".jpg")
+                image_write_path = os.path.join(write_location, str(obs_id)+".jpg")
 
                 urlretrieve(image_url, image_write_path)
 
@@ -225,10 +220,6 @@ def fetch_image_data(i_taxon_key: int):
                         f"Image download failed but corrupted file was still created. "
                         f"Deleting {image_write_path}"
                         )
-                    # print(
-                    #     f"Image download failed but corrupted file still created. "
-                    #     f"Deleting {image_write_path}"
-                    #     )
 
             # Get meta data for this occurrence
             # print("Getting metadata")
@@ -242,10 +233,7 @@ def fetch_image_data(i_taxon_key: int):
                 species_md[str(obs_id) + ".jpg"]     = occ_meta_data
                 # print("Got metadata")
             except Exception as e:
-                # print(
-                #     f"Couldn't create metadata {species_name}, taxon key {i_taxon_key}."
-                #     f"Error {e}"
-                #     )
+
                 metadata_logger.warning(
                     f"Couldnt create metadata {species_name}, taxon key {i_taxon_key}."
                     f"Error {e}"
@@ -264,10 +252,7 @@ def fetch_image_data(i_taxon_key: int):
             with open(write_location + "/" + "meta_data.json", "w") as outfile:
                 json.dump(species_md, outfile)
         except Exception as e:
-            # print(
-            #     f"Couldn't save metadata {species_name}, taxon key {i_taxon_key}."
-            #     f"Error {e}"
-            # )
+
             metadata_logger.warning(
                 f"Couldnt save metadata {species_name}, taxon key {i_taxon_key}."
                 f"Error {e}"
@@ -275,12 +260,15 @@ def fetch_image_data(i_taxon_key: int):
         # print("Wrote metadata")
 
     print(f"Downloading complete for {species_name} with {image_count} images.",
-            flush=True)
+          flush=True)
 
     return
 
 
 def prep_and_read_files(args):
+    """
+    Set up loggers and read the multimedia and occurrence files.
+    """
 
     global skip_non_adults, max_data_sp, moth_data, write_directory, \
         occurrence_logger, metadata_logger, image_logger, media_df, occ_df
@@ -332,50 +320,49 @@ def prep_and_read_files(args):
 
         print("Reading the occurrence.txt...")
         occ_df = dwca.pd_read("occurrence.txt",
-                                parse_dates=True,
-                                on_bad_lines="skip",
-                                usecols=occurrence_fields_to_keep)
+                              parse_dates=True,
+                              on_bad_lines="skip",
+                              usecols=occurrence_fields_to_keep)
         print("Finished reading the occurrence.txt...")
 
     # Setup logger
-    setup_logger('occurrence_logger', 'occurrence_log')
-    setup_logger('metadata_logger', 'metadata_log')
-    setup_logger('image_logger', 'image_log')
+    setup_logger('occurrence_logger', 'occurrence_log')  # If no occurrence.csv
+    setup_logger('metadata_logger', 'metadata_log')  # If metadata creation failed
+    setup_logger('image_logger', 'image_log')  # If error downloading an image
 
     occurrence_logger = logging.getLogger('occurrence_logger')
     image_logger      = logging.getLogger('image_logger')
     metadata_logger   = logging.getLogger('metadata_logger')
-
 
     # Lastly, call the function with your taxon keys:
     begin = time.time()
 
     if args.use_parallel:
 
+        # If using multiprocessing (not set up)
         if args.use_multiproc:
 
             try:
                 with ProcessPoolExecutor() as executor:
 
-                    # You can use the executor to parallelize your function call:
                     executor.map(fetch_image_data, taxon_keys)
 
             except Exception as e:
                 print(f"Error: {e}")
 
+        # If using multithreading
         else:
 
             with ThreadPoolExecutor() as executor:
 
-                # You can use the executor to parallelize your function call:
-                results = list(executor.map(fetch_image_data, taxon_keys))
+                executor.map(fetch_image_data, taxon_keys)
 
+    # If doing in a for loop
     else:
 
         for i_taxon_key in taxon_keys:
             # print(f"Calling for {i_taxon_key}")
             fetch_image_data(i_taxon_key)
-
 
     end = time.time()
 
@@ -383,6 +370,7 @@ def prep_and_read_files(args):
           round(end - begin),
           "seconds",
           flush=True)
+
 
 if __name__ == "__main__":
 

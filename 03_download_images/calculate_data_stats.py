@@ -19,6 +19,7 @@ from pygbif import species as species_api
 
 
 def setup_logger(logger_name, log_suffix):
+    """Set up loggers to record any errors and exceptions"""
 
     # Specify the directory where you want to save the log files
     log_dir = "data_stats_log_files"
@@ -48,18 +49,27 @@ def setup_logger(logger_name, log_suffix):
 
 
 def check_stats(args):
+    """Main script that loads a species checklist and counts the number of images
+    for each species, using the meta_data.json file in their correponding folder.
 
-    # Setup logger
+    It also checks that the number of images on disk matches entries in the meta data.
+    """
+
+    # Setup loggers
+
+    # Log when the number of images on disk do not match entries in meta data
     setup_logger('mismatch_logger', 'mismatch_log')
+    # Log if meta data file is not found
     setup_logger('metadata_logger', 'metadata_log')
-    # setup_logger('image_logger', 'image_log')
 
     mismatch_logger = logging.getLogger('mismatch_logger')
     metadata_logger = logging.getLogger('metadata_logger')
-    # metadata_logger   = logging.getLogger('metadata_logger')
 
+    # Read the checklist for which we're counting files
     df = pd.read_csv(args.species_checklist)
 
+    # Create an empty dataframe to record species for which image count on disk does not
+    # match meta data entries.
     df_mismatch = []
 
     # Define a column for n images
@@ -90,7 +100,7 @@ def check_stats(args):
                 md2_n_imgs_downloaded = 0
 
                 try:
-                    # 2nd way of counting images
+                    # Count images in meta data
                     md2 = pd.read_json(
                         os.path.join(species_dir, "meta_data.json"), orient='index'
                         )
@@ -110,10 +120,8 @@ def check_stats(args):
                     metadata_logger.warning(f"Error {e} for {species_dir}")
 
                 # Do n images match?
-                if n_images_on_disk == md2_n_imgs_downloaded:
-                    # print(f"N images match for {species_dir}")
-                    pass
-                else:
+                if n_images_on_disk != md2_n_imgs_downloaded:
+
                     # print(
                     #     f"Mismatch! File count {n_images_on_disk}, "
                     #     f"metadata has {md2_n_imgs_downloaded}, {species_dir}"
@@ -124,7 +132,8 @@ def check_stats(args):
                         f"metadata has {md2_n_imgs_downloaded}, {species_dir}"
                     )
 
-                    # Get GBIF scientificName for this species
+                    # Get the GBIF scientificName for this species, to help resolve
+                    # why image counts don't add up
                     gbif_data = species_api.name_backbone(
                         name=row["search_species_name"],
                         strict=True,
@@ -143,6 +152,8 @@ def check_stats(args):
                 metadata_logger.warning(f"No metadata for {species_dir}. Error {e}")
         else:
 
+            # If directory for this species doesn't exist, then the species didn't exist
+            # on GBIF so has no images.
             n_images_on_disk = 0
 
         # print(f"{species} has {n_images_on_disk} images")
