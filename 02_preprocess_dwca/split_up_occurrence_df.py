@@ -21,6 +21,11 @@ logging.basicConfig(filename='split_log.log', level=logging.INFO,
 
 def split_occurrence(args):
 
+    """This is the main function that will load the occurrence file, transform the
+    acceptedTaxonKey column to be only integers, group it by acceptedTaxonKey and
+    save each group as a separate CSV file
+    """
+
     # If save_dir doesn't exist, create it
     if not os.path.exists(args.write_directory):
         os.makedirs(args.write_directory)
@@ -40,29 +45,33 @@ def split_occurrence(args):
 
     print("Converting all strings to floats")
     occ_df["acceptedTaxonKey"] = occ_df["acceptedTaxonKey"].apply(convert_str_to_float)
-    print("Finished. Printing resulting types...")
+    print("Finished...")
 
+    print("Printing the data types in the acceptedTaxonKey column...")
     # Pring type counts
     counts1 = occ_df["acceptedTaxonKey"].apply(custom_type).value_counts()
     print(counts1)
 
     # Remove the rows with non-0 fraction
+    # Some taxonomic keys have errors and are recorded with non-0 fractions. Remove them
     mask = ~occ_df["acceptedTaxonKey"].apply(
         lambda x: isinstance(x, float) and x != int(x)
         )
     print("Number of rows with non-0 fraction in the acceptedTaxonKey:",
-          len(occ_df) - len(mask))
+          len(occ_df) - len(mask),
+          "These will be removed.")
     if not len(mask) == len(occ_df):
         print("Removing these...")
         occ_df = occ_df[mask]
         print("Finished")
 
-    # Convert everything to integer
+    # Convert everything to integer from float
     print("Converting all taxon keys to integer")
     occ_df["acceptedTaxonKey"] = occ_df["acceptedTaxonKey"].astype(int)
     print("Finished")
 
     # Last check of types
+    print("Printing the final data types in the acceptedUseageKey column:")
     counts2 = occ_df["acceptedTaxonKey"].apply(custom_type).value_counts()
     print(counts2)
 
@@ -113,6 +122,8 @@ def custom_type(x):
 
 # Select only numeric acceptedTaxonKey rows
 def is_number(x):
+    """Returns False if the argument is not a number, a number string, or is NA """
+
     try:
         # Check for NaN
         if pd.isna(x):
