@@ -27,6 +27,8 @@ The description of the arguments to the script:
 * `--place`: A placeholder name which identifies the source of the species list - important when combining multiple lists. **Required**.
 * `--use_multithreading`: Whether or not to use multithreading when checking the names. Number of workers are set to max=2, due to API call limitations. **Required**.
 
+For quickly calling the `fetch_taxon_keys.py`, use `fetch_taxon_keys_wrapper.ipynb` where you can define and modify the arguments.
+
 ### 3. Cross check with CEH
 
 Check the resulting checklist with CEH, by sharing it as a google docs file. They should confirm that any species not found on GBIF were spelled correctly, and any FUZZY matches are correct.
