@@ -15,12 +15,18 @@ from dwca.read import DwCAReader
 
 
 def extract_and_shorten(args):
+    """
+    This function will use the dwca reader module to read only the relevant columns of
+    the occurrence.txt and multimedia.txt files and save them as CSV files
+    """
 
+    # Which columns of the media file to load:
     multimedia_fields_to_keep = [
         "coreid",
         "identifier",
     ]
 
+    # Which columns of the occurrence file to load:
     occurrence_fields_to_keep = [
         "id",
         "decimalLatitude",
@@ -40,7 +46,7 @@ def extract_and_shorten(args):
         "basisOfRecord",
     ]
 
-    # Read the dwca files
+    # Read the files
     with DwCAReader(path=args.dwca_file_dir) as dwca:
 
         print('Starting reading the multimedia file...')
@@ -63,7 +69,7 @@ def extract_and_shorten(args):
 
         print('Finished reading the occurrence...')
 
-    # Save both
+    # Save both as csv
     print("Starting to save multimedia...")
     media_df.to_csv(
         os.path.join(args.write_directory, "multimedia_"+args.dwca_file_name+".csv"),
