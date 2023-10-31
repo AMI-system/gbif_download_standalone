@@ -1,5 +1,16 @@
 # GBIF Download Standalone
 
+## Description of folders:
+
+- 01_prepare_checklist: code to preprocess species checklists and fetch GBIF taxonomic data
+- 02_preprocess_dwca: code to preprocess the Darwin Core Archive files, to be used by subsequent download code.
+- 03_download_images: code to download GBIF images.
+- species_checklists: original checklists provided by CEH, as well as their preprocessed versions.
+- data_stats_files: csv files containing an "n_imgs" column specifying how many images we have downloaded for a given species checklist.
+- helper_files: miscellaneous helper files.
+- helper_scripts: miscellaneous helper scripts for code development, debugging, testing, etc.
+
+
 ## Setting up the environment
 
 The repository uses conda to manage the environment and packages which are specified in the `environment.yml` file.
