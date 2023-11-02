@@ -5,6 +5,8 @@ log_files/
 03_download_images/download_log_files
 03_download_images/data_stats_log_files
 
+data_stats_files
+
 *.py[cod]
 *$py.class
 
