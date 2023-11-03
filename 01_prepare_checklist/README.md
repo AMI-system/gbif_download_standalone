@@ -1,3 +1,5 @@
+# Prepare the checklist for download
+
 ## Sequence to run
 
 Once you receive a species checklist from CEH, the provided species names must be checked against the GBIF backbone.
@@ -7,16 +9,16 @@ Run `preprocess_species_list.ipynb` to load the checklist and modify the species
 
 ### 2. Fetch taxonomic keys from GBIF
 
-```bash
+For quickly calling the `fetch_taxon_keys.py`, use `fetch_taxon_keys_wrapper.ipynb` where you can define and modify the arguments.
+
+```sh
 python fetch_taxon_keys.py \
-
---species_filepath "../species_checklists/singapore-moths-preprocessed.csv" \
---column_name_species "species_name_provided" \
---column_name_authority "Authority" \
---output_filepath "../species_checklists/singapore-moths-keys.csv" \
---place "London06October2023" \
---use_multithreading True
-
+    --species_filepath "../species_checklists/singapore-moths-preprocessed.csv" \
+    --column_name_species "species_name_provided" \
+    --column_name_authority "Authority" \
+    --output_filepath "../species_checklists/singapore-moths-keys.csv" \
+    --place "London06October2023" \
+    --use_multithreading True
 ```
 
 The description of the arguments to the script:
@@ -27,7 +29,6 @@ The description of the arguments to the script:
 * `--place`: A placeholder name which identifies the source of the species list - important when combining multiple lists. **Required**.
 * `--use_multithreading`: Whether or not to use multithreading when checking the names. Number of workers are set to max=2, due to API call limitations. **Required**.
 
-For quickly calling the `fetch_taxon_keys.py`, use `fetch_taxon_keys_wrapper.ipynb` where you can define and modify the arguments.
 
 ### 3. Cross check with CEH
 

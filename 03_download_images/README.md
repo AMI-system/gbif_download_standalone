@@ -41,7 +41,7 @@ Description of the arguments to the script:
 * `--max_data_sp`: Maximum number of images to download per species. **Required**
 * `--skip_non_adults`: If True, download only images where the `lifeStage` field is either `adult` or empty, i.e. skip all non-adult life stages. **Required**
 
-### B. fetch_images_split_dwca.py
+### B. fetch_images_split_dwca.py (recommended)
 
 ```bash
 python fetch_images_split_dwca.py \
