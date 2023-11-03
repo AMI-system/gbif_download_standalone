@@ -1,5 +1,8 @@
 ## Downloading the Darwin Core Archive files
-Scripts in this repository use the Darwin Core Archive files to fetch images from GBIF. For any given species (or genus, or family, or the whole order), go to https://www.gbif.org/occurrence/search and enter the species name in the "Scientific Name" field on the left. Once the search returns the list of occurrences, click "Download" and then "DARWIN CORE ARCHIVE". The archive file will start being prepared and you will get an email once its ready for download.
+
+Scripts in this repository use the Darwin Core Archive files to fetch images from GBIF.
+**This only needs to be done once for lepidoptera update**.
+For any given species (or genus, or family, or the whole order), go to https://www.gbif.org/occurrence/search and enter the species name in the "Scientific Name" field on the left. Once the search returns the list of occurrences, click "Download" and then "DARWIN CORE ARCHIVE". The archive file will start being prepared and you will get an email once its ready for download.
 
 Once you have the download link, use the `wget` command in terminal to download the archive file on Baskerville. For example:
 `wget -O <file_name.zip> <download-link>`
@@ -26,11 +29,10 @@ On Baskerville, the location `/bask/homes/r/rybf4168/vjgo8416-amber/data/gbif_do
 Run `shorten_dwca.py` to load the multimedia and occurrence files from the extracted dwca file directory, loading only specific columns and saving them as CSV files. This significantly reduces the size of these dataframes.
 
 ```bash
-
 python shorten_dwca.py \
---write_directory "/bask/homes/r/rybf4168/vjgo8416-amber/data/gbif_download_standalone/dwca_preprocessed/" \
---dwca_file_dir "/bask/homes/r/rybf4168/vjgo8416-amber/data/gbif_download_standalone/dwca_files/lepidoptera_20231018/"
---dwca_file_name "lepidoptera_20231018" \
+   --write_directory "../../../data/gbif_download_standalone/dwca_preprocessed/" \
+   --dwca_file_dir "../../../data/gbif_download_standalone/dwca_files/lepidoptera_20231018/"
+   --dwca_file_name "lepidoptera_20231018" \
 ```
 
 Description of the arguments to the script:
@@ -44,8 +46,8 @@ Load the shortened occurrence.csv file and split it into smaller CSV files, one 
 
 ```bash
 python split_up_occurrence_df.py \
---write_directory "/bask/homes/r/rybf4168/vjgo8416-amber/data/gbif_download_standalone/dwca_preprocessed/occurrence_dataframes_20231018/" \
---occ_file "/bask/homes/r/rybf4168/vjgo8416-amber/data/gbif_download_standalone/dwca_preprocessed/occurrence_lepidoptera_20231018.csv"
+   --write_directory "../../../data/gbif_download_standalone/dwca_preprocessed/occurrence_dataframes_20231018/" \
+   --occ_file "../../../data/gbif_download_standalone/dwca_preprocessed/occurrence_lepidoptera_20231018.csv"
 
 ```
 
