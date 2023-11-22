@@ -23,11 +23,11 @@ conda activate "${CONDA_ENV_PATH}"
 
 # Execute your python programme
 python fetch_images_split_dwca.py \
---write_directory "../../../data/gbif_download_standalone/gbif_images/" \
---occ_files "../../../data/gbif_download_standalone/dwca_preprocessed/occurrence_dataframes_20231018/" \
---media_file "../../../data/gbif_download_standalone/dwca_preprocessed/multimedia_lepidoptera_20231018.csv" \
---species_checklist "../species_checklists/uksi-moths-keys-nodup.csv" \
---use_parallel True \
---use_multiproc False \
---max_data_sp 1000 \
---skip_non_adults True
+    --write_directory "../../../data/gbif_download_standalone/tests_gbif_images/" \
+    --occ_files "../../../data/gbif_download_standalone/dwca_preprocessed/occurrence_dataframes_20231018/" \
+    --media_file "../../../data/gbif_download_standalone/dwca_preprocessed/multimedia_lepidoptera_20231018.csv" \
+    --species_checklist "../species_checklists/costarica-moths-keys-nodup.csv" \
+    --use_parallel True \
+    --use_multiproc False \
+    --max_data_sp 1000 \
+    --skip_non_adults True

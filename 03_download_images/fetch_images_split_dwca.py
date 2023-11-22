@@ -3,8 +3,8 @@
 
 """
 Author        : Aditya Jain
-Edited by     : Levan Bokeria
-Last modified : 30 Oct, 2023
+Edited by     : Levan Bokeria, Katriona Goldmann
+Last modified : 22 Nov, 2023
 About	      : Split the Occurrence CSV file by species
 """
 
@@ -82,7 +82,7 @@ def setup_logger(logger_name, log_suffix):
     logger.addHandler(file_handler)
 
 
-def fetch_image_data(i_taxon_key: int):
+def fetch_image_data(i_taxon_key: int, rerun_nonzero: bool):
     """The main function to download images"""
 
     global skip_non_adults, max_data_sp, moth_data, write_directory, occ_files, \
@@ -119,6 +119,13 @@ def fetch_image_data(i_taxon_key: int):
         # Do we have enough images already
         if image_count >= max_data_sp:
             print(f"{species_name} has ENOUGH images, skipping", flush=True)
+            return
+        elif (~rerun_nonzero) & image_count > 0:
+            print(
+                f"{species_name} already has "
+                f"{image_count} images, skipping",
+                flush=True
+            )
             return
         else:
             print(
@@ -282,6 +289,7 @@ def prep_and_read_files(args):
 
     max_data_sp     = int(args.max_data_sp)
     skip_non_adults = args.skip_non_adults
+    rerun_nonzero = args.rerun_nonzero
     write_directory = args.write_directory
     occ_files       = args.occ_files
 
@@ -332,7 +340,7 @@ def prep_and_read_files(args):
 
         for i_taxon_key in taxon_keys:
             # print(f"Calling for {i_taxon_key}")
-            fetch_image_data(i_taxon_key)
+            fetch_image_data(i_taxon_key, rerun_nonzero)
 
     end = time.time()
 
@@ -369,6 +377,10 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--skip_non_adults", help="get only images labeled as adult or with no label",
+        required=True
+    )
+    parser.add_argument(
+        "--rerun_nonzero", help="download images when already non-zero downloaded",
         required=True
     )
 

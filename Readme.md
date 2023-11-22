@@ -21,6 +21,10 @@ Run `conda activate gbif_download_standalone`.
 
 Update the environment with packages specified in `environment.yml`: `conda env update --file environment.yml --prune`
 
+**On basekerville you can skip straight to:**
+
+`conda activate /bask/projects/v/vjgo8416-amber/conda_envs/gbif_download_standalone`
+
 ## Pre-commits
 
 Pre-commits are specified in the `.pre-commit-config.yaml` file.
