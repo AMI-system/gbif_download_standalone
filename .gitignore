@@ -5,6 +5,12 @@ log_files/
 03_download_images/download_log_files
 03_download_images/data_stats_log_files
 
+data_stats_files
+
+helper_scripts/data_stats_log_files/
+helper_scripts/plots/
+
+
 *.py[cod]
 *$py.class
 
