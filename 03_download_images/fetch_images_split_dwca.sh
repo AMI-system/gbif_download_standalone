@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --account vjgo8416-amber
 #SBATCH --qos turing
-#SBATCH --time 04:00:00
+#SBATCH --time 24:00:00
 #SBATCH --nodes 1
 #SBATCH --cpus-per-task 36
 #SBATCH --mem=100G
@@ -23,11 +23,12 @@ conda activate "${CONDA_ENV_PATH}"
 
 # Execute your python programme
 python fetch_images_split_dwca.py \
-    --write_directory "../../../data/gbif_download_standalone/tests_gbif_images/" \
-    --occ_files "../../../data/gbif_download_standalone/dwca_preprocessed/occurrence_dataframes_20231018/" \
-    --media_file "../../../data/gbif_download_standalone/dwca_preprocessed/multimedia_lepidoptera_20231018.csv" \
-    --species_checklist "../species_checklists/costarica-moths-keys-nodup.csv" \
-    --use_parallel True \
-    --use_multiproc False \
+    --write_directory "/bask/projects/v/vjgo8416-amber/data/gbif_download_standalone/gbif_images/" \
+    --occ_files "/bask/projects/v/vjgo8416-amber/data/gbif_download_standalone/dwca_preprocessed/occurrence_dataframes_20231018/" \
+    --media_file "/bask/projects/v/vjgo8416-amber/data/gbif_download_standalone/dwca_preprocessed/multimedia_lepidoptera_20231018.csv" \
+    --species_checklist "/bask/homes/f/fspo1218/amber/projects/gbif_download_standalone/species_checklists/thailand-moths-keys-nodup.csv" \
     --max_data_sp 1000 \
-    --skip_non_adults True
+    --skip_non_adults
+
+
+# --rerun_nonzero

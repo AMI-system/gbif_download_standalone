@@ -1,4 +1,4 @@
-## Downloading the Darwin Core Archive files
+## 02. Downloading the Darwin Core Archive files
 
 Scripts in this repository use the Darwin Core Archive files to fetch images from GBIF.
 **This only needs to be done once for lepidoptera update**.

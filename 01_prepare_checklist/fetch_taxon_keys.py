@@ -62,6 +62,11 @@ def get_gbif_key_backbone(name_species, name_authority, place):
                                              strict=True,
                                              rank="species")
 
+    # try again with a more lenient search
+    if data["matchType"] == "NONE" or data["matchType"] == "HIGHERRANK":
+        data = species_api.name_backbone(name=name_species, strict=False, rank="species")
+        data['match_type'] = 'NOT STRICT'
+
     # add entries to the fields
     confidence = [data["confidence"]]
     match_type = [data["matchType"]]
