@@ -85,8 +85,6 @@ def setup_logger(logger_name, log_suffix):
 def fetch_image_data(i_taxon_key: int, rerun_nonzero: bool):
     """The main function to download images"""
 
-
-
     global skip_non_adults, max_data_sp, moth_data, write_directory, occ_files, \
         media_df, occurrence_logger, metadata_logger, image_logger
 
@@ -103,7 +101,7 @@ def fetch_image_data(i_taxon_key: int, rerun_nonzero: bool):
     # Count the number of images for this species
     image_count = 0
 
-    print('is file?: ', os.path.isfile(os.path.join(write_location, "meta_data.json")))
+    print('Existing meta_data.json file?: ', os.path.isfile(os.path.join(write_location, "meta_data.json")))
 
 
     # Does meta_data exist for this species?
@@ -121,7 +119,7 @@ def fetch_image_data(i_taxon_key: int, rerun_nonzero: bool):
 
         # Do we have enough images already
         print('image count >1000: ', image_count >= max_data_sp)
-        print('rerun nonzero and image count > 0: ', (not rerun_nonzero) & image_count > 0)
+        print('rerun nonzero and image count > 0: ' + str(rerun_nonzero) + str(image_count))
         if image_count >= max_data_sp:
             print(f"{species_name} has ENOUGH images, skipping", flush=True)
             return
@@ -306,7 +304,7 @@ def prep_and_read_files(args):
     print("Done reading the multimedia file!")
 
     # read species list
-    moth_data  = pd.read_csv(args.species_checklist).tail(1500)
+    moth_data  = pd.read_csv(args.species_checklist)
     taxon_keys = list(moth_data["accepted_taxon_key"])
     taxon_keys = [int(taxon) for taxon in taxon_keys]
 
