@@ -313,7 +313,6 @@ def prep_and_read_files(args):
 
     # read species list
     moth_data  = pd.read_csv(args.species_checklist)
-    moth_data = moth_data.iloc[940:]
     taxon_keys = list(moth_data["accepted_taxon_key"])
     taxon_keys = [int(taxon) for taxon in taxon_keys]
 
