@@ -107,35 +107,43 @@ def fetch_image_data(i_taxon_key: int, rerun_nonzero: bool):
     # Does meta_data exist for this species?
     if os.path.isfile(os.path.join(write_location, "meta_data.json")):
         # Load it
-        with open(os.path.join(write_location, "meta_data.json")) as file:
-            species_md = json.load(file)
+        # with open(os.path.join(write_location, "meta_data.json")) as file:
+        #     species_md = json.load(file)
+        try:
+            with open(os.path.join(write_location, "meta_data.json"), 'r') as file:
+                    species_md = json.load(file)
 
-        # Count the number of images for this species
-        count_md = 0
-        for key, value in species_md.items():
-            if value.get("image_is_downloaded"):
-                count_md += 1
-        image_count = count_md
+                    # Count the number of images for this species
+                    count_md = 0
+                    for key, value in species_md.items():
+                        if value.get("image_is_downloaded"):
+                            count_md += 1
+                    image_count = count_md
 
-        # Do we have enough images already
-        print('image count >1000: ', image_count >= max_data_sp)
-        print('rerun nonzero and image count > 0: ' + str(rerun_nonzero) + str(image_count))
-        if image_count >= max_data_sp:
-            print(f"{species_name} has ENOUGH images, skipping", flush=True)
-            return
-        elif (not rerun_nonzero) & image_count > 0: # So this should happen if there are > 0 images and we dont want to rerun (so we are skipping)
-            print(
-                f"{species_name} already has "
-                f"{image_count} images, skipping",
-                flush=True
-            )
-            return
-        else:
-            print(
-                f"Downloading for {species_name} which already has "
-                f"{image_count} images",
-                flush=True
-                )
+                    # Do we have enough images already
+                    print('image count >1000: ', image_count >= max_data_sp)
+                    print('rerun nonzero and image count > 0: ' + str(rerun_nonzero) + str(image_count))
+                    if image_count >= max_data_sp:
+                        print(f"{species_name} has ENOUGH images, skipping", flush=True)
+                        return
+                    elif (not rerun_nonzero) & image_count > 0: # So this should happen if there are > 0 images and we dont want to rerun (so we are skipping)
+                        print(
+                            f"{species_name} already has "
+                            f"{image_count} images, skipping",
+                            flush=True
+                        )
+                        return
+                    else:
+                        print(
+                            f"Downloading for {species_name} which already has "
+                            f"{image_count} images",
+                            flush=True
+                            )
+
+        except json.decoder.JSONDecodeError:
+                # Thing B: Perform operations if the file cannot be read
+                print(f"Corrupt JSON in file {species_name}/meta_data.json. Trying again")
+                species_md = {}
 
     else:
         # Create the metadata
@@ -305,6 +313,7 @@ def prep_and_read_files(args):
 
     # read species list
     moth_data  = pd.read_csv(args.species_checklist)
+    moth_data = moth_data.iloc[940:]
     taxon_keys = list(moth_data["accepted_taxon_key"])
     taxon_keys = [int(taxon) for taxon in taxon_keys]
 
