@@ -35,15 +35,64 @@ def get_gbif_key_backbone(name_species, name_authority, place):
     ]  # the name returned on search, can be different from the search
     status                  = ["NotAvail"]
     rank                    = ["NotAvail"]
+    subgenus                = ["NotAvail"]
+    tribe                   = ["NotAvail"]
+    class_name              = ["NotAvail"]
+    phylum                  = ["NotAvail"]
+    kingdom                 = ["NotAvail"]
     place                   = [place]
 
     # Perform the search
     data = species_api.name_backbone(name=name_species, strict=True, rank="species")
 
+
     # If searching using the "species_name_provided" did not return results, try
     # searching with a combination of "species_name_provided" and
     # "authority_name_provided"
     if data["matchType"] == "NONE" or data["matchType"] == "HIGHERRANK":
+
+        # catch the genus searches (sometimes coded Genus sp.)
+        if 'note' in data.keys() and 'Multiple equal matches|No match because of too little confidence' in data["note"]:
+
+            print("I think ", name_species,
+                  " is a genus. Searching genus entries")
+
+            data = species_api.name_suggest(q=name_species,
+                                             rank="species")
+
+            if "order" in data[0].keys():
+                order = [x["order"] for x in data]
+            if "family" in data[0].keys():
+                family = [x["family"] for x in data]
+            if "genus" in data[0].keys():
+                genus = [x["genus"] for x in data]
+            if "status" in data[0].keys():
+                status = [x["status"] for x in data]
+            if "rank" in data[0].keys():
+                rank = [x["rank"] for x in data]
+            if "subgenus" in data[0].keys():
+                subgenus = [x["subgenus"] for x in data]
+            if "tribe" in data[0].keys():
+                tribe = [x["tribe"] for x in data]
+            # if "phylum" in data[0].keys():
+            #     phylum = [x["phylum"] for x in data if x["phylum"] in ]
+            if "kingdom" in data[0].keys():
+                kingdom = [x["kingdom"] for x in data]
+            if "class" in data[0].keys():
+                class_name = [x["class"] for x in data]
+
+            if "species" in data[0].keys():
+                species_name_provided = [x["species"] for x in data]
+                gbif_species = species_name_provided
+                search_species = species_name_provided
+
+            acc_taxon_key = [x["key"] for x in data]
+            confidence = [0] * len(data)
+            match_type = ['NAME_SUGGEST'] * len(data)
+            authority_name_provided = [''] * len(data)
+            place = place * len(data)
+            status = status * len(data)
+
 
         # Try searching with the authority in the name as well
         if isinstance(name_authority, str):
@@ -63,37 +112,51 @@ def get_gbif_key_backbone(name_species, name_authority, place):
                                              rank="species")
 
     # try again with a more lenient search
-    if data["matchType"] == "NONE" or data["matchType"] == "HIGHERRANK":
-        data = species_api.name_backbone(name=name_species, strict=False, rank="species")
-        data['match_type'] = 'NOT STRICT'
+    # if data["matchType"] == "NONE" or data["matchType"] == "HIGHERRANK":
+    #     data = species_api.name_backbone(name=name_species, strict=False, rank="species")
+    #     data['match_type'] = 'NOT STRICT'
 
     # add entries to the fields
-    confidence = [data["confidence"]]
-    match_type = [data["matchType"]]
-    if "order" in data.keys():
-        order = [data["order"]]
-    if "family" in data.keys():
-        family = [data["family"]]
-    if "genus" in data.keys():
-        genus = [data["genus"]]
-    if "status" in data.keys():
-        status = [data["status"]]
-    if "rank" in data.keys():
-        rank = [data["rank"]]
+    if type(data) is dict:
+        confidence = [data["confidence"]]
+        match_type = [data["matchType"]]
 
-    # If data was matched on GBIF:
-    if data["matchType"] != "NONE" and data["matchType"] != "HIGHERRANK":
-        gbif_species = [data["species"]]
 
-        # If the search species was a taxonomic synonym of another species name which
-        # is the accepted scientific name, then the returned data will contain the
-        # "acceptedUsageKey" which corresponds to the taxonomic key of the accepted
-        # scientific name. Use that "acceptedUsageKey" in this case,
-        # otherwise, use the "usageKey"
-        if "acceptedUsageKey" in data.keys():
-            acc_taxon_key = [data["acceptedUsageKey"]]
-        else:
-            acc_taxon_key = [data["usageKey"]]
+        if "order" in data.keys():
+            order = [data["order"]]
+        if "family" in data.keys():
+            family = [data["family"]]
+        if "genus" in data.keys():
+            genus = [data["genus"]]
+        if "status" in data.keys():
+            status = [data["status"]]
+        if "rank" in data.keys():
+            rank = [data["rank"]]
+        if "subgenus" in data.keys():
+            subgenus = [data["subgenus"]]
+        if "tribe" in data.keys():
+            tribe = [data["tribe"]]
+        if "phylum" in data.keys():
+            phylum = [data["phylum"]]
+        if "kingdom" in data.keys():
+            kingdom = [data["kingdom"]]
+        if "class" in data.keys():
+            class_name = [data["class"]]
+
+        # If data was matched on GBIF:
+        if data["matchType"] != "NONE" and data["matchType"] != "HIGHERRANK":
+            gbif_species = [data["species"]]
+
+            # If the search species was a taxonomic synonym of another species name which
+            # is the accepted scientific name, then the returned data will contain the
+            # "acceptedUsageKey" which corresponds to the taxonomic key of the accepted
+            # scientific name. Use that "acceptedUsageKey" in this case,
+            # otherwise, use the "usageKey"
+            if "acceptedUsageKey" in data.keys():
+                acc_taxon_key = [data["acceptedUsageKey"]]
+            else:
+                acc_taxon_key = [data["usageKey"]]
+
 
     df = pd.DataFrame(
         list(
@@ -106,6 +169,11 @@ def get_gbif_key_backbone(name_species, name_authority, place):
                 authority_name_provided,
                 search_species,
                 gbif_species,
+                # subgenus,
+                # tribe,
+                # phylum,
+                # kingdom,
+                class_name,
                 confidence,
                 status,
                 match_type,
@@ -122,6 +190,11 @@ def get_gbif_key_backbone(name_species, name_authority, place):
             "authority_name_provided",
             "search_species_name",
             "gbif_species_name",
+            # "subgenus_name",
+            # "tribe_name",
+            # "phylum_name",
+            # "kingdom_name",
+            "class_name",
             "confidence",
             "status",
             "match_type",
@@ -155,6 +228,11 @@ def save_taxon_keys(args):
             "authority_name_provided",
             "search_species_name",
             "gbif_species_name",
+            "subgenus_name",
+            "tribe_name",
+            "phylum_name",
+            "kingdom_name",
+            "class_name",
             "confidence",
             "status",
             "match_type",
