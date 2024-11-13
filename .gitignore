@@ -10,6 +10,8 @@ data_stats_files
 helper_scripts/data_stats_log_files/
 helper_scripts/plots/
 
+species_checklists/
+.DS_Store
 
 *.py[cod]
 *$py.class
