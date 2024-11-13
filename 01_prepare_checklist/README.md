@@ -5,11 +5,11 @@
 Once you receive a species checklist from CEH, the provided species names must be checked against the GBIF backbone.
 
 ### 1. Preprocess the checklist:
-Run `preprocess_species_list.ipynb` to load the checklist and modify the species and authority columns in a way expected by subsequent scripts.
+Run `01_preprocess_species_list.ipynb` to load the checklist and modify the species and authority columns in a way expected by subsequent scripts.
 
 ### 2. Fetch taxonomic keys from GBIF
 
-For quickly calling the `fetch_taxon_keys.py`, use `fetch_taxon_keys_wrapper.ipynb` where you can define and modify the arguments.
+For quickly calling the `fetch_taxon_keys.py`, use `02_fetch_taxon_keys_wrapper.ipynb` where you can define and modify the arguments. Otherwise you can use `02_fetch_taxon_keys.sh` for slurm calls.
 
 ```sh
 python fetch_taxon_keys.py \
@@ -29,15 +29,12 @@ The description of the arguments to the script:
 * `--place`: A placeholder name which identifies the source of the species list - important when combining multiple lists. **Required**.
 * `--use_multithreading`: Whether or not to use multithreading when checking the names. Number of workers are set to max=2, due to API call limitations. **Required**.
 
-
-### 3. Cross check with CEH
-
 Check the resulting checklist with CEH, by sharing it as a google docs file. They should confirm that any species not found on GBIF were spelled correctly, and any FUZZY matches are correct.
 
-### 4. Remove duplicate species and species not on GBIF
+### 3. Remove duplicate species and species not on GBIF
 
 Species often have synonyms, and checklist often contain accepted species names along with their synonyms. If run as is, images for both will be downloaded in a folder named according to the accepted species name, needlessly duplicating the process.
 
-Run `remove_duplicate_species.ipynb` to identify duplicate rows and remove them, so images are downloaded only once per species.
+Run `03_remove_duplicate_species.ipynb` to identify duplicate rows and remove them, so images are downloaded only once per species.
 
 The code also removes rows for species that are not available on GBIF, so that the downstream code that downloads GBIF images does not needlessly loop over them.

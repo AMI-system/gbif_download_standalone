@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --account vjgo8416-amber
 #SBATCH --qos turing
-#SBATCH --time 02:00:00
+#SBATCH --time 10:00:00
 #SBATCH --nodes 1
 #SBATCH --cpus-per-task 36
 #SBATCH --mem=5G
@@ -28,7 +28,7 @@ export CONDA_ENV_PATH="/bask/projects/v/vjgo8416-amber/conda_envs/gbif_download_
 conda activate "${CONDA_ENV_PATH}"
 
 # Execute your python programme
-regions=("madagascar" "japan" "kenya-uganda" "nigeria")
+regions=("madagascar" "japan" "kenya-uganda" "nigeria" "costarica")
 
 for region in "${regions[@]}"; do
     echo "$region"
@@ -42,4 +42,3 @@ for region in "${regions[@]}"; do
     --place Leeds13Nov2024 \
     --use_multithreading True
 done
-
