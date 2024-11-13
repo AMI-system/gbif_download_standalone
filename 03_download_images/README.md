@@ -72,7 +72,6 @@ Description of the arguments to the script:
 sbatch fetch_images_split_dwca.sh
 ```
 
-
 ### 2. calculate_data_statistics.py
 
 ```bash

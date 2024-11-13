@@ -304,7 +304,7 @@ def prep_and_read_files(args):
     write_directory = args.write_directory
     occ_files       = args.occ_files
 
-    print(args)
+
 
     # Read the multimedia file
     print("Reading the multimedia file...")
@@ -332,6 +332,7 @@ def prep_and_read_files(args):
     if args.use_parallel:
         # If using multiprocessing (not set up)
         if args.use_multiproc:
+
             try:
                 with ProcessPoolExecutor() as executor:
 
@@ -342,6 +343,7 @@ def prep_and_read_files(args):
 
         # If using multithreading
         else:
+
             with ThreadPoolExecutor() as executor:
 
                 executor.map(fetch_image_data, taxon_keys)
@@ -350,6 +352,7 @@ def prep_and_read_files(args):
     else:
         for i_taxon_key in taxon_keys:
             print(f"Calling for {i_taxon_key}")
+
             fetch_image_data(i_taxon_key, rerun_nonzero)
 
     end = time.time()
@@ -393,9 +396,11 @@ if __name__ == "__main__":
     parser.add_argument(
         "--rerun_nonzero", help="download images when already non-zero downloaded",
         default=False, action='store_true'
+
     )
 
     args = parser.parse_args()
 
     print(args)
+
     prep_and_read_files(args)

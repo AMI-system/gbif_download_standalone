@@ -45,7 +45,6 @@ def get_gbif_key_backbone(name_species, name_authority, place):
     # Perform the search
     data = species_api.name_backbone(name=name_species, strict=True, rank="species")
 
-
     # If searching using the "species_name_provided" did not return results, try
     # searching with a combination of "species_name_provided" and
     # "authority_name_provided"
@@ -111,6 +110,7 @@ def get_gbif_key_backbone(name_species, name_authority, place):
                                              strict=True,
                                              rank="species")
 
+
     # try again with a more lenient search
     # if data["matchType"] == "NONE" or data["matchType"] == "HIGHERRANK":
     #     data = species_api.name_backbone(name=name_species, strict=False, rank="species")
@@ -156,7 +156,6 @@ def get_gbif_key_backbone(name_species, name_authority, place):
                 acc_taxon_key = [data["acceptedUsageKey"]]
             else:
                 acc_taxon_key = [data["usageKey"]]
-
 
     df = pd.DataFrame(
         list(
