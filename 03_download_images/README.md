@@ -16,7 +16,7 @@ Finally, once images are downloaded, use `calculate_data_stats.py` to create a c
 
 ## 1. Fetching the Images
 
-As mentioned, there are two options for this. The following
+As mentioned, there are two options for this. **We recommend option B**, below:
 
 ### A. fetch_images_whole_dwca.py
 
@@ -65,6 +65,12 @@ Description of the arguments to the script:
 * `--use_multiproc`: If `--use-parallel` is True, use either multithreading or multiprocessing. Multiprocessing does not currently work, although the code is set up to be adapted for it. **Required**
 * `--max_data_sp`: Maximum number of images to download per species. **Required**
 * `--skip_non_adults`: If True, download only images where the `lifeStage` field is either `adult` or empty, i.e. skip all non-adult life stages. **Required**
+
+#### Running with Slurm
+
+```bash
+sbatch fetch_images_split_dwca.sh
+```
 
 ### 2. calculate_data_statistics.py
 

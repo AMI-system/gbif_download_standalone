@@ -98,41 +98,52 @@ def fetch_image_data(i_taxon_key: int, rerun_nonzero: bool):
         write_directory, family_name, genus_name, species_name
         )
 
-    # print("Write location is:", write_location)
-
     # Count the number of images for this species
     image_count = 0
+
+    print('Existing meta_data.json file?: ', os.path.isfile(os.path.join(write_location, "meta_data.json")))
+
 
     # Does meta_data exist for this species?
     if os.path.isfile(os.path.join(write_location, "meta_data.json")):
         # Load it
-        with open(os.path.join(write_location, "meta_data.json")) as file:
-            species_md = json.load(file)
+        # with open(os.path.join(write_location, "meta_data.json")) as file:
+        #     species_md = json.load(file)
+        try:
+            with open(os.path.join(write_location, "meta_data.json"), 'r') as file:
+                    species_md = json.load(file)
 
-        # Count the number of images for this species
-        count_md = 0
-        for key, value in species_md.items():
-            if value.get("image_is_downloaded"):
-                count_md += 1
-        image_count = count_md
+                    # Count the number of images for this species
+                    count_md = 0
+                    for key, value in species_md.items():
+                        if value.get("image_is_downloaded"):
+                            count_md += 1
+                    image_count = count_md
 
-        # Do we have enough images already
-        if image_count >= max_data_sp:
-            print(f"{species_name} has ENOUGH images, skipping", flush=True)
-            return
-        elif (~rerun_nonzero) & image_count > 0:
-            print(
-                f"{species_name} already has "
-                f"{image_count} images, skipping",
-                flush=True
-            )
-            return
-        else:
-            print(
-                f"Downloading for {species_name} which already has "
-                f"{image_count} images",
-                flush=True
-                )
+                    # Do we have enough images already
+                    print('image count >1000: ', image_count >= max_data_sp)
+                    print('rerun nonzero and image count > 0: ' + str(rerun_nonzero) + str(image_count))
+                    if image_count >= max_data_sp:
+                        print(f"{species_name} has ENOUGH images, skipping", flush=True)
+                        return
+                    elif (not rerun_nonzero) & image_count > 0: # So this should happen if there are > 0 images and we dont want to rerun (so we are skipping)
+                        print(
+                            f"{species_name} already has "
+                            f"{image_count} images, skipping",
+                            flush=True
+                        )
+                        return
+                    else:
+                        print(
+                            f"Downloading for {species_name} which already has "
+                            f"{image_count} images",
+                            flush=True
+                            )
+
+        except json.decoder.JSONDecodeError:
+                # Thing B: Perform operations if the file cannot be read
+                print(f"Corrupt JSON in file {species_name}/meta_data.json. Trying again")
+                species_md = {}
 
     else:
         # Create the metadata
@@ -293,6 +304,8 @@ def prep_and_read_files(args):
     write_directory = args.write_directory
     occ_files       = args.occ_files
 
+
+
     # Read the multimedia file
     print("Reading the multimedia file...")
     media_df = pd.read_csv(args.media_file)
@@ -302,6 +315,7 @@ def prep_and_read_files(args):
     moth_data  = pd.read_csv(args.species_checklist)
     taxon_keys = list(moth_data["accepted_taxon_key"])
     taxon_keys = [int(taxon) for taxon in taxon_keys]
+
 
     # Setup logger
     setup_logger('occurrence_logger', 'occurrence_log')  # If no occurrence.csv
@@ -316,7 +330,6 @@ def prep_and_read_files(args):
     begin = time.time()
 
     if args.use_parallel:
-
         # If using multiprocessing (not set up)
         if args.use_multiproc:
 
@@ -337,9 +350,9 @@ def prep_and_read_files(args):
 
     # If doing in a for loop
     else:
-
         for i_taxon_key in taxon_keys:
-            # print(f"Calling for {i_taxon_key}")
+            print(f"Calling for {i_taxon_key}")
+
             fetch_image_data(i_taxon_key, rerun_nonzero)
 
     end = time.time()
@@ -367,23 +380,27 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--use_parallel", help="use multithreading/multiprocessing or not",
-        required=True
+        default=False, action='store_true'
     )
     parser.add_argument(
-        "--use_multiproc", help="use multiprocessing or not", required=True
+        "--use_multiproc", help="use multiprocessing or not",
+        default=False, action='store_true'
     )
     parser.add_argument(
         "--max_data_sp", help="number of images per species", required=True
     )
     parser.add_argument(
         "--skip_non_adults", help="get only images labeled as adult or with no label",
-        required=True
+        default=False, action='store_true'
     )
     parser.add_argument(
         "--rerun_nonzero", help="download images when already non-zero downloaded",
-        required=True
+        default=False, action='store_true'
+
     )
 
     args = parser.parse_args()
+
+    print(args)
 
     prep_and_read_files(args)

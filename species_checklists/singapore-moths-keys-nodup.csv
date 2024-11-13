@@ -1,0 +1,1276 @@
+accepted_taxon_key,order_name,family_name,genus_name,species_name_provided,authority_name_provided,search_species_name,gbif_species_name,confidence,status,match_type,rank,source
+1860942,Lepidoptera,Adelidae,Nemophora,Nemophora aurisparsella,,Nemophora aurisparsella,Nemophora aurisparsella,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1860786,Lepidoptera,Adelidae,Nemophora,Nemophora decisella,"Walker, 1863",Nemophora decisella,Nemophora decisella,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1830702,Lepidoptera,Attevidae,Atteva,Atteva fabriciella,,Atteva fabriciella,Atteva fabriciella,99,ACCEPTED,EXACT,SPECIES,London06October2023
+9004359,Lepidoptera,Attevidae,Atteva,Atteva wallengreni,,Atteva wallengreni,Atteva wallengreni,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11537408,Lepidoptera,Bombycidae,Gunda,Gunda subnotata,"Walker,1859",Gunda subnotata,Gunda subnotata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1868409,Lepidoptera,Bombycidae,Ocinara,Ocinara albicollis,,Ocinara albicollis,Ocinara albicollis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1868499,Lepidoptera,Bombycidae,Penicillifera,Penicillifera apicalis,,Penicillifera apicalis,Penicillifera apicalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+4702564,Lepidoptera,Bombycidae,Trilocha,Trilocha varians,"Walker, 1865",Trilocha varians,Trilocha varians,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6217651,Lepidoptera,Brachodidae,Phycodes,Nigilgia anactis,,Nigilgia anactis,Phycodes limata,99,SYNONYM,EXACT,SPECIES,London06October2023
+5141344,Lepidoptera,Callidulidae,Tetragonus,Tetragonus catamitus,"Geyer,1832",Tetragonus catamitus,Tetragonus catamitus,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11560272,Lepidoptera,Callidulidae,Tetragonus,Tetragonus lycaenoides,,Tetragonus lycaenoides,Tetragonus lycaenoides,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5123489,Lepidoptera,Choreutidae,Anthophila,Choreutis amethystodes,,Choreutis amethystodes,Anthophila amethystodes,99,SYNONYM,EXACT,SPECIES,London06October2023
+5880040,Lepidoptera,Choreutidae,Choreutis,Choreutis basalis,,Choreutis basalis,Choreutis basalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5123523,Lepidoptera,Choreutidae,Anthophila,Choreutis emplecta,,Choreutis emplecta,Anthophila emplecta,99,SYNONYM,EXACT,SPECIES,London06October2023
+5880041,Lepidoptera,Choreutidae,Choreutis,Choreutis ophiosema,"Lower, 1896",Choreutis ophiosema,Choreutis ophiosema,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6132546,Lepidoptera,Choreutidae,Choreutis,Choreutis orthogona,"Meyrick, 1886",Choreutis orthogona,Choreutis orthogona,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10361029,Lepidoptera,Choreutidae,Choreutis,Choreutis periploca,,Choreutis periploca,Choreutis periploca,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5123419,Lepidoptera,Choreutidae,Choreutis,Choreutis sexfasciella,,Choreutis sexfasciella,Choreutis sexfasciella,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5123485,Lepidoptera,Choreutidae,Anthophila,Choreutis xanthogramma,,Choreutis xanthogramma,Anthophila xanthogramma,99,SYNONYM,EXACT,SPECIES,London06October2023
+1860261,Lepidoptera,Choreutidae,Saptha,Saptha beryllitis,"Meyrick,1910",Saptha beryllitis,Saptha pretiosa,99,SYNONYM,EXACT,SPECIES,London06October2023
+1860259,Lepidoptera,Choreutidae,Saptha,Saptha exanthista,"Meyrick,1910",Saptha exanthista,Saptha exanthista,99,ACCEPTED,EXACT,SPECIES,London06October2023
+9755262,Lepidoptera,Cosmopterigidae,Gisilia,Gisilia thoracista,,Gisilia thoracista,Gisilia thoracista,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1843490,Lepidoptera,Cosmopterigidae,Labdia,Labdia stibogramma,"Meyrick,1924",Labdia stibogramma,Labdia stibogramma,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1843319,Lepidoptera,Cosmopterigidae,Macrobathra,Macrobathra hedrastis,,Macrobathra hedrastis,Macrobathra hedrastis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11714817,Lepidoptera,Cossidae,Bergaris,Bergaris lutescens,"Roepke,1957",Bergaris lutescens,Bergaris lutescens,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10183605,Lepidoptera,Cossidae,Bergaris,Bergaris malayica,,Bergaris malayica,Bergaris malayica,99,ACCEPTED,EXACT,SPECIES,London06October2023
+8008237,Lepidoptera,Cossidae,Duomitus,Duomitus ceramica,"Walker, 1865",Duomitus ceramica,Duomitus ceramicus,97,ACCEPTED,FUZZY,SPECIES,London06October2023
+7933193,Lepidoptera,Cossidae,Neurozerra,Neurozerra conferta,,Neurozerra conferta,Neurozerra conferta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+8332109,Lepidoptera,Cossidae,Panau,Panau adusta,,Panau adusta,Panau adusta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+9943276,Lepidoptera,Cossidae,Panau,Panau quarlesi,,Panau quarlesi,Panau quarlesi,99,ACCEPTED,EXACT,SPECIES,London06October2023
+7879559,Lepidoptera,Cossidae,Zeurrora,Zeuzera indica,,Zeuzera indica,Zeurrora indica,99,SYNONYM,EXACT,SPECIES,London06October2023
+1872359,Lepidoptera,Crambidae,Cataclysta,Cataclysta angulata,"Moore, 1885",Cataclysta angulata,Cataclysta angulata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1884132,Lepidoptera,Crambidae,Nymphula,Elophila manilensis,"Hampson, 1917",Elophila manilensis,Nymphula manilensis,99,SYNONYM,EXACT,SPECIES,London06October2023
+1887538,Lepidoptera,Crambidae,Eristena,Eristena mangalis,,Eristena mangalis,Eristena mangalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1890261,Lepidoptera,Crambidae,Nymphicula,Nymphicula blandialis,,Nymphicula blandialis,Nymphicula blandialis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1880482,Lepidoptera,Crambidae,Paracataclysta,Paracataclysta fuscalis,"Hampson, 1893",Paracataclysta fuscalis,Paracataclysta fuscalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1884428,Lepidoptera,Crambidae,Parapoynx,Parapoynx allionealis,,Parapoynx allionealis,Parapoynx allionealis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1884441,Lepidoptera,Crambidae,Parapoynx,Parapoynx bilinealis,,Parapoynx bilinealis,Parapoynx bilinealis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1884461,Lepidoptera,Crambidae,Parapoynx,Parapoynx crisonalis,,Parapoynx crisonalis,Parapoynx crisonalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1884479,Lepidoptera,Crambidae,Parapoynx,Parapoynx diminutalis,"Snellen,1880",Parapoynx diminutalis,Parapoynx diminutalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1884437,Lepidoptera,Crambidae,Parapoynx,Parapoynx fluctuosalis,,Parapoynx fluctuosalis,Parapoynx fluctuosalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1884449,Lepidoptera,Crambidae,Parapoynx,Parapoynx stagnalis,"Zeller, 1852",Parapoynx stagnalis,Parapoynx stagnalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1884434,Lepidoptera,Crambidae,Parapoynx,Parapoynx villidalis,,Parapoynx villidalis,Parapoynx villidalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1885569,Lepidoptera,Crambidae,Strepsinoma,Strepsinoma croesusalis,,Strepsinoma croesusalis,Strepsinoma croesusalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5127158,Lepidoptera,Crambidae,Symphonia,Symphonia multipictalis,,Symphonia multipictalis,Symphonia multipictalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1890218,Lepidoptera,Crambidae,Calamotropha,Calamotropha obliterans,,Calamotropha obliterans,Calamotropha obliterans,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1881515,Lepidoptera,Crambidae,Culladia,Culladia hastiferalis,"Walker,1865",Culladia hastiferalis,Culladia hastiferalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1891201,Lepidoptera,Crambidae,Euchromius,Euchromius pygmaea,,Euchromius pygmaea,Euchromius pygmaea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1884628,Lepidoptera,Crambidae,Glaucocharis,Glaucocharis margretella,,Glaucocharis margretella,Glaucocharis margretella,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1884560,Lepidoptera,Crambidae,Glaucocharis,Glaucocharis subalbilinealis,,Glaucocharis subalbilinealis,Glaucocharis subalbilinealis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1884671,Lepidoptera,Crambidae,Erpis,Erpis macularis,,Erpis macularis,Erpis macularis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1879408,Lepidoptera,Crambidae,Hellula,Hellula undalis,,Hellula undalis,Hellula undalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1889128,Lepidoptera,Crambidae,Ambia,Ambia decoralis,"Snellen, 1900",Ambia decoralis,Ambia decoralis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1888454,Lepidoptera,Pyralidae,Drosophantis,Drosophantis caeruleata,,Drosophantis caeruleata,Drosophantis caeruleata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1890067,Lepidoptera,Pyralidae,Musotima,Musotima suffusalis,,Musotima suffusalis,Musotima suffusalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10008949,Lepidoptera,Pyralidae,Neomusotima,Neomusotima conspurcatalis,,Neomusotima conspurcatalis,Neomusotima conspurcatalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1885745,Lepidoptera,Crambidae,Autocharis,Autocharis amethystina,"Swinhoe, 1894",Autocharis amethystina,Autocharis fessalis,99,SYNONYM,EXACT,SPECIES,London06October2023
+1885763,Lepidoptera,Crambidae,Autocharis,Autocharis hedyphaes,,Autocharis hedyphaes,Autocharis hedyphaes,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1885661,Lepidoptera,Crambidae,Balaenifrons,Balaenifrons ochrochroa,,Balaenifrons ochrochroa,Balaenifrons ochrochroa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1885671,Lepidoptera,Crambidae,Boeotarcha,Boeotarcha martinalis,,Boeotarcha martinalis,Boeotarcha martinalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1883873,Lepidoptera,Crambidae,Hemiscopis,Hemiscopis sanguinea,,Hemiscopis sanguinea,Hemiscopis sanguinea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1890031,Lepidoptera,Crambidae,Heortia,Heortia vitessoides,,Heortia vitessoides,Heortia vitessoides,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1886036,Lepidoptera,Crambidae,Pitama,Pitama hermesalis,,Pitama hermesalis,Pitama hermesalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1884421,Lepidoptera,Crambidae,Pseudonoorda,Pseudonoorda nigropunctalis,"Hampson, 1899",Pseudonoorda nigropunctalis,Pseudonoorda nigropunctalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1880353,Lepidoptera,Crambidae,Syntonarcha,Syntonarcha iriastis,,Syntonarcha iriastis,Syntonarcha iriastis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1889578,Lepidoptera,Crambidae,Taurometopa,Taurometopa pyrometalla,,Taurometopa pyrometalla,Taurometopa pyrometalla,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1881336,Lepidoptera,Crambidae,Agrioglypta,Agrioglypta itysalis,"Walker, 1859",Agrioglypta itysalis,Agrioglypta itysalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1884902,Lepidoptera,Crambidae,Botyodes,Botyodes caldusalis,"Walker, 1859",Botyodes caldusalis,Botyodes caldusalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1890335,Lepidoptera,Crambidae,Cnaphalocrocis,Cnaphalocrocis poeyalis,"Boisduval, 1833",Cnaphalocrocis poeyalis,Cnaphalocrocis poeyalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1879141,Lepidoptera,Crambidae,Crypsiptya,Crypsiptya coclesalis,"Walker, 1859",Crypsiptya coclesalis,Crypsiptya coclesalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1887681,Lepidoptera,Crambidae,Erinothus,Erinothus lollialis,,Erinothus lollialis,Erinothus lollialis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5127402,Lepidoptera,Crambidae,Hoplisa,Hoplisa xipharesalis,"Walker,1859",Hoplisa xipharesalis,Hoplisa xipharesalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6133158,Lepidoptera,Crambidae,Isocentris,Isocentris filalis,,Isocentris filalis,Isocentris filalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1889358,Lepidoptera,Crambidae,Mabra,Mabra nigriscripta,,Mabra nigriscripta,Mabra nigriscripta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1884870,Lepidoptera,Crambidae,Pagyda,Pagyda furcatalis,,Pagyda furcatalis,Pagyda furcatalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1884869,Lepidoptera,Crambidae,Pagyda,Pagyda lustralis,,Pagyda lustralis,Pagyda lustralis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1884844,Lepidoptera,Crambidae,Pagyda,Pagyda salvalis,,Pagyda salvalis,Pagyda salvalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1882753,Lepidoptera,Crambidae,Prooedema,Prooedema inscisalis,,Prooedema inscisalis,Prooedema inscisalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1891583,Lepidoptera,Crambidae,Pycnarmon,Pycnarmon cribrata,"Fabricius, 1794",Pycnarmon cribrata,Pycnarmon cribrata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1882313,Lepidoptera,Crambidae,Pyralausta,Pyralausta bivialis,,Pyralausta bivialis,Pyralausta bivialis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1890410,Lepidoptera,Crambidae,Pyrausta,Pyrausta phoenicealis,,Pyrausta phoenicealis,Pyrausta phoenicealis,98,ACCEPTED,EXACT,SPECIES,London06October2023
+1885945,Lepidoptera,Crambidae,Rhimphaliodes,Rhimphaliodes macrostigma,"Hampson, 1893",Rhimphaliodes macrostigma,Rhimphaliodes macrostigma,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10145421,Lepidoptera,Crambidae,Symmoracma,Symmoracma minoralis,"Snellen, 1880",Symmoracma minoralis,Symmoracma minoralis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1882272,Lepidoptera,Crambidae,Tatobotys,Tatobotys janapalis,"Walker, 1859",Tatobotys janapalis,Tatobotys janapalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1882275,Lepidoptera,Crambidae,Tatobotys,Tatobotys varanesalis,"Walker,1858",Tatobotys varanesalis,Tatobotys varanesalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1889365,Lepidoptera,Crambidae,Tetridia,Tetridia vinacealis,,Tetridia vinacealis,Tetridia caletoralis,99,SYNONYM,EXACT,SPECIES,London06October2023
+1881293,Lepidoptera,Crambidae,Scirpophaga,Scirpophaga incertulas,,Scirpophaga incertulas,Scirpophaga incertulas,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1880858,Lepidoptera,Crambidae,Aethaloessa,Aethaloessa calidalis,,Aethaloessa calidalis,Aethaloessa calidalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1878744,Lepidoptera,Crambidae,Aetholix,Aetholix flavibasalis,,Aetholix flavibasalis,Aetholix flavibasalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1881329,Lepidoptera,Crambidae,Agrioglypta,Agrioglypta eurytusalis,,Agrioglypta eurytusalis,Agrioglypta eurytusalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1881320,Lepidoptera,Crambidae,Agrioglypta,Agrioglypta excelsalis,,Agrioglypta excelsalis,Agrioglypta excelsalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1881340,Lepidoptera,Crambidae,Agrioglypta,Agrioglypta zelimalis,,Agrioglypta zelimalis,Agrioglypta zelimalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1891341,Lepidoptera,Crambidae,Agrotera,Agrotera barcealis,"Walker, 1859",Agrotera barcealis,Agrotera barcealis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1891339,Lepidoptera,Crambidae,Agrotera,Agrotera basinotata,,Agrotera basinotata,Agrotera basinotata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1878664,Lepidoptera,Crambidae,Ategumia,Ategumia adipalis,,Ategumia adipalis,Ategumia adipalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1884051,Lepidoptera,Crambidae,Bocchoris,Bocchoris inspersalis,,Bocchoris inspersalis,Bocchoris inspersalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1884053,Lepidoptera,Crambidae,Bocchoris,Bocchoris trimaculalis,,Bocchoris trimaculalis,Bocchoris trimaculalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1884909,Lepidoptera,Crambidae,Botyodes,Botyodes asialis,,Botyodes asialis,Botyodes asialis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1885835,Lepidoptera,Crambidae,Bradina,Bradina adhaesalis,,Bradina adhaesalis,Bradina adhaesalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1885836,Lepidoptera,Crambidae,Bradina,Bradina admixtalis,,Bradina admixtalis,Bradina admixtalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1885889,Lepidoptera,Crambidae,Bradina,Bradina macaralis,,Bradina macaralis,Bradina macaralis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1888403,Lepidoptera,Crambidae,Caprinia,Caprinia cirralis,,Caprinia cirralis,Caprinia cirralis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6133154,Lepidoptera,Crambidae,Chabula,Chabula acamasalis,,Chabula acamasalis,Chabula acamasalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1884075,Lepidoptera,Crambidae,Bocchoris,Chabula telphusalis,,Chabula telphusalis,Bocchoris telphusalis,99,SYNONYM,EXACT,SPECIES,London06October2023
+1883932,Lepidoptera,Crambidae,Chalcidoptera,Chalcidoptera appensalis,"Snellen, 1884",Chalcidoptera appensalis,Chalcidoptera appensalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1883935,Lepidoptera,Crambidae,Chalcidoptera,Chalcidoptera emissalis,,Chalcidoptera emissalis,Chalcidoptera emissalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1888906,Lepidoptera,Crambidae,Cirrhochrista,Cirrhochrista annulifera,,Cirrhochrista annulifera,Cirrhochrista annulifera,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1888911,Lepidoptera,Crambidae,Cirrhochrista,Cirrhochrista fumipalpis,,Cirrhochrista fumipalpis,Cirrhochrista fumipalpis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5734199,Lepidoptera,Crambidae,Cirrhochrista,Cirrhochrista fuscusa,,Cirrhochrista fuscusa,Cirrhochrista fuscusa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1888891,Lepidoptera,Crambidae,Cirrhochrista,Cirrhochrista kosemponialis,,Cirrhochrista kosemponialis,Cirrhochrista kosemponialis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1890320,Lepidoptera,Crambidae,Cnaphalocrocis,Cnaphalocrocis medinalis,,Cnaphalocrocis medinalis,Cnaphalocrocis medinalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1890287,Lepidoptera,Crambidae,Cnaphalocrocis,Cnaphalocrocis trebiusalis,"Walker, 1859",Cnaphalocrocis trebiusalis,Cnaphalocrocis trebiusalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10472365,Lepidoptera,Crambidae,Conogethes,Conogethes ersealis,,Conogethes ersealis,Conogethes ersealis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+4532125,Lepidoptera,Crambidae,Conogethes,Conogethes punctiferalis,"Guenée, 1854",Conogethes punctiferalis,Conogethes punctiferalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1884890,Lepidoptera,Crambidae,Cydalima,Cydalima laticostalis,"Saunders, 1851",Cydalima laticostalis,Cydalima laticostalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5771877,Lepidoptera,Crambidae,Diaphania,Diaphania indica,"Saunders, 1851",Diaphania indica,Diaphania indica,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1887691,Lepidoptera,Crambidae,Diasemia,Diasemia accalis,"Walker, 1859",Diasemia accalis,Diasemia accalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1883788,Lepidoptera,Crambidae,Dichocrocis,Dichocrocis xuthusalis,,Dichocrocis xuthusalis,Dichocrocis xuthusalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1879452,Lepidoptera,Crambidae,Duponchelia,Duponchelia fovealis,,Duponchelia fovealis,Duponchelia fovealis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1889277,Lepidoptera,Crambidae,Eurrhyparodes,Eurrhyparodes bracteolalis,,Eurrhyparodes bracteolalis,Eurrhyparodes bracteolalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1889272,Lepidoptera,Crambidae,Eurrhyparodes,Eurrhyparodes tricoloralis,"Zeller,1852",Eurrhyparodes tricoloralis,Eurrhyparodes tricoloralis,98,ACCEPTED,EXACT,SPECIES,London06October2023
+1885012,Lepidoptera,Crambidae,Filodes,Filodes fulvidorsalis,"Geyer in Hübner, 1832",Filodes fulvidorsalis,Filodes fulvidorsalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5127592,Lepidoptera,Crambidae,Glyphodes,Glyphodes actorionalis,,Glyphodes actorionalis,Glyphodes actorionalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5127675,Lepidoptera,Crambidae,Glyphodes,Glyphodes bicolor,,Glyphodes bicolor,Glyphodes bicolor,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5127669,Lepidoptera,Crambidae,Glyphodes,Glyphodes bivitralis,,Glyphodes bivitralis,Glyphodes bivitralis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5127698,Lepidoptera,Crambidae,Glyphodes,Glyphodes caesalis,,Glyphodes caesalis,Glyphodes caesalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5127629,Lepidoptera,Crambidae,Glyphodes,Glyphodes canthusalis,,Glyphodes canthusalis,Glyphodes canthusalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5127554,Lepidoptera,Crambidae,Glyphodes,Glyphodes multilinealis,,Glyphodes multilinealis,Glyphodes multilinealis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5802339,Lepidoptera,Crambidae,Glyphodes,Glyphodes onychinalis,,Glyphodes onychinalis,Glyphodes onychinalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5127633,Lepidoptera,Crambidae,Glyphodes,Glyphodes phytonalis,,Glyphodes phytonalis,Glyphodes phytonalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1882965,Lepidoptera,Crambidae,Herpetogramma,Herpetogramma licarsisalis,"Walker,1859",Herpetogramma licarsisalis,Herpetogramma licarsisalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1882960,Lepidoptera,Crambidae,Herpetogramma,Herpetogramma phaeopteralis,,Herpetogramma phaeopteralis,Herpetogramma phaeopteralis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1882991,Lepidoptera,Crambidae,Herpetogramma,Herpetogramma rudis,"Warren, 1892",Herpetogramma rudis,Herpetogramma rudis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1879471,Lepidoptera,Crambidae,Hydriris,Hydriris ornatalis,"Duponchel,1832",Hydriris ornatalis,Hydriris ornatalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1886374,Lepidoptera,Crambidae,Hymenia,Hymenia perspectalis,,Hymenia perspectalis,Hymenia perspectalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1881089,Lepidoptera,Crambidae,Hymenoptychis,Hymenoptychis sordida,,Hymenoptychis sordida,Hymenoptychis sordida,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1887586,Lepidoptera,Crambidae,Ischnurges,Ischnurges gratiosalis,"Walker, 1859",Ischnurges gratiosalis,Ischnurges gratiosalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1891636,Lepidoptera,Crambidae,Lamprosema,Lamprosema tampiusalis,"Walker,1859",Lamprosema tampiusalis,Lamprosema tampiusalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1889552,Lepidoptera,Crambidae,Leucinodes,Leucinodes orbonalis,,Leucinodes orbonalis,Leucinodes orbonalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+9294363,Lepidoptera,Crambidae,Lipararchis,Lipararchis tranquillalis,,Lipararchis tranquillalis,Lipararchis tranquillalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1889356,Lepidoptera,Crambidae,Mabra,Mabra eryxalis,"Walker, 1859",Mabra eryxalis,Mabra eryxalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+7543006,Lepidoptera,Crambidae,Cnaphalocrocis,Marasmia trapezalis,,Marasmia trapezalis,Marasmia trapezalis,98,DOUBTFUL,EXACT,SPECIES,London06October2023
+1886726,Lepidoptera,Crambidae,Maruca,Maruca amboinalis,,Maruca amboinalis,Maruca amboinalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1886733,Lepidoptera,Crambidae,Maruca,Maruca fuscalis,,Maruca fuscalis,Maruca fuscalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1886729,Lepidoptera,Crambidae,Maruca,Maruca vitrata,"Fabricius, 1787",Maruca vitrata,Maruca vitrata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6121010,Lepidoptera,Crambidae,Metoeca,Metoeca foedalis,"Guenée,1854",Metoeca foedalis,Metoeca foedalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6120803,Lepidoptera,Crambidae,Nacoleia,Nacoleia charesalis,,Nacoleia charesalis,Nacoleia charesalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+9996909,Lepidoptera,Crambidae,Nacoleia,Nacoleia obliqualis,,Nacoleia obliqualis,Nacoleia obliqualis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1880852,Lepidoptera,Crambidae,Nevrina,Nevrina procopia,,Nevrina procopia,Nevrina procopia,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1883394,Lepidoptera,Crambidae,Niphopyralis,Niphopyralis chionesis,,Niphopyralis chionesis,Niphopyralis chionesis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1885263,Lepidoptera,Crambidae,Notarcha,Notarcha aurolinealis,"Walker, 1859",Notarcha aurolinealis,Notarcha aurolinealis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5126635,Lepidoptera,Crambidae,Omiodes,Omiodes diemenalis,"Guenée,1854",Omiodes diemenalis,Omiodes diemenalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+9893138,Lepidoptera,Crambidae,Omiodes,Omiodes dispilotalis,,Omiodes dispilotalis,Omiodes dispilotalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5126637,Lepidoptera,Crambidae,Omiodes,Omiodes indicata,"Fabricius,1775",Omiodes indicata,Omiodes indicata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1891889,Lepidoptera,Crambidae,Lamprosema,Omiodes tristrialis,,Omiodes tristrialis,Lamprosema tristrialis,99,SYNONYM,EXACT,SPECIES,London06October2023
+1882253,Lepidoptera,Crambidae,Omphisa,Omphisa anastomosalis,"Guenee, in Boisduval and Guenee, 1854",Omphisa anastomosalis,Omphisa anastomosalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6121162,Lepidoptera,Crambidae,Orphanostigma,Orphanostigma abruptalis,,Orphanostigma abruptalis,Orphanostigma abruptalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10654175,Lepidoptera,Crambidae,Orphanostigma,Orphanostigma angustale,,Orphanostigma angustale,Orphanostigma angustale,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1885723,Lepidoptera,Crambidae,Orphnophanes,Orphnophanes eucerusalis,,Orphnophanes eucerusalis,Orphnophanes eucerusalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10397209,Lepidoptera,Crambidae,Orthospila,Orthospila tigrina,,Orthospila tigrina,Orthospila orissusalis,99,SYNONYM,EXACT,SPECIES,London06October2023
+1892153,Lepidoptera,Crambidae,Polygrammodes,Pachynoa sabelialis,,Pachynoa sabelialis,Polygrammodes sabelialis,99,SYNONYM,EXACT,SPECIES,London06October2023
+1889737,Lepidoptera,Crambidae,Palpita,Palpita annulifer-group,,Palpita annulifer-group,Palpita annulifer,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1889824,Lepidoptera,Crambidae,Palpita,Palpita nigricollis,,Palpita nigricollis,Palpita nigricollis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1889833,Lepidoptera,Crambidae,Palpita,Palpita vitrealis,,Palpita vitrealis,Palpita vitrealis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1886524,Lepidoptera,Crambidae,Parotis,Parotis laceritalis,,Parotis laceritalis,Parotis laceritalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1886526,Lepidoptera,Crambidae,Parotis,Parotis marginata,,Parotis marginata,Parotis marginata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1886511,Lepidoptera,Crambidae,Parotis,Parotis punctiferalis,,Parotis punctiferalis,Parotis punctiferalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10141437,Lepidoptera,Crambidae,Patania,Patania iopasalis,,Patania iopasalis,Patania iopasalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1890277,Lepidoptera,Crambidae,Perisyntrocha,Perisyntrocha anialis,,Perisyntrocha anialis,Perisyntrocha anialis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1888092,Lepidoptera,Crambidae,Piletocera,Piletocera aegimiusalis,,Piletocera aegimiusalis,Piletocera aegimiusalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1888046,Lepidoptera,Crambidae,Piletocera,Piletocera flexiguttalis,,Piletocera flexiguttalis,Piletocera flexiguttalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1888113,Lepidoptera,Crambidae,Piletocera,Piletocera micralis,,Piletocera micralis,Piletocera micralis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1888159,Lepidoptera,Crambidae,Piletocera,Piletocera sodalis,,Piletocera sodalis,Piletocera sodalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6120980,Lepidoptera,Crambidae,Lamprophaia,Poliobotys ablactalis,"Walker, 1859",Poliobotys ablactalis,Lamprophaia ablactalis,99,SYNONYM,EXACT,SPECIES,London06October2023
+1888314,Lepidoptera,Crambidae,Polythlipta,Polythlipta macralis,,Polythlipta macralis,Polythlipta macralis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1883943,Lepidoptera,Crambidae,Prophantis,Prophantis adusta,"Inoue, 1986",Prophantis adusta,Prophantis adusta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1891584,Lepidoptera,Crambidae,Pycnarmon,Pycnarmon jaguaralis,,Pycnarmon jaguaralis,Pycnarmon jaguaralis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1882884,Lepidoptera,Crambidae,Pygospila,Pygospila tyres,"Cramer, 1780",Pygospila tyres,Pygospila tyres,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1889531,Lepidoptera,Crambidae,Pylartes,Pylartes subcostalis,,Pylartes subcostalis,Pylartes subcostalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1882310,Lepidoptera,Crambidae,Ravanoa,Ravanoa xiphialis,"Walker, 1859",Ravanoa xiphialis,Ravanoa xiphialis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5127393,Lepidoptera,Crambidae,Rhimphalea,Rhimphalea heranialis,,Rhimphalea heranialis,Rhimphalea heranialis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5127389,Lepidoptera,Crambidae,Rhimphalea,Rhimphalea ochalis,,Rhimphalea ochalis,Rhimphalea ochalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5127385,Lepidoptera,Crambidae,Rhimphalea,Rhimphalea ocularis,,Rhimphalea ocularis,Rhimphalea trogusalis,99,SYNONYM,EXACT,SPECIES,London06October2023
+1887051,Lepidoptera,Crambidae,Sameodes,Sameodes abstrusalis,,Sameodes abstrusalis,Sameodes abstrusalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1887054,Lepidoptera,Crambidae,Sameodes,Sameodes cancellalis,"Zeller,1852",Sameodes cancellalis,Sameodes cancellalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1886251,Lepidoptera,Crambidae,Spoladea,Spoladea recurvalis,"Fabricius,1775",Spoladea recurvalis,Spoladea recurvalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1887804,Lepidoptera,Crambidae,Syllepte,Syllepte abyssalis,,Syllepte abyssalis,Syllepte abyssalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1887743,Lepidoptera,Crambidae,Syllepte,Syllepte fabiusalis,,Syllepte fabiusalis,Syllepte fabiusalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1887734,Lepidoptera,Crambidae,Syllepte,Syllepte sellalis,,Syllepte sellalis,Syllepte sellalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1879028,Lepidoptera,Crambidae,Tabidia,Tabidia aculealis,,Tabidia aculealis,Tabidia aculealis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1879034,Lepidoptera,Crambidae,Tabidia,Tabidia inconsequens,,Tabidia inconsequens,Tabidia inconsequens,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1882771,Lepidoptera,Crambidae,Talanga,Talanga sabacusalis,,Talanga sabacusalis,Talanga sabacusalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1882767,Lepidoptera,Crambidae,Talanga,Talanga sexpunctalis,"Moore, 1887",Talanga sexpunctalis,Talanga sexpunctalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1882266,Lepidoptera,Crambidae,Tatobotys,Tatobotys biannulalis,,Tatobotys biannulalis,Tatobotys biannulalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1891932,Lepidoptera,Crambidae,Terastia,Terastia meticulosalis,,Terastia meticulosalis,Terastia meticulosalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1889058,Lepidoptera,Crambidae,Tyspanodes,Tyspanodes exathesalis,,Tyspanodes exathesalis,Tyspanodes exathesalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1889179,Lepidoptera,Crambidae,Xanthomelaena,Xanthomelaena schematias,,Xanthomelaena schematias,Xanthomelaena schematias,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1839063,Lepidoptera,Peleopodidae,Odites,Odites albidella,"Snellen, 1901",Odites albidella,Odites albidella,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11886443,Lepidoptera,Drepanidae,Callidrepana,Callidrepana gelidata,"Walker, 1863",Callidrepana gelidata,Callidrepana gelidata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11428771,Lepidoptera,Drepanidae,Callidrepana,Callidrepana micacea,,Callidrepana micacea,Callidrepana micacea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1952689,Lepidoptera,Drepanidae,Drapetodes,Drapetodes magnifica,"Swinhoe, 1902",Drapetodes magnifica,Drapetodes magnifica,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1952685,Lepidoptera,Drepanidae,Drapetodes,Drapetodes mitaria,,Drapetodes mitaria,Drapetodes mitaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11426182,Lepidoptera,Drepanidae,Hyalospectra,Hyalospectra pustularia,,Hyalospectra pustularia,Hyalospectra pustularia,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1951748,Lepidoptera,Drepanidae,Leucoblepsis,Leucoblepsis neoma,,Leucoblepsis neoma,Leucoblepsis neoma,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1952857,Lepidoptera,Drepanidae,Teldenia,Teldenia specca,,Teldenia specca,Teldenia specca,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1951845,Lepidoptera,Drepanidae,Tridrepana,Tridrepana argentistriga,,Tridrepana argentistriga,Tridrepana argentistriga,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1951859,Lepidoptera,Drepanidae,Tridrepana,Tridrepana fulvata,"Snellen, 1876",Tridrepana fulvata,Tridrepana fulvata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1951453,Lepidoptera,Drepanidae,Oreta,Oreta carnea,,Oreta carnea,Oreta carnea,98,ACCEPTED,EXACT,SPECIES,London06October2023
+11518256,Lepidoptera,Drepanidae,Gogana,Gogana integra,,Gogana integra,Gogana integra,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11713173,Lepidoptera,Drepanidae,Pseuderosia,Pseuderosia humiliata,,Pseuderosia humiliata,Pseuderosia humiliata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1868429,Lepidoptera,Endromidae,Prismosticta,Prismosticta tiretta,,Prismosticta tiretta,Prismosticta tiretta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10121804,Lepidoptera,Noctuidae,Agape,Agape chloropyga,,Agape chloropyga,Agape chloropyga,98,ACCEPTED,EXACT,SPECIES,London06October2023
+1774654,Lepidoptera,Erebidae,Asota,Asota caricae,"Fabricius,1775",Asota caricae,Asota caricae,98,ACCEPTED,EXACT,SPECIES,London06October2023
+1774583,Lepidoptera,Erebidae,Asota,Asota egens,,Asota egens,Asota egens,98,ACCEPTED,EXACT,SPECIES,London06October2023
+1774626,Lepidoptera,Erebidae,Asota,Asota ficus,,Asota ficus,Asota ficus,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1774598,Lepidoptera,Erebidae,Asota,Asota heliconia,,Asota heliconia,Asota heliconia,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1774650,Lepidoptera,Erebidae,Asota,Asota isthmia,,Asota isthmia,Asota isthmia,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1774743,Lepidoptera,Erebidae,Asota,Asota paphos,,Asota paphos,Asota paphos,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1774618,Lepidoptera,Erebidae,Asota,Asota plana,"Walker,1854",Asota plana,Asota plana,98,ACCEPTED,EXACT,SPECIES,London06October2023
+1774635,Lepidoptera,Erebidae,Asota,Asota producta,,Asota producta,Asota producta,98,ACCEPTED,EXACT,SPECIES,London06October2023
+1774600,Lepidoptera,Erebidae,Asota,Asota speciosa,,Asota speciosa,Asota speciosa,98,ACCEPTED,EXACT,SPECIES,London06October2023
+1774702,Lepidoptera,Erebidae,Asota,Asota subsimilis,"Walker,1864",Asota subsimilis,Asota subsimilis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1799751,Lepidoptera,Erebidae,Mecodina,Mecodina albodentata,,Mecodina albodentata,Mecodina albodentata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1799766,Lepidoptera,Erebidae,Mecodina,Mecodina diastriga,,Mecodina diastriga,Mecodina diastriga,99,ACCEPTED,EXACT,SPECIES,London06October2023
+8815447,Lepidoptera,Erebidae,Mecodina,Mecodina lanceola,,Mecodina lanceola,Mecodina lanceola,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1799726,Lepidoptera,Erebidae,Mecodina,Mecodina leucosticta,"Hampson,1926",Mecodina leucosticta,Mecodina leucosticta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1799741,Lepidoptera,Erebidae,Mecodina,Mecodina metagrapta,,Mecodina metagrapta,Mecodina metagrapta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1791519,Lepidoptera,Erebidae,Neochera,Neochera inops,"Walker,1854",Neochera inops,Neochera inops,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1791508,Lepidoptera,Erebidae,Neochera,Neochera marmorea,"Walker,1856",Neochera marmorea,Neochera marmorea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1762226,Lepidoptera,Erebidae,Psimada,Psimada quadripennis,,Psimada quadripennis,Psimada quadripennis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1769316,Lepidoptera,Erebidae,Crithote,Crithote horridipes,"Walker,1864",Crithote horridipes,Crithote horridipes,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5110458,Lepidoptera,Erebidae,Plecoptera,Plecoptera quaesita,,Plecoptera quaesita,Plecoptera quaesita,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5110417,Lepidoptera,Erebidae,Plecoptera,Plecoptera recta,"Pagenstecher,1886",Plecoptera recta,Plecoptera recta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5110490,Lepidoptera,Erebidae,Plecoptera,Plecoptera reflexa,,Plecoptera reflexa,Plecoptera reflexa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5110469,Lepidoptera,Erebidae,Plecoptera,Plecoptera violacea,"Pagenstecher, 1884",Plecoptera violacea,Plecoptera violacea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1786711,Lepidoptera,Erebidae,Rema,Rema costimacula,,Rema costimacula,Rema costimacula,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1761387,Lepidoptera,Erebidae,Tephriopis,Tephriopis divulsa,,Tephriopis divulsa,Tephriopis divulsa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+12208733,Lepidoptera,Erebidae,Pseudoadites,Adites frigida,"Walker, 1854",Adites frigida,Pseudoadites frigida,99,SYNONYM,EXACT,SPECIES,London06October2023
+8723161,Lepidoptera,Erebidae,Argina,Alytarchia amanda,,Alytarchia amanda,Alytarchia amanda,98,DOUBTFUL,EXACT,SPECIES,London06October2023
+1808262,Lepidoptera,Erebidae,Amata,Amata derivata,,Amata derivata,Amata derivata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1808203,Lepidoptera,Erebidae,Amata,Amata dilatata,"Snellen, 1881",Amata dilatata,Amata dilatata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6198302,Lepidoptera,Erebidae,Amata,Amata huebneri,"Boisduval,1828",Amata huebneri,Amata huebneri,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1808236,Lepidoptera,Erebidae,Amata,Amata sperbius,,Amata sperbius,Amata sperbius,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1808206,Lepidoptera,Erebidae,Amata,Amata stellaris,,Amata stellaris,Amata stellaris,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5116504,Lepidoptera,Erebidae,Argina,Argina astrea,"Drury, 1773",Argina astrea,Argina astrea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1817196,Lepidoptera,Erebidae,Asura,Asura fulguritis,,Asura fulguritis,Asura fulguritis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+12212542,Lepidoptera,Erebidae,Barsilene,Barsilene pallinflexa,,Barsilene pallinflexa,Barsilene pallinflexa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11221504,Lepidoptera,Erebidae,Barsine,Barsine cornicornutata,,Barsine cornicornutata,Barsine cornicornutata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+8897869,Lepidoptera,Erebidae,Brunia,Brunia antica,"Walker,1854",Brunia antica,Brunia antica,99,ACCEPTED,EXACT,SPECIES,London06October2023
+9204234,Lepidoptera,Erebidae,Brunia,Brunia nebulifera,,Brunia nebulifera,Brunia nebuliferella,99,SYNONYM,EXACT,SPECIES,London06October2023
+9153970,Lepidoptera,Erebidae,Brunia,Brunia sarawaca,,Brunia sarawaca,Brunia sarawaca,99,ACCEPTED,EXACT,SPECIES,London06October2023
+9257802,Lepidoptera,Erebidae,Caeneressa,Caeneressa marcescoides,,Caeneressa marcescoides,Caeneressa marcescoides,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1814913,Lepidoptera,Erebidae,Creatonotos,Creatonotos gangis,"Linnaeus,1763",Creatonotos gangis,Creatonotos gangis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1814928,Lepidoptera,Erebidae,Creatonotos,Creatonotos transiens,"Walker,1855",Creatonotos transiens,Creatonotos transiens,99,ACCEPTED,EXACT,SPECIES,London06October2023
+12249901,Lepidoptera,Erebidae,Cyana,Cyana clama,,Cyana clama,Cyana clama,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10837671,Lepidoptera,Erebidae,Cyana,Cyana conclusa,,Cyana conclusa,Cyana conclusa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+8574760,Lepidoptera,Erebidae,Cyana,Cyana determinata,,Cyana determinata,Cyana determinata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+8497323,Lepidoptera,Erebidae,Cyana,Cyana flavalba,,Cyana flavalba,Cyana flavalba,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11232431,Lepidoptera,Erebidae,Cyana,Cyana hamata,,Cyana hamata,Cyana hamata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+8623606,Lepidoptera,Erebidae,Cyana,Cyana javanica,,Cyana javanica,Cyana javanica,98,ACCEPTED,EXACT,SPECIES,London06October2023
+8543494,Lepidoptera,Erebidae,Cyana,Cyana peregrina,,Cyana peregrina,Cyana peregrina,99,ACCEPTED,EXACT,SPECIES,London06October2023
+8624848,Lepidoptera,Erebidae,Cyana,Cyana perornata,,Cyana perornata,Cyana perornata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10567101,Lepidoptera,Erebidae,Cyana,Cyana pudens,,Cyana pudens,Cyana pudens,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1804639,Lepidoptera,Erebidae,Cyclosiella,Cyclosiella dulcicula,,Cyclosiella dulcicula,Cyclosiella dulcicula,99,ACCEPTED,EXACT,SPECIES,London06October2023
+9946631,Lepidoptera,Erebidae,Cyclosiella,Cyclosiella spiralis,,Cyclosiella spiralis,Cyclosiella spiralis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+12242422,Lepidoptera,Erebidae,Cyme,Cyme euprepioides,,Cyme euprepioides,Cyme euprepioides,99,ACCEPTED,EXACT,SPECIES,London06October2023
+9852545,Lepidoptera,Erebidae,Cyme,Cyme reticulata,"C. Felder,1861",Cyme reticulata,Cyme reticulata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+9266866,Lepidoptera,Erebidae,Danielithosia,Danielithosia immaculata,,Danielithosia immaculata,Danielithosia immaculata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1818413,Lepidoptera,Erebidae,Diduga,Diduga flavicostata,,Diduga flavicostata,Diduga flavicostata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1804182,Lepidoptera,Erebidae,Eressa,Eressa confinis,"Walker,1854",Eressa confinis,Eressa confinis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5117779,Lepidoptera,Erebidae,Euchromia,Euchromia elegantissima,,Euchromia elegantissima,Euchromia polymena,99,SYNONYM,EXACT,SPECIES,London06October2023
+5115177,Lepidoptera,Erebidae,Eugoa,Eugoa basipuncta,,Eugoa basipuncta,Eugoa basipuncta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5115156,Lepidoptera,Erebidae,Eugoa,Eugoa bipuncta,,Eugoa bipuncta,Eugoa bipuncta,98,ACCEPTED,EXACT,SPECIES,London06October2023
+1812418,Lepidoptera,Erebidae,Eurosia,Eurosia melanopera,,Eurosia melanopera,Eurosia melanopera,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11095591,Lepidoptera,Erebidae,Floridasura,Floridasura tricolor,,Floridasura tricolor,Floridasura tricolor,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10553334,Lepidoptera,Erebidae,Halone,Halone ariadna,,Halone ariadna,Halone ariadna,99,ACCEPTED,EXACT,SPECIES,London06October2023
+12237124,Lepidoptera,Erebidae,Heliohemonia,Heliohemonia monosticta,,Heliohemonia monosticta,Heliohemonia monosticta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+12253293,Lepidoptera,Erebidae,Hergovitsia,Hergovitsia magnifica,,Hergovitsia magnifica,Hergovitsia magnifica,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10644926,Lepidoptera,Erebidae,Holocraspedon,Holocraspedon bilineata,,Holocraspedon bilineata,Holocraspedon bilineata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+12239211,Lepidoptera,Erebidae,Indiania,Indiania citrona,"Hampson,1907",Indiania citrona,Indiania citrona,99,ACCEPTED,EXACT,SPECIES,London06October2023
+12189025,Lepidoptera,Erebidae,Integrivalvia,Integrivalvia exclusa,,Integrivalvia exclusa,Integrivalvia exclusa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+9755090,Lepidoptera,Erebidae,Katha,Katha brevivalva,,Katha brevivalva,Katha brevivalva,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11724435,Lepidoptera,Erebidae,Macohasa,Macohasa tetraspila,,Macohasa tetraspila,Macohasa tetraspila,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1811686,Lepidoptera,Erebidae,Macrobrochis,Macrobrochis gigas,,Macrobrochis gigas,Macrobrochis gigas,99,ACCEPTED,EXACT,SPECIES,London06October2023
+12193057,Lepidoptera,Erebidae,Miltochrista,Miltochrista acutiseriata,,Miltochrista acutiseriata,Miltochrista acutiseriata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+12257250,Lepidoptera,Erebidae,Arctelene,Miltochrista arcuata,,Miltochrista arcuata,Arctelene arcuata,99,SYNONYM,EXACT,SPECIES,London06October2023
+12229700,Lepidoptera,Erebidae,Miltochrista,Miltochrista cuneigera,,Miltochrista cuneigera,Miltochrista cuneigera,99,ACCEPTED,EXACT,SPECIES,London06October2023
+12245746,Lepidoptera,Erebidae,Miltochrista,Miltochrista falciseriata,,Miltochrista falciseriata,Miltochrista falciseriata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+12235502,Lepidoptera,Erebidae,Miltochrista,Miltochrista irregularis,,Miltochrista irregularis,Miltochrista irregularis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+12256481,Lepidoptera,Erebidae,Miltochrista,Miltochrista pseudobunda,,Miltochrista pseudobunda,Miltochrista pseudobunda,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11736162,Lepidoptera,Erebidae,Miltochrista,Miltochrista undulosa,"Walker, 1854",Miltochrista undulosa,Miltochrista undulosa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+12229127,Lepidoptera,Erebidae,Nanarsine,Nanarsine emiks,,Nanarsine emiks,Nanarsine emiks,99,ACCEPTED,EXACT,SPECIES,London06October2023
+12203068,Lepidoptera,Erebidae,Nanarsine,Nanarsine porphyrea,,Nanarsine porphyrea,Nanarsine porphyrea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+12174951,Lepidoptera,Erebidae,Nanarsine,Nanarsine senara,,Nanarsine senara,Nanarsine senara,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1808950,Lepidoptera,Erebidae,Neoduma,Neoduma ectozona,,Neoduma ectozona,Neoduma ectozona,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10592175,Lepidoptera,Erebidae,Nudaria,Nudaria albipunctella,"Hampson, 1914",Nudaria albipunctella,Nudaria albipunctella,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1816299,Lepidoptera,Erebidae,Nyctemera,Nyctemera adversata,,Nyctemera adversata,Nyctemera adversata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1816029,Lepidoptera,Erebidae,Nyctemera,Nyctemera baulus,"Boisduval, 1832",Nyctemera baulus,Nyctemera baulus,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1816065,Lepidoptera,Erebidae,Nyctemera,Nyctemera coleta,,Nyctemera coleta,Nyctemera coleta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1816362,Lepidoptera,Erebidae,Nyctemera,Nyctemera lacticinia,"Cramer,1775",Nyctemera lacticinia,Nyctemera lacticinia,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1816246,Lepidoptera,Erebidae,Nyctemera,Nyctemera tripunctaria,"Linnaeus, 1758",Nyctemera tripunctaria,Nyctemera tripunctaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10189965,Lepidoptera,Erebidae,Oeonistis,Oeonistis altica,"Linnaeus,1768",Oeonistis altica,Oeonistis altica,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10062933,Lepidoptera,Erebidae,Olepa,Olepa ricini,,Olepa ricini,Olepa ricini,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10697084,Lepidoptera,Erebidae,Oxacme,Oxacme asymmetrica,,Oxacme asymmetrica,Oxacme asymmetrica,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10826443,Lepidoptera,Erebidae,Oxacme,Oxacme cretacea,,Oxacme cretacea,Oxacme cretacea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1814971,Lepidoptera,Erebidae,Pseudoblabes,Pseudoblabes oophora,,Pseudoblabes oophora,Pseudoblabes oophora,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1805044,Lepidoptera,Erebidae,Schistophleps,Schistophleps bipuncta,,Schistophleps bipuncta,Schistophleps bipuncta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+9478424,Lepidoptera,Erebidae,Spilarctia,Spilarctia subcarnea,,Spilarctia subcarnea,Spilarctia subcarnea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1811820,Lepidoptera,Erebidae,Spilosoma,Spilosoma cervina,"Wallengren, 1860",Spilosoma cervina,Spilosoma cervina,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1812256,Lepidoptera,Erebidae,Spilosoma,Spilosoma hypogopa,,Spilosoma hypogopa,Spilosoma hypogopa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10864524,Lepidoptera,Erebidae,Stictane,Stictane rectilinea,,Stictane rectilinea,Stictane rectilinea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6133292,Lepidoptera,Erebidae,Syntomoides,Syntomoides imaon,"Cramer,1780",Syntomoides imaon,Syntomoides imaon,99,ACCEPTED,EXACT,SPECIES,London06October2023
+12229438,Lepidoptera,Erebidae,Tigricollis,Tigrioides puncticollis,,Tigrioides puncticollis,Tigricollis puncticollis,99,SYNONYM,EXACT,SPECIES,London06October2023
+1815317,Lepidoptera,Erebidae,Tortricosia,Tortricosia excisa,,Tortricosia excisa,Tortricosia excisa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+12171253,Lepidoptera,Erebidae,Tospitis,Tospitis aurantimaculus,,Tospitis aurantimaculus,Tospitis aurantimaculus,99,ACCEPTED,EXACT,SPECIES,London06October2023
+12262230,Lepidoptera,Erebidae,Tospitis,Tospitis variabilis,,Tospitis variabilis,Tospitis variabilis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11757721,Lepidoptera,Erebidae,Trichaetoides,Trichaetoides apicalis,,Trichaetoides apicalis,Trichaetoides apicalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11897640,Lepidoptera,Erebidae,Trichaetoides,Trichaetoides chloroleuca,,Trichaetoides chloroleuca,Trichaetoides chloroleuca,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10443413,Lepidoptera,Erebidae,Trischalis,Trischalis stomata,,Trischalis stomata,Trischalis stomata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1803148,Lepidoptera,Erebidae,Utetheisa,Utetheisa lotrix,"Cramer, 1779",Utetheisa lotrix,Utetheisa lotrix,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1803163,Lepidoptera,Erebidae,Utetheisa,Utetheisa pulchella,,Utetheisa pulchella,Utetheisa pulchella,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1803197,Lepidoptera,Erebidae,Utetheisa,Utetheisa pulchelloides,,Utetheisa pulchelloides,Utetheisa pulchelloides,99,ACCEPTED,EXACT,SPECIES,London06October2023
+12199057,Lepidoptera,Erebidae,Veslema,Veslema flavifrons,"Bucsek,2012",Veslema flavifrons,Veslema flavifrons,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1762600,Lepidoptera,Erebidae,Acygnatha,Acygnatha atrapex,,Acygnatha atrapex,Acygnatha atrapex,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1762597,Lepidoptera,Erebidae,Acygnatha,Acygnatha terminalis,,Acygnatha terminalis,Acygnatha terminalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1779270,Lepidoptera,Noctuidae,Araeopteron,Araeopteron rufescens,"Hampson, 1910",Araeopteron rufescens,Araeopteron rufescens,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1766261,Lepidoptera,Erebidae,Aroana,Aroana rubra,,Aroana rubra,Aroana rubra,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10458175,Lepidoptera,Noctuidae,Ataboruza,Ataboruza divisa,,Ataboruza divisa,Ataboruza divisa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1767260,Lepidoptera,Noctuidae,Autoba,Autoba silicula,"Swinhoe, 1897",Autoba silicula,Autoba silicula,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1775148,Lepidoptera,Erebidae,Caduca,Caduca albopunctata,,Caduca albopunctata,Caduca albopunctata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1782273,Lepidoptera,Noctuidae,Cerynea,Cerynea punctilinealis,"Walker, 1866",Cerynea punctilinealis,Cerynea punctilinealis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1782279,Lepidoptera,Noctuidae,Cerynea,Cerynea ustula,,Cerynea ustula,Cerynea ustula,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1762298,Lepidoptera,Erebidae,Condate,Condate hypenoides,,Condate hypenoides,Condate hypenoides,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1762299,Lepidoptera,Erebidae,Condate,Condate orsilla,,Condate orsilla,Condate orsilla,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11764205,Lepidoptera,Erebidae,Corgatha,Corgatha albicinctalis,,Corgatha albicinctalis,Corgatha albicinctalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11544845,Lepidoptera,Erebidae,Corgatha,Corgatha atrimargo,,Corgatha atrimargo,Corgatha atrimargo,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1790888,Lepidoptera,Erebidae,Corgatha,Corgatha dictaria,,Corgatha dictaria,Corgatha dictaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1790860,Lepidoptera,Erebidae,Corgatha,Corgatha minuta,,Corgatha minuta,Corgatha minuta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1790895,Lepidoptera,Erebidae,Corgatha,Corgatha nigripalpis,,Corgatha nigripalpis,Corgatha nigripalpis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11927123,Lepidoptera,Erebidae,Corgatha,Corgatha pseudominor,,Corgatha pseudominor,Corgatha pseudominor,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1790891,Lepidoptera,Erebidae,Corgatha,Corgatha rubecula,,Corgatha rubecula,Corgatha rubecula,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10766319,Lepidoptera,Erebidae,Corgatha,Corgatha trichogyia,,Corgatha trichogyia,Corgatha trichogyia,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11441898,Lepidoptera,Erebidae,Corgatha,Corgatha viridicinctalis,,Corgatha viridicinctalis,Corgatha viridicinctalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+9991985,Lepidoptera,Erebidae,Diomea,Diomea diffusifascia,,Diomea diffusifascia,Diomea diffusifascia,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11740538,Lepidoptera,Erebidae,Diomea,Diomea hirdi,,Diomea hirdi,Diomea hirdi,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10743044,Lepidoptera,Erebidae,Diomea,Diomea lignicolora,,Diomea lignicolora,Diomea lignicolora,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1799422,Lepidoptera,Erebidae,Dunira,Dunira obliquilinea,,Dunira obliquilinea,Dunira obliquilinea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10933525,Lepidoptera,Noctuidae,Enispa,Enispa elataria,,Enispa elataria,Enispa elataria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11615549,Lepidoptera,Noctuidae,Eublemma,Eublemma abrupta,,Eublemma abrupta,Eublemma abrupta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6115822,Lepidoptera,Noctuidae,Eublemma,Eublemma accedens,,Eublemma accedens,Eublemma accedens,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1797828,Lepidoptera,Noctuidae,Eublemma,Eublemma albostriata,"Wileman & West, 1929",Eublemma albostriata,Eublemma albostriata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11533443,Lepidoptera,Noctuidae,Eublemma,Eublemma carneola,,Eublemma carneola,Eublemma carneola,99,ACCEPTED,EXACT,SPECIES,London06October2023
+4532266,Lepidoptera,Noctuidae,Eublemma,Eublemma cochylioides,"Guenée, 1852",Eublemma cochylioides,Eublemma cochylioides,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10461724,Lepidoptera,Noctuidae,Eublemma,Eublemma crassiuscula,"Walker, 1864",Eublemma crassiuscula,Eublemma crassiuscula,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10052670,Lepidoptera,Noctuidae,Eublemma,Eublemma ignefusa,"Hampson,1910",Eublemma ignefusa,Eublemma ignefusa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10599712,Lepidoptera,Noctuidae,Eublemma,Eublemma quadripunctata,,Eublemma quadripunctata,Eublemma quadripunctata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11847344,Lepidoptera,Noctuidae,Eublemma,Eublemma semirufa,,Eublemma semirufa,Eublemma semirufa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10613408,Lepidoptera,Noctuidae,Eublemma,Eublemma versicolor,,Eublemma versicolor,Eublemma versicolor,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1760945,Lepidoptera,Noctuidae,Eugnathia,Eugnathia diagonalis,"Hampson,1910",Eugnathia diagonalis,Eugnathia diagonalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11852325,Lepidoptera,Noctuidae,Eugnathia,Eugnathia xenia,,Eugnathia xenia,Eugnathia xenia,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5110540,Lepidoptera,Erebidae,Gesonia,Gesonia fallax,,Gesonia fallax,Gesonia fallax,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5110546,Lepidoptera,Erebidae,Gesonia,Gesonia obeditalis,"Walker,1859",Gesonia obeditalis,Gesonia obeditalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1798335,Lepidoptera,Erebidae,Homodes,Homodes bracteigutta,"Walker, 1862",Homodes bracteigutta,Homodes bracteigutta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1798331,Lepidoptera,Erebidae,Homodes,Homodes crocea,,Homodes crocea,Homodes crocea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1798329,Lepidoptera,Erebidae,Homodes,Homodes vivida,,Homodes vivida,Homodes vivida,98,ACCEPTED,EXACT,SPECIES,London06October2023
+1792532,Lepidoptera,Erebidae,Hypenagonia,Hypenagonia longipalpis,,Hypenagonia longipalpis,Hypenagonia longipalpis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10177907,Lepidoptera,Noctuidae,Hyposada,Hyposada postalbata,"Holloway, 2009",Hyposada postalbata,Hyposada postalbata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1789526,Lepidoptera,Noctuidae,Hyposada,Hyposada ruptifascia,,Hyposada ruptifascia,Hyposada ruptifascia,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11512305,Lepidoptera,Noctuidae,Hyposada,Hyposada serendipitatis,,Hyposada serendipitatis,Hyposada serendipitatis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10820762,Lepidoptera,Erebidae,Laspeyria,Laspeyria ruficeps,,Laspeyria ruficeps,Laspeyria ruficeps,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1785832,Lepidoptera,Erebidae,Lopharthrum,Lopharthrum comprimens,"Walker,1858",Lopharthrum comprimens,Lopharthrum comprimens,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1759894,Lepidoptera,Noctuidae,Lophoruza,Lophoruza vacillatrix,,Lophoruza vacillatrix,Lophoruza vacillatrix,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1788856,Lepidoptera,Noctuidae,Metaemene,Metaemene atrigutta,"Walker,1862",Metaemene atrigutta,Metaemene atrigutta,98,ACCEPTED,EXACT,SPECIES,London06October2023
+1760970,Lepidoptera,Erebidae,Nechesia,Nechesia albotentata,,Nechesia albotentata,Nechesia albotentata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1763782,Lepidoptera,Erebidae,Olulis,Olulis puncticinctalis,,Olulis puncticinctalis,Olulis puncticinctalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11634700,Lepidoptera,Noctuidae,Oruza,Oruza crocodetoides,,Oruza crocodetoides,Oruza crocodetoides,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1789604,Lepidoptera,Erebidae,Prolophota,Prolophota trigonifera,,Prolophota trigonifera,Prolophota trigonifera,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11097510,Lepidoptera,Erebidae,Rhesala,Rhesala imparata,"Walker,1858",Rhesala imparata,Rhesala imparata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10152313,Lepidoptera,Erebidae,Saroba,Saroba flavipicta,,Saroba flavipicta,Saroba flavipicta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1782128,Lepidoptera,Erebidae,Saroba,Saroba maculicosta,,Saroba maculicosta,Saroba maculicosta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1782122,Lepidoptera,Erebidae,Saroba,Saroba pansa,"Swinhoe,1902",Saroba pansa,Saroba pansa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1765863,Lepidoptera,Erebidae,Sarobides,Sarobides inconclusa,,Sarobides inconclusa,Sarobides inconclusa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1769401,Lepidoptera,Erebidae,Tamba,Tamba basiscripta,"Walker,1864",Tamba basiscripta,Tamba basiscripta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10848620,Lepidoptera,Erebidae,Tamba,Tamba cautiperas,,Tamba cautiperas,Tamba cautiperas,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1769444,Lepidoptera,Erebidae,Tamba,Tamba coeruleobasis,,Tamba coeruleobasis,Tamba coeruleobasis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1769437,Lepidoptera,Erebidae,Tamba,Tamba delicata,,Tamba delicata,Tamba delicata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1769426,Lepidoptera,Erebidae,Tamba,Tamba diaphora,,Tamba diaphora,Tamba diaphora,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1769430,Lepidoptera,Erebidae,Tamba,Tamba euryodia,,Tamba euryodia,Tamba euryodia,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1769427,Lepidoptera,Erebidae,Tamba,Tamba lahera,,Tamba lahera,Tamba lahera,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1769423,Lepidoptera,Erebidae,Tamba,Tamba mnionomera,"Hampson, 1926",Tamba mnionomera,Tamba mnionomera,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1769461,Lepidoptera,Erebidae,Tamba,Tamba nigrilinea,,Tamba nigrilinea,Tamba nigrilinea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1769462,Lepidoptera,Erebidae,Tamba,Tamba sidonalis,,Tamba sidonalis,Tamba sidonalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1769450,Lepidoptera,Erebidae,Tamba,Tamba sobana,,Tamba sobana,Tamba sobana,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5110619,Lepidoptera,Erebidae,Tipasa,Tipasa nebulosella,,Tipasa nebulosella,Tipasa nebulosella,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1775272,Lepidoptera,Erebidae,Tiruvaca,Tiruvaca hollowayi,"Kobes,1988",Tiruvaca hollowayi,Tiruvaca hollowayi,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1775274,Lepidoptera,Erebidae,Tiruvaca,Tiruvaca subcostalis,,Tiruvaca subcostalis,Tiruvaca subcostalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1774224,Lepidoptera,Erebidae,Tropidtamba,Tropidtamba lepraota,"Hampson,1898",Tropidtamba lepraota,Tropidtamba lepraota,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1791000,Lepidoptera,Erebidae,Zurobata,Zurobata intractata,,Zurobata intractata,Zurobata intractata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1791010,Lepidoptera,Erebidae,Zurobata,Zurobata vacillans,"Walker, 1864",Zurobata vacillans,Zurobata vacillans,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5110190,Lepidoptera,Erebidae,Cyclodes,Cyclodes omma,"van der Hoeven, 1840",Cyclodes omma,Cyclodes omma,98,ACCEPTED,EXACT,SPECIES,London06October2023
+10272611,Lepidoptera,Erebidae,Eudocima,Eudocima (Rhytia) discrepans,"Walker, 1858",Eudocima (Rhytia) discrepans,Eudocima discrepans,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1786598,Lepidoptera,Erebidae,Eudocima,Eudocima dividens,,Eudocima dividens,Eudocima dividens,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6132915,Lepidoptera,Erebidae,Eudocima,Eudocima homaena,,Eudocima homaena,Eudocima homaena,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11513188,Lepidoptera,Erebidae,Eudocima,Eudocima hypermnestra,,Eudocima hypermnestra,Eudocima hypermnestra,99,ACCEPTED,EXACT,SPECIES,London06October2023
+4687389,Lepidoptera,Erebidae,Eudocima,Eudocima materna,,Eudocima materna,Eudocima materna,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5884188,Lepidoptera,Erebidae,Eudocima,Eudocima phalonia,"Linnaeus,1763",Eudocima phalonia,Eudocima phalonia,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1786597,Lepidoptera,Erebidae,Eudocima,Eudocima salaminia,,Eudocima salaminia,Eudocima salaminia,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11809570,Lepidoptera,Erebidae,Eudocima,Eudocima smaragdipicta,,Eudocima smaragdipicta,Eudocima smaragdipicta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1761541,Lepidoptera,Erebidae,Goniocraspedon,Goniocraspedon mistura,,Goniocraspedon mistura,Goniocraspedon mistura,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1791715,Lepidoptera,Erebidae,Oraesia,Oraesia emarginata,,Oraesia emarginata,Oraesia emarginata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1767883,Lepidoptera,Erebidae,Rhesala,Rhesala moestalis,"Walker, 1866",Rhesala moestalis,Rhesala moestalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11646907,Lepidoptera,Geometridae,Sundagrapha,Sundagrapha tenebrosa,"Swinhoe,1902",Sundagrapha tenebrosa,Sundagrapha tenebrosa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5113950,Lepidoptera,Erebidae,Achaea,Achaea janata,"Linnaeus,1758",Achaea janata,Achaea janata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5884247,Lepidoptera,Erebidae,Achaea,Achaea serva,"Fabricius,1775",Achaea serva,Achaea serva,98,ACCEPTED,EXACT,SPECIES,London06October2023
+5113853,Lepidoptera,Noctuidae,Aedia,Aedia leucomelas,"Linnaeus, 1758",Aedia leucomelas,Aedia leucomelas,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1777855,Lepidoptera,Erebidae,Anereuthina,Anereuthina renosa,,Anereuthina renosa,Anereuthina renosa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5110769,Lepidoptera,Erebidae,Anisoneura,Anisoneura aluco,,Anisoneura aluco,Anisoneura aluco,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5110765,Lepidoptera,Erebidae,Anisoneura,Anisoneura salebrosa,"Guenée, 1852",Anisoneura salebrosa,Anisoneura salebrosa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1763795,Lepidoptera,Erebidae,Armana,Armana nigraericta,,Armana nigraericta,Armana nigraericta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10503495,Lepidoptera,Erebidae,Arsacia,Arsacia rectalis,,Arsacia rectalis,Arsacia rectalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5110232,Lepidoptera,Erebidae,Artena,Artena dotata,,Artena dotata,Artena dotata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11725548,Lepidoptera,Erebidae,Avatha,Avatha bubo,"Geyer, 1832",Avatha bubo,Avatha bubo,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1764867,Lepidoptera,Erebidae,Avatha,Avatha complens,,Avatha complens,Avatha complens,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11625192,Lepidoptera,Erebidae,Avatha,Avatha rufiscripta,,Avatha rufiscripta,Avatha rufiscripta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10133583,Lepidoptera,Erebidae,Avatha,Avatha tepescens,,Avatha tepescens,Avatha tepescens,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1789182,Lepidoptera,Erebidae,Bamra,Bamra albicola,"Walker,1858",Bamra albicola,Bamra albicola,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1789171,Lepidoptera,Erebidae,Bamra,Bamra mundata,,Bamra mundata,Bamra mundata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10982648,Lepidoptera,Erebidae,Bastilla,Bastilla arcuata,,Bastilla arcuata,Bastilla arcuata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10400868,Lepidoptera,Erebidae,Bastilla,Bastilla crameri,,Bastilla crameri,Bastilla crameri,99,ACCEPTED,EXACT,SPECIES,London06October2023
+9508913,Lepidoptera,Erebidae,Bastilla,Bastilla fulvotaenia,,Bastilla fulvotaenia,Bastilla fulvotaenia,99,ACCEPTED,EXACT,SPECIES,London06October2023
+8874633,Lepidoptera,Erebidae,Bastilla,Bastilla joviana,,Bastilla joviana,Bastilla joviana,98,ACCEPTED,EXACT,SPECIES,London06October2023
+1791856,Lepidoptera,Erebidae,Brontypena,Brontypena ochrocuprea,"Pagenstecher,1894",Brontypena ochrocuprea,Brontypena ochrocuprea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+9372988,Lepidoptera,Erebidae,Buzara,Buzara onelia,"Guenée, 1852",Buzara onelia,Buzara onelia,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1768461,Lepidoptera,Erebidae,Chalciope,Chalciope mygdon,"Cramer,1777",Chalciope mygdon,Chalciope mygdon,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1769937,Lepidoptera,Erebidae,Corcobara,Corcobara angulipennis,"Moore,1894",Corcobara angulipennis,Corcobara angulipennis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1759783,Lepidoptera,Erebidae,Daddala,Daddala quadrisignata,,Daddala quadrisignata,Daddala quadrisignata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1761360,Lepidoptera,Erebidae,Delgamma,Delgamma pangonia,,Delgamma pangonia,Delgamma pangonia,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1760133,Lepidoptera,Erebidae,Dordura,Dordura aliena,,Dordura aliena,Dordura aliena,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1798488,Lepidoptera,Erebidae,Dysgonia,Dysgonia stuposa,,Dysgonia stuposa,Dysgonia stuposa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1764043,Lepidoptera,Erebidae,Ercheia,Ercheia cyllaria,,Ercheia cyllaria,Ercheia cyllaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11421311,Lepidoptera,Erebidae,Ercheia,Ercheia pulchrivenula,"Gaede,1938",Ercheia pulchrivenula,Ercheia pulchrivenula,99,ACCEPTED,EXACT,SPECIES,London06October2023
+3257809,Lepidoptera,Erebidae,Erebus,Erebus caprimulgus,"Fabricius, 1781",Erebus caprimulgus,Erebus caprimulgus,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1766570,Lepidoptera,Erebidae,Erebus,Erebus ephesperis,"Hűbner,1827",Erebus ephesperis,Erebus ephesperis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1766618,Lepidoptera,Erebidae,Erebus,Erebus hieroglyphica,,Erebus hieroglyphica,Erebus hieroglyphica,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6116699,Lepidoptera,Erebidae,Erebus,Erebus macrops,,Erebus macrops,Erebus macrops,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1763960,Lepidoptera,Erebidae,Ericeia,Ericeia eriophora,,Ericeia eriophora,Ericeia eriophora,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1763953,Lepidoptera,Erebidae,Ericeia,Ericeia fraterna,,Ericeia fraterna,Ericeia fraterna,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1763976,Lepidoptera,Erebidae,Ericeia,Ericeia inangulata,,Ericeia inangulata,Ericeia inangulata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1763994,Lepidoptera,Erebidae,Ericeia,Ericeia sobria,,Ericeia sobria,Ericeia sobria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1789225,Lepidoptera,Erebidae,Erygia,Erygia apicalis,,Erygia apicalis,Erygia apicalis,98,ACCEPTED,EXACT,SPECIES,London06October2023
+9969058,Lepidoptera,Erebidae,Erygia,Erygia spissa,"Guenée, 1852",Erygia spissa,Erygia spissa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1774020,Lepidoptera,Erebidae,Falana,Falana sordida,,Falana sordida,Falana sordida,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1787009,Lepidoptera,Erebidae,Grammodes,Grammodes geometrica,"Fabricius, 1775",Grammodes geometrica,Grammodes geometrica,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1786315,Lepidoptera,Erebidae,Hamodes,Hamodes lutea,"Walker,1863",Hamodes lutea,Hamodes lutea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1798101,Lepidoptera,Erebidae,Hulodes,Hulodes caranea,"Cramer,1780",Hulodes caranea,Hulodes caranea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1798107,Lepidoptera,Erebidae,Hulodes,Hulodes donata,"Schultze, 1907",Hulodes donata,Hulodes donata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1798111,Lepidoptera,Erebidae,Hulodes,Hulodes drylla,"Guenée, 1852",Hulodes drylla,Hulodes drylla,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1769797,Lepidoptera,Erebidae,Hypopyra,Hypopyra pudens,"Walker, 1858",Hypopyra pudens,Hypopyra pudens,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1769772,Lepidoptera,Erebidae,Hypopyra,Hypopyra vespertilio,"Fabricius, 1787",Hypopyra vespertilio,Hypopyra vespertilio,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5113925,Lepidoptera,Erebidae,Hypospila,Hypospila bolinoides,,Hypospila bolinoides,Hypospila bolinoides,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6132893,Lepidoptera,Erebidae,Hypospila,Hypospila creberrima,,Hypospila creberrima,Hypospila creberrima,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1780711,Lepidoptera,Erebidae,Ischyja,Ischyja anna,"Swinhoe,1902",Ischyja anna,Ischyja anna,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1780705,Lepidoptera,Erebidae,Ischyja,Ischyja ferrifracta,"Walker,1864",Ischyja ferrifracta,Ischyja ferrifracta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1780714,Lepidoptera,Erebidae,Ischyja,Ischyja hagenii,,Ischyja hagenii,Ischyja hagenii,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1780707,Lepidoptera,Erebidae,Ischyja,Ischyja hemiphaea,,Ischyja hemiphaea,Ischyja hemiphaea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1780715,Lepidoptera,Erebidae,Ischyja,Ischyja inferna,,Ischyja inferna,Ischyja inferna,98,ACCEPTED,EXACT,SPECIES,London06October2023
+1780716,Lepidoptera,Erebidae,Ischyja,Ischyja manlia,"Swinhoe,1902",Ischyja manlia,Ischyja manlia,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1780702,Lepidoptera,Erebidae,Ischyja,Ischyja manlioides,,Ischyja manlioides,Ischyja manlioides,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1770112,Lepidoptera,Erebidae,Lacera,Lacera uniformis,,Lacera uniformis,Lacera uniformis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1792689,Lepidoptera,Erebidae,Lygniodes,Lygniodes endoleucus,"GuérinMeneville, 1844",Lygniodes endoleucus,Lygniodes endoleucus,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10270464,Lepidoptera,Erebidae,Macaldenia,Macaldenia palumba,,Macaldenia palumba,Macaldenia palumba,99,ACCEPTED,EXACT,SPECIES,London06October2023
+4687933,Lepidoptera,Erebidae,Mocis,Mocis frugalis,"Fabricius,1775",Mocis frugalis,Mocis frugalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6116646,Lepidoptera,Erebidae,Mocis,Mocis undata,"Fabricius,1775",Mocis undata,Mocis undata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5109767,Lepidoptera,Erebidae,Ommatophora,Ommatophora fulvastra,"Guenée, 1852",Ommatophora fulvastra,Ommatophora fulvastra,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5109766,Lepidoptera,Erebidae,Ommatophora,Ommatophora luminosa,,Ommatophora luminosa,Ommatophora luminosa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5112550,Lepidoptera,Erebidae,Ophisma,Ophisma pallescens,,Ophisma pallescens,Ophisma pallescens,98,ACCEPTED,EXACT,SPECIES,London06October2023
+9234202,Lepidoptera,Erebidae,Ophiusa,Ophiusa discriminans,,Ophiusa discriminans,Ophiusa discriminans,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11524834,Lepidoptera,Erebidae,Ophiusa,Ophiusa tirhacoides,,Ophiusa tirhacoides,Ophiusa tirhacoides,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6132936,Lepidoptera,Erebidae,Ophiusa,Ophiusa trapezium,,Ophiusa trapezium,Ophiusa trapezium,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1777166,Lepidoptera,Erebidae,Oxyodes,Oxyodes scrobiculata,,Oxyodes scrobiculata,Oxyodes scrobiculata,98,ACCEPTED,EXACT,SPECIES,London06October2023
+6116413,Lepidoptera,Erebidae,Pandesma,Pandesma quenavadi,"Guenée,1852",Pandesma quenavadi,Pandesma quenavadi,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1781531,Lepidoptera,Erebidae,Pericyma,Pericyma cruegeri,"Butler, 1886",Pericyma cruegeri,Pericyma cruegeri,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1774577,Lepidoptera,Erebidae,Pilipectus,Pilipectus cyclopis,"Hampson,1912",Pilipectus cyclopis,Pilipectus cyclopis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5113352,Lepidoptera,Erebidae,Pindara,Pindara illibata,"Fabricius,1775",Pindara illibata,Pindara illibata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1760137,Lepidoptera,Erebidae,Platyja,Platyja minutipuncta,,Platyja minutipuncta,Platyja minutipuncta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1760157,Lepidoptera,Erebidae,Platyja,Platyja sumatrana,"Felder,1894",Platyja sumatrana,Platyja sumatrana,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10354902,Lepidoptera,Erebidae,Platyja,Platyja umbrina,,Platyja umbrina,Platyja umbrina,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6132868,Lepidoptera,Erebidae,Platyja,Platyja umminia,,Platyja umminia,Platyja umminia,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1789794,Lepidoptera,Erebidae,Polydesma,Polydesma boarmoides,"Guenée,1852",Polydesma boarmoides,Polydesma boarmoides,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1770600,Lepidoptera,Erebidae,Pterocyclophora,Pterocyclophora ridleyi,"Hampson,1913",Pterocyclophora ridleyi,Pterocyclophora ridleyi,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1796984,Lepidoptera,Erebidae,Serrodes,Serrodes campana,,Serrodes campana,Serrodes campana,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1796988,Lepidoptera,Erebidae,Serrodes,Serrodes partita,,Serrodes partita,Serrodes partita,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11856799,Lepidoptera,Erebidae,Speiredonia,Speiredonia sandokana,,Speiredonia sandokana,Speiredonia sandokana,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1772352,Lepidoptera,Erebidae,Sphingomorpha,Sphingomorpha chlorea,,Sphingomorpha chlorea,Sphingomorpha chlorea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1788953,Lepidoptera,Erebidae,Spirama,Spirama retorta,,Spirama retorta,Spirama retorta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1765653,Lepidoptera,Erebidae,Sympis,Sympis rufibasis,,Sympis rufibasis,Sympis rufibasis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1784779,Lepidoptera,Erebidae,Sypna,Sypna albilinea,,Sypna albilinea,Sypna albilinea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+9504222,Lepidoptera,Erebidae,Thyas,Thyas coronata,"Fabricius,1775",Thyas coronata,Thyas coronata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5113385,Lepidoptera,Erebidae,Thyas,Thyas honesta,,Thyas honesta,Thyas honesta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10806460,Lepidoptera,Erebidae,Tochara,Tochara creberrima,"Walker, 1858",Tochara creberrima,Tochara creberrima,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1760385,Lepidoptera,Erebidae,Toxonprucha,Toxonprucha crudelis,,Toxonprucha crudelis,Toxonprucha crudelis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6115388,Lepidoptera,Erebidae,Trigonodes,Trigonodes hyppasia,"Cramer,1779",Trigonodes hyppasia,Trigonodes hyppasia,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1775011,Lepidoptera,Erebidae,Ugia,Ugia disjungens,"Walker, 1858",Ugia disjungens,Ugia disjungens,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1774986,Lepidoptera,Erebidae,Ugia,Ugia serrilinea,,Ugia serrilinea,Ugia serrilinea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1774998,Lepidoptera,Erebidae,Ugia,Ugia signifera,,Ugia signifera,Ugia signifera,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5112500,Lepidoptera,Erebidae,Adrapsa,Adrapsa ablualis,"Walker, 1859",Adrapsa ablualis,Adrapsa ablualis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11519573,Lepidoptera,Erebidae,Adrapsa,Adrapsa editha,,Adrapsa editha,Adrapsa editha,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10755417,Lepidoptera,Erebidae,Adrapsa,Adrapsa ereboides,"Walker, 1863",Adrapsa ereboides,Adrapsa ereboides,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11368766,Lepidoptera,Erebidae,Adrapsa,Adrapsa geometroides,"Walker, 1858",Adrapsa geometroides,Adrapsa geometroides,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10370994,Lepidoptera,Erebidae,Adrapsa,Adrapsa orgyoides,,Adrapsa orgyoides,Adrapsa orgyoides,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11614264,Lepidoptera,Erebidae,Adrapsa,Adrapsa tenomigera,,Adrapsa tenomigera,Adrapsa tenomigera,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6132798,Lepidoptera,Erebidae,Bertula,Bertula alpheusalis,,Bertula alpheusalis,Bertula alpheusalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1793647,Lepidoptera,Erebidae,Bertula,Bertula depressalis,"Snellen, 1886",Bertula depressalis,Bertula depressalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11447869,Lepidoptera,Erebidae,Bertula,Bertula momusalis ,"Walker, 1859",Bertula momusalis ,Bertula momusalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10645473,Lepidoptera,Erebidae,Bertula,Bertula nigra,"Swinhoe, 1902",Bertula nigra,Bertula nigra,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11761892,Lepidoptera,Erebidae,Bertula,Bertula pallidicosta,,Bertula pallidicosta,Bertula pallidicosta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+9888533,Lepidoptera,Erebidae,Bertula,Bertula tespisalis,,Bertula tespisalis,Bertula tespisalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5109796,Lepidoptera,Erebidae,Bocana,Bocana manifestalis,"Walker, 1858",Bocana manifestalis,Bocana manifestalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5109804,Lepidoptera,Erebidae,Bocana,Bocana silenusalis,,Bocana silenusalis,Bocana silenusalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1783885,Lepidoptera,Erebidae,Egnasides,Egnasides rudmuna,"Swinhoe,1905",Egnasides rudmuna,Egnasides rudmuna,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11898780,Lepidoptera,Erebidae,Hadennia,Hadennia harmani,,Hadennia harmani,Hadennia harmani,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6132938,Lepidoptera,Erebidae,Hadennia,Hadennia hisbonalis,,Hadennia hisbonalis,Hadennia hisbonalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1779626,Lepidoptera,Erebidae,Hadennia,Hadennia hypenalis,,Hadennia hypenalis,Hadennia hypenalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1779627,Lepidoptera,Erebidae,Hadennia,Hadennia mysalis,,Hadennia mysalis,Hadennia mysalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1779628,Lepidoptera,Erebidae,Hadennia,Hadennia nigerrima,,Hadennia nigerrima,Hadennia nigerrima,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11717028,Lepidoptera,Erebidae,Polypogon,Hipoepa biasalis,,Hipoepa biasalis,Polypogon biasalis,99,SYNONYM,EXACT,SPECIES,London06October2023
+1782310,Lepidoptera,Erebidae,Polypogon,Hipoepa fractalis,"Guenée, 1854",Hipoepa fractalis,Hipoepa fractalis,98,DOUBTFUL,EXACT,SPECIES,London06October2023
+6133069,Lepidoptera,Erebidae,Hydrillodes,Hydrillodes gravatalis,,Hydrillodes gravatalis,Hydrillodes gravatalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6115928,Lepidoptera,Erebidae,Hydrillodes,Hydrillodes hemusalis,,Hydrillodes hemusalis,Hydrillodes hemusalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1765999,Lepidoptera,Erebidae,Hydrillodes,Hydrillodes lentalis,"Guenee, 1854",Hydrillodes lentalis,Hydrillodes lentalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10074639,Lepidoptera,Erebidae,Hydrillodes,Hydrillodes plicaloides,,Hydrillodes plicaloides,Hydrillodes plicaloides,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1793896,Lepidoptera,Erebidae,Lysimelia,Lysimelia alstoni,,Lysimelia alstoni,Lysimelia alstoni,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11633405,Lepidoptera,Erebidae,Polypogon,Lysimelia neleusalis,,Lysimelia neleusalis,Polypogon neleusalis,99,SYNONYM,EXACT,SPECIES,London06October2023
+1776925,Lepidoptera,Erebidae,Naarda,Naarda ochreistigma,,Naarda ochreistigma,Naarda ochreistigma,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5113330,Lepidoptera,Erebidae,Nodaria,Nodaria externalis,,Nodaria externalis,Nodaria externalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+9945629,Lepidoptera,Erebidae,Polypogon,Polypogon albapex,,Polypogon albapex,Polypogon albapex,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11622765,Lepidoptera,Erebidae,Polypogon,Polypogon nothusalis,,Polypogon nothusalis,Polypogon nothusalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11902281,Lepidoptera,Erebidae,Polypogon,Polypogon warleyi,,Polypogon warleyi,Polypogon warleyi,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1762219,Lepidoptera,Erebidae,Progonia,Progonia oileusalis,"Walker, 1859",Progonia oileusalis,Progonia oileusalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1791732,Lepidoptera,Erebidae,Schistorhynx,Schistorhynx lobata,"Prout,1925",Schistorhynx lobata,Schistorhynx lobata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6133058,Lepidoptera,Erebidae,Simplicia,Simplicia bimarginata,,Simplicia bimarginata,Simplicia bimarginata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11711581,Lepidoptera,Erebidae,Simplicia,Simplicia concisalis,,Simplicia concisalis,Simplicia concisalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+9610080,Lepidoptera,Erebidae,Simplicia,Simplicia cornicalis,"Fabricius, 1794",Simplicia cornicalis,Simplicia cornicalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5111044,Lepidoptera,Erebidae,Simplicia,Simplicia discosticta,"Hampson, 1912",Simplicia discosticta,Simplicia discosticta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5111043,Lepidoptera,Erebidae,Simplicia,Simplicia robustalis,,Simplicia robustalis,Simplicia robustalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+9857844,Lepidoptera,Erebidae,Simplicia,Simplicia schaldusalis,,Simplicia schaldusalis,Simplicia schaldusalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6132979,Lepidoptera,Erebidae,Speiredonia,Speiredonia mutabilis,"Fabricius,1794",Speiredonia mutabilis,Speiredonia mutabilis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11548757,Lepidoptera,Erebidae,Acidon,Acidon mariae,,Acidon mariae,Acidon mariae,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6133070,Lepidoptera,Erebidae,Acidon,Acidon nigrobasis,,Acidon nigrobasis,Acidon nigrobasis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11917741,Lepidoptera,Erebidae,Acidon,Acidon rectivia,,Acidon rectivia,Acidon rectivia,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10715493,Lepidoptera,Erebidae,Acidon,Acidon sabada,,Acidon sabada,Acidon sabada,99,ACCEPTED,EXACT,SPECIES,London06October2023
+9981597,Lepidoptera,Erebidae,Acidon,Acidon wayangkulit,,Acidon wayangkulit,Acidon wayangkulit,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1786117,Lepidoptera,Erebidae,Catada,Catada canaliferalis,,Catada canaliferalis,Catada canaliferalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1786107,Lepidoptera,Erebidae,Catada,Catada transversalis,,Catada transversalis,Catada transversalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1767853,Lepidoptera,Erebidae,Cultripalpa,Cultripalpa lunulifera,"Hampson,1926",Cultripalpa lunulifera,Cultripalpa lunulifera,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1767851,Lepidoptera,Erebidae,Cultripalpa,Cultripalpa partita,"Guenée,1852",Cultripalpa partita,Cultripalpa partita,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11893542,Lepidoptera,Erebidae,Euphiuche,Euphiuche picta,"Moore, 1882",Euphiuche picta,Euphiuche picta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1786927,Lepidoptera,Erebidae,Gonoglasa,Gonoglasa camptogramma,,Gonoglasa camptogramma,Gonoglasa camptogramma,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11490731,Lepidoptera,Erebidae,Hypena,Hypena abjectalis,,Hypena abjectalis,Hypena abjectalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1798868,Lepidoptera,Erebidae,Hypena,Hypena gonospilalis,,Hypena gonospilalis,Hypena gonospilalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+8793873,Lepidoptera,Erebidae,Hypena,Hypena laceratalis,,Hypena laceratalis,Hypena commixtalis,99,SYNONYM,EXACT,SPECIES,London06October2023
+4532361,Lepidoptera,Erebidae,Hypena,Hypena obacerralis,"Walker, 1859",Hypena obacerralis,Hypena masurialis,99,SYNONYM,EXACT,SPECIES,London06October2023
+1798642,Lepidoptera,Erebidae,Hypena,Hypena robustalis,"Snellen, 1880",Hypena robustalis,Hypena robustalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+4532352,Lepidoptera,Erebidae,Hypena,Hypena simplicalis,,Hypena simplicalis,Hypena lividalis,99,SYNONYM,EXACT,SPECIES,London06October2023
+11861625,Lepidoptera,Erebidae,Feathalina,Feathalina postreducta,,Feathalina postreducta,Feathalina postreducta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5111643,Lepidoptera,Erebidae,Luceria,Luceria oculalis,"Moore, 1877",Luceria oculalis,Luceria oculalis,98,ACCEPTED,EXACT,SPECIES,London06October2023
+1781418,Lepidoptera,Erebidae,Hypocala,Hypocala andamana,,Hypocala andamana,Hypocala andamana,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1781414,Lepidoptera,Erebidae,Hypocala,Hypocala violacea,,Hypocala violacea,Hypocala violacea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1771816,Lepidoptera,Erebidae,Avitta,Avitta bracteola,"Holloway,1976",Avitta bracteola,Avitta bracteola,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1771795,Lepidoptera,Erebidae,Avitta,Avitta guttulosa,"Swinhoe,1900",Avitta guttulosa,Avitta guttulosa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1780732,Lepidoptera,Erebidae,Avittonia,Avittonia albidentata,"Hampson,1926",Avittonia albidentata,Avittonia albidentata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5109187,Lepidoptera,Erebidae,Diascia,Diascia hayesi,"Holloway,1976",Diascia hayesi,Diascia hayesi,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11585694,Lepidoptera,Erebidae,Lutzugia,Lutzugia trigonalis,"Kobes,1983",Lutzugia trigonalis,Lutzugia trigonalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1783300,Lepidoptera,Erebidae,Pseudosphetta,Pseudosphetta fissisigna,"Hampson,1926",Pseudosphetta fissisigna,Pseudosphetta fissisigna,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1774764,Lepidoptera,Erebidae,Rhynchodina,Rhynchodina molybdota,"Hampson,1926",Rhynchodina molybdota,Rhynchodina molybdota,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1787048,Lepidoptera,Erebidae,Stenocarsia,Stenocarsia sthenoptera,"Swinhoe,1895",Stenocarsia sthenoptera,Stenocarsia sthenoptera,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1777229,Lepidoptera,Erebidae,Talariga,Talariga capacior,"Walker,1858",Talariga capacior,Talariga capacior,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1776423,Lepidoptera,Erebidae,Poliofoca,Poliofoca gebenna,"Swinhoe,1903",Poliofoca gebenna,Poliofoca gebenna,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10294293,Lepidoptera,Erebidae,Xanthanomis,Xanthanomis xanthina,"Holloway & Zilli,2005",Xanthanomis xanthina,Xanthanomis xanthina,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5116116,Lepidoptera,Erebidae,Darantasia,Darantasia cuneiplena,"Walker, 1859",Darantasia cuneiplena,Darantasia cuneiplena,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11645900,Lepidoptera,Erebidae,Macotasa,Macotasa tortricoides,"Walker, 1862",Macotasa tortricoides,Macotasa tortricoides,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1819434,Lepidoptera,Erebidae,Arctornis,Arctornis cygna,,Arctornis cygna,Arctornis cygna,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1819375,Lepidoptera,Erebidae,Arctornis,Arctornis dorsalineatus,"Holloway,1999",Arctornis dorsalineatus,Arctornis dorsalineatus,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1819490,Lepidoptera,Erebidae,Arctornis,Arctornis egerina,"Swinhoe,1893",Arctornis egerina,Arctornis egerina,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1819476,Lepidoptera,Erebidae,Arctornis,Arctornis florella,,Arctornis florella,Arctornis florella,99,ACCEPTED,EXACT,SPECIES,London06October2023
+8407461,Lepidoptera,Erebidae,Arctornis,Arctornis l-nigrum,,Arctornis l-nigrum,Arctornis l-nigrum,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1819506,Lepidoptera,Erebidae,Arctornis,Arctornis marginalis,,Arctornis marginalis,Arctornis marginalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10019075,Lepidoptera,Erebidae,Arctornis,Arctornis obtusa,,Arctornis obtusa,Arctornis obtusa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1819424,Lepidoptera,Erebidae,Arctornis,Arctornis plumbacea,,Arctornis plumbacea,Arctornis plumbacea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1819421,Lepidoptera,Erebidae,Arctornis,Arctornis rutila,,Arctornis rutila,Arctornis rutila,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1819433,Lepidoptera,Erebidae,Arctornis,Arctornis semihyalina,,Arctornis semihyalina,Arctornis semihyalina,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1819517,Lepidoptera,Erebidae,Arctornis,Arctornis singaporensis,,Arctornis singaporensis,Arctornis singaporensis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1819467,Lepidoptera,Erebidae,Arctornis,Arctornis submarginata,,Arctornis submarginata,Arctornis submarginata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1819502,Lepidoptera,Erebidae,Arctornis,Arctornis ungula,,Arctornis ungula,Arctornis ungula,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5118422,Lepidoptera,Erebidae,Arna,Arna bipunctapex,,Arna bipunctapex,Arna bipunctapex,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5118429,Lepidoptera,Erebidae,Arna,Arna perplexa,,Arna perplexa,Arna perplexa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1819357,Lepidoptera,Erebidae,Artaxa,Artaxa nubilosa,,Artaxa nubilosa,Artaxa nubilosa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1819358,Lepidoptera,Erebidae,Artaxa,Artaxa ormea,,Artaxa ormea,Artaxa ormea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1819780,Lepidoptera,Erebidae,Bembina,Bembina isabellina,,Bembina isabellina,Bembina isabellina,99,ACCEPTED,EXACT,SPECIES,London06October2023
+7346382,Lepidoptera,Erebidae,Calliteara,Calliteara grotei,,Calliteara grotei,Calliteara grotei,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6197200,Lepidoptera,Erebidae,Calliteara,Calliteara horsfieldii,"Saunders,1851",Calliteara horsfieldii,Calliteara horsfieldii,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1819762,Lepidoptera,Erebidae,Carriola,Carriola ecnomoda,"Swinhoe, 1907",Carriola ecnomoda,Carriola ecnomoda,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1819668,Lepidoptera,Erebidae,Clethrogyna,Clethrogyna turbata,"Butler, 1879",Clethrogyna turbata,Clethrogyna turbata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1820888,Lepidoptera,Erebidae,Dasychira,Dasychira chekiangensis,"Collenette,1938",Dasychira chekiangensis,Dasychira chekiangensis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1821464,Lepidoptera,Erebidae,Euproctis,Euproctis lutea,,Euproctis lutea,Euproctis lutea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1821824,Lepidoptera,Erebidae,Euproctis,Euproctis singapura,,Euproctis singapura,Euproctis singapura,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1821934,Lepidoptera,Erebidae,Euproctis,Euproctis taiwana,,Euproctis taiwana,Euproctis taiwana,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1820493,Lepidoptera,Erebidae,Lacida,Lacida biplagata,,Lacida biplagata,Lacida biplagata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1820476,Lepidoptera,Erebidae,Lymantria,Lymantria alexandrae,"Schintlmeister, 1994",Lymantria alexandrae,Lymantria alexandrae,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1820369,Lepidoptera,Erebidae,Lymantria,Lymantria faircloughi,"Holloway,1999",Lymantria faircloughi,Lymantria faircloughi,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1820451,Lepidoptera,Erebidae,Lymantria,Lymantria ganara,,Lymantria ganara,Lymantria ganara,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1820170,Lepidoptera,Erebidae,Micromorphe,Micromorphe linta,,Micromorphe linta,Micromorphe linta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6197152,Lepidoptera,Erebidae,Nygmia,Nygmia amplior,,Nygmia amplior,Nygmia amplior,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6197124,Lepidoptera,Erebidae,Nygmia,Nygmia fumosa,,Nygmia fumosa,Nygmia fumosa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6197131,Lepidoptera,Erebidae,Nygmia,Nygmia guttistriga,,Nygmia guttistriga,Nygmia guttistriga,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5883720,Lepidoptera,Erebidae,Nygmia,Nygmia plana,,Nygmia plana,Nygmia plana,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1820118,Lepidoptera,Erebidae,Olene,Olene dudgeoni,,Olene dudgeoni,Olene dudgeoni,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1820136,Lepidoptera,Erebidae,Olene,Olene inclusa,,Olene inclusa,Olene inclusa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1820137,Lepidoptera,Erebidae,Olene,Olene mendosa,"Hűbner,1823",Olene mendosa,Olene mendosa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1819873,Lepidoptera,Erebidae,Orgyia,Orgyia antiqua,,Orgyia antiqua,Orgyia antiqua,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5118302,Lepidoptera,Erebidae,Orgyia,Orgyia osseata,,Orgyia osseata,Orgyia osseata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5118348,Lepidoptera,Erebidae,Orgyia,Orgyia postica,,Orgyia postica,Orgyia postica,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1818669,Lepidoptera,Erebidae,Orvasca,Orvasca bicolor,"Heylaerts, 1892",Orvasca bicolor,Orvasca bicolor,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1818659,Lepidoptera,Erebidae,Orvasca,Orvasca subnotata,"Walker,1865",Orvasca subnotata,Orvasca subnotata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1818991,Lepidoptera,Erebidae,Perina,Perina nuda,"Fabricius, 1787",Perina nuda,Perina nuda,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1818993,Lepidoptera,Erebidae,Perina,Perina sunda,,Perina sunda,Perina sunda,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1820155,Lepidoptera,Erebidae,Rhypotoses,Rhypotoses maculutea,,Rhypotoses maculutea,Rhypotoses maculutea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1819686,Lepidoptera,Erebidae,Somena,Somena aurantiacoides,"Holloway,1999",Somena aurantiacoides,Somena aurantiacoides,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1819683,Lepidoptera,Erebidae,Somena,Somena similis,,Somena similis,Somena similis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1759433,Lepidoptera,Erebidae,Claterna,Claterna cydonia,"Cramer,1775",Claterna cydonia,Claterna cydonia,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1766542,Lepidoptera,Erebidae,Bematha,Bematha extensa,"Walker,1865",Bematha extensa,Bematha extensa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+12215389,Lepidoptera,Erebidae,Gespanna,Gespanna confirmata,,Gespanna confirmata,Gespanna confirmata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1775983,Lepidoptera,Erebidae,Masca,Masca abactalis,"Walker, 1859",Masca abactalis,Masca abactalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1758623,Lepidoptera,Erebidae,Nagadeba,Nagadeba celenoalis,,Nagadeba celenoalis,Nagadeba celenoalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11704091,Lepidoptera,Erebidae,Pangrapta,Pangrapta philemonalis,,Pangrapta philemonalis,Pangrapta philemonalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1763652,Lepidoptera,Erebidae,Throana,Throana amyntoralis,,Throana amyntoralis,Throana amyntoralis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1783717,Lepidoptera,Erebidae,Bocula,Bocula bifaria,,Bocula bifaria,Bocula bifaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1783726,Lepidoptera,Erebidae,Bocula,Bocula xanthostola,,Bocula xanthostola,Bocula xanthostola,99,ACCEPTED,EXACT,SPECIES,London06October2023
+12148290,Lepidoptera,Erebidae,Rivula,Rivula inconspicua,,Rivula inconspicua,Rivula inconspicua,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10096224,Lepidoptera,Erebidae,Tamsia,Tamsia hieroglyphica,"Swinhoe,1902",Tamsia hieroglyphica,Tamsia hieroglyphica,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1785072,Lepidoptera,Erebidae,Anomis,Anomis flava,,Anomis flava,Anomis flava,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1785017,Lepidoptera,Erebidae,Anomis,Anomis scitipennis,,Anomis scitipennis,Anomis scitipennis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11552093,Lepidoptera,Erebidae,Arthisma,Arthisma mutilata,,Arthisma mutilata,Arthisma mutilata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1764640,Lepidoptera,Erebidae,Chilkasa,Chilkasa falcata,,Chilkasa falcata,Chilkasa falcata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1760923,Lepidoptera,Erebidae,Dinumma,Dinumma combusta,,Dinumma combusta,Dinumma combusta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1760927,Lepidoptera,Erebidae,Dinumma,Dinumma deponens,,Dinumma deponens,Dinumma deponens,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1760920,Lepidoptera,Erebidae,Dinumma,Dinumma oxygrapha,,Dinumma oxygrapha,Dinumma oxygrapha,99,ACCEPTED,EXACT,SPECIES,London06October2023
+9846203,Lepidoptera,Erebidae,Malagonia,Malagonia lineata,,Malagonia lineata,Malagonia lineata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+9400545,Lepidoptera,Erebidae,Rusicada,Rusicada privata,,Rusicada privata,Rusicada privata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5110615,Lepidoptera,Erebidae,Savara,Savara anomioides,,Savara anomioides,Savara anomioides,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1761191,Lepidoptera,Erebidae,Thalatta,Thalatta fasciosa,,Thalatta fasciosa,Thalatta fasciosa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1762721,Lepidoptera,Erebidae,Xanthanomis,Xanthanomis fuscifrons,,Xanthanomis fuscifrons,Xanthanomis fuscifrons,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1776708,Lepidoptera,Erebidae,Poeta,Poeta denotalis,,Poeta denotalis,Poeta denotalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1776707,Lepidoptera,Erebidae,Poeta,Poeta quadrinotata,,Poeta quadrinotata,Poeta quadrinotata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11852509,Lepidoptera,Erebidae,Asta,Asta quadrilinea,,Asta quadrilinea,Asta quadrilinea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1771820,Lepidoptera,Erebidae,Avitta,Avitta fasciosa,,Avitta fasciosa,Avitta fasciosa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11622705,Lepidoptera,Erebidae,Pantura,Avitta ophiusalis,,Avitta ophiusalis,Pantura ophiusalis,99,SYNONYM,EXACT,SPECIES,London06October2023
+1779446,Lepidoptera,Erebidae,Batracharta,Batracharta cossoides,,Batracharta cossoides,Batracharta cossoides,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1783906,Lepidoptera,Erebidae,Blasticorhinus,Blasticorhinus rivulosa,,Blasticorhinus rivulosa,Blasticorhinus rivulosa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11520528,Lepidoptera,Erebidae,Chorsia,Chorsia dinglei,,Chorsia dinglei,Chorsia dinglei,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11793687,Lepidoptera,Erebidae,Chorsia,Chorsia hemicyclopis,,Chorsia hemicyclopis,Chorsia hemicyclopis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1774003,Lepidoptera,Erebidae,Chrysopera,Chrysopera combinans,,Chrysopera combinans,Chrysopera combinans,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1774568,Lepidoptera,Erebidae,Marapana,Marapana pulverata,,Marapana pulverata,Marapana pulverata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11436019,Lepidoptera,Erebidae,Oglasa,Oglasa basicomma,,Oglasa basicomma,Oglasa basicomma,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10340700,Lepidoptera,Erebidae,Oglasa,Oglasa sordidula,,Oglasa sordidula,Oglasa sordidula,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11691755,Lepidoptera,Erebidae,Pantura,Pantura rufifrons,,Pantura rufifrons,Pantura rufifrons,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1774061,Lepidoptera,Erebidae,Vestura,Vestura minereusalis,,Vestura minereusalis,Vestura minereusalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11657677,Lepidoptera,Eupterotidae,Eupterote,Eupterote naessigi,,Eupterote naessigi,Eupterote naessigi,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11746800,Lepidoptera,Eupterotidae,Eupterote,Eupterote niassana,,Eupterote niassana,Eupterote niassana,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1868849,Lepidoptera,Eupterotidae,Ganisa,Ganisa plana,"Walker,1855",Ganisa plana,Ganisa plana,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11794362,Lepidoptera,Eupterotidae,Sphingognatha,Sphingognatha asclepiades,"Felder & Felder, 1874",Sphingognatha asclepiades,Sphingognatha asclepiades,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1788809,Lepidoptera,Euteliidae,Anigraea,Anigraea rubida,,Anigraea rubida,Anigraea rubida,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1771896,Lepidoptera,Euteliidae,Chlumetia,Chlumetia euthysticha,,Chlumetia euthysticha,Chlumetia euthysticha,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1771903,Lepidoptera,Euteliidae,Chlumetia,Chlumetia transversa,,Chlumetia transversa,Chlumetia transversa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11856412,Lepidoptera,Euteliidae,Kobestelia,Kobestelia rosea,,Kobestelia rosea,Kobestelia rosea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1780634,Lepidoptera,Euteliidae,Paectes,Paectes roseovincta,,Paectes roseovincta,Paectes roseovincta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5112440,Lepidoptera,Euteliidae,Penicillaria,Penicillaria jocosatrix,,Penicillaria jocosatrix,Penicillaria jocosatrix,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11635845,Lepidoptera,Euteliidae,Targalla,Targalla atripars,,Targalla atripars,Targalla atripars,99,ACCEPTED,EXACT,SPECIES,London06October2023
+4301309,Lepidoptera,Euteliidae,Targalla,Targalla delatrix,"Guenée, 1852",Targalla delatrix,Targalla delatrix,99,ACCEPTED,EXACT,SPECIES,London06October2023
+9854348,Lepidoptera,Euteliidae,Targalla,Targalla palliatrix,"Guenée, 1852",Targalla palliatrix,Targalla palliatrix,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10340962,Lepidoptera,Euteliidae,Targalla,Targalla subocellata,,Targalla subocellata,Targalla subocellata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10376690,Lepidoptera,Euteliidae,Targallodes,Targallodes vittalba,,Targallodes vittalba,Targallodes vittalba,99,ACCEPTED,EXACT,SPECIES,London06October2023
+8133084,Lepidoptera,Euteliidae,Aegilia,Aegilia describens,,Aegilia describens,Aegilia describens,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11801101,Lepidoptera,Euteliidae,Aegilia,Aegilia sundascribens,,Aegilia sundascribens,Aegilia sundascribens,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5108492,Lepidoptera,Euteliidae,Lophoptera,Lophoptera illucida,,Lophoptera illucida,Lophoptera illucida,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5108503,Lepidoptera,Euteliidae,Lophoptera,Lophoptera leucostriga,,Lophoptera leucostriga,Lophoptera leucostriga,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6132995,Lepidoptera,Euteliidae,Lophoptera,Lophoptera nama,,Lophoptera nama,Lophoptera nama,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5108435,Lepidoptera,Euteliidae,Lophoptera,Lophoptera squammigera,,Lophoptera squammigera,Lophoptera squammigera,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1766336,Lepidoptera,Euteliidae,Odontodes,Odontodes aleuca,,Odontodes aleuca,Odontodes aleuca,98,ACCEPTED,EXACT,SPECIES,London06October2023
+1766343,Lepidoptera,Euteliidae,Odontodes,Odontodes seranensis,,Odontodes seranensis,Odontodes seranensis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+7808088,Lepidoptera,Euteliidae,Sigmuncus,Sigmuncus arcuata,,Sigmuncus arcuata,Sigmuncus arcuata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5111753,Lepidoptera,Euteliidae,Stictoptera,Stictoptera columba,,Stictoptera columba,Stictoptera columba,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5111713,Lepidoptera,Euteliidae,Stictoptera,Stictoptera cucullioides,,Stictoptera cucullioides,Stictoptera cucullioides,98,ACCEPTED,EXACT,SPECIES,London06October2023
+5111758,Lepidoptera,Euteliidae,Stictoptera,Stictoptera repleta,,Stictoptera repleta,Stictoptera repleta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5111795,Lepidoptera,Euteliidae,Stictoptera,Stictoptera signifera,,Stictoptera signifera,Stictoptera signifera,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5111790,Lepidoptera,Euteliidae,Stictoptera,Stictoptera trajiciens,,Stictoptera trajiciens,Stictoptera trajiciens,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1847062,Lepidoptera,Gelechiidae,Dichomeris,Dichomeris oxycarpa,,Dichomeris oxycarpa,Dichomeris oxycarpa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1850633,Lepidoptera,Gelechiidae,Helcystogramma,Helcystogramma hibisci,,Helcystogramma hibisci,Helcystogramma hibisci,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1964738,Lepidoptera,Geometridae,Alex,Alex palparia,,Alex palparia,Alex palparia,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1988449,Lepidoptera,Geometridae,Derambila,Derambila dentiscripta,"Bastelberger, 1909",Derambila dentiscripta,Derambila dentiscripta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1988406,Lepidoptera,Geometridae,Derambila,Derambila lumenaria,"Geyer, 1837",Derambila lumenaria,Derambila lumenaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1957435,Lepidoptera,Geometridae,Eumelea,Eumelea biflavata,,Eumelea biflavata,Eumelea biflavata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1957398,Lepidoptera,Geometridae,Eumelea,Eumelea florinata,,Eumelea florinata,Eumelea florinata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1957368,Lepidoptera,Geometridae,Eumelea,Eumelea ludovicata,"Guenée, 1857",Eumelea ludovicata,Eumelea ludovicata,98,ACCEPTED,EXACT,SPECIES,London06October2023
+1957413,Lepidoptera,Geometridae,Eumelea,Eumelea rosalia,,Eumelea rosalia,Eumelea rosalia,98,ACCEPTED,EXACT,SPECIES,London06October2023
+11794886,Lepidoptera,Geometridae,Noreia,Noreia ajaia,"Walker, 1859",Noreia ajaia,Noreia ajaia,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11911163,Lepidoptera,Geometridae,Noreia,Noreia unilineata,,Noreia unilineata,Noreia unilineata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11733656,Lepidoptera,Geometridae,Achrosis,Achrosis fulvifusa,,Achrosis fulvifusa,Achrosis fulvifusa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1960166,Lepidoptera,Geometridae,Acronyctodes,Acronyctodes mexicanaria,,Acronyctodes mexicanaria,Acronyctodes mexicanaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1956384,Lepidoptera,Geometridae,Amblychia,Amblychia angeronaria,,Amblychia angeronaria,Amblychia angeronaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11560614,Lepidoptera,Geometridae,Amblychia,Amblychia hymenaria,"Guenée, 1858",Amblychia hymenaria,Amblychia hymenaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1960014,Lepidoptera,Geometridae,Aplochlora,Aplochlora vivilaca,,Aplochlora vivilaca,Aplochlora vivilaca,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10127050,Lepidoptera,Geometridae,Astygisa,Astygisa vexillaria,,Astygisa vexillaria,Astygisa vexillaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11775978,Lepidoptera,Geometridae,Biston,Biston inouei,,Biston inouei,Biston inouei,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10835542,Lepidoptera,Geometridae,Biston,Biston insularis,,Biston insularis,Biston insularis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+9605358,Lepidoptera,Geometridae,Biston,Biston pustulata,"Warren, 1896",Biston pustulata,Biston pustulata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1968147,Lepidoptera,Geometridae,Borbacha,Borbacha pardaria,,Borbacha pardaria,Borbacha pardaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1968144,Lepidoptera,Geometridae,Borbacha,Borbacha punctipardaria,,Borbacha punctipardaria,Borbacha punctipardaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1963772,Lepidoptera,Geometridae,Bulonga,Bulonga schistacearia,"Walker,1859",Bulonga schistacearia,Bulonga schistacearia,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10140994,Lepidoptera,Geometridae,Calichodes,Calichodes subrugata,,Calichodes subrugata,Calichodes subrugata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1978996,Lepidoptera,Geometridae,Calletaera,Calletaera basipuncta,,Calletaera basipuncta,Calletaera basipuncta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+9571971,Lepidoptera,Geometridae,Calletaera,Calletaera dentata,,Calletaera dentata,Calletaera dentata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11689576,Lepidoptera,Geometridae,Calletaera,Calletaera jotaria,,Calletaera jotaria,Calletaera jotaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11813487,Lepidoptera,Geometridae,Calletaera,Calletaera schistacea,,Calletaera schistacea,Calletaera schistacea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1978999,Lepidoptera,Geometridae,Calletaera,Calletaera subexpressa,,Calletaera subexpressa,Calletaera subexpressa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1986801,Lepidoptera,Geometridae,Catoria,Catoria delectaria,,Catoria delectaria,Catoria delectaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1986787,Lepidoptera,Geometridae,Catoria,Catoria olivescens,,Catoria olivescens,Catoria olivescens,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1986779,Lepidoptera,Geometridae,Catoria,Catoria sublavaria,"Guenee, 1857",Catoria sublavaria,Catoria sublavaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+7345829,Lepidoptera,Geometridae,Celenna,Celenna festivaria,"Fabricius, 1794",Celenna festivaria,Celenna festivaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6133670,Lepidoptera,Geometridae,Chiasmia,Chiasmia emersaria,"Walker, 1861",Chiasmia emersaria,Chiasmia emersaria,98,ACCEPTED,EXACT,SPECIES,London06October2023
+6133668,Lepidoptera,Geometridae,Chiasmia,Chiasmia ozararia,,Chiasmia ozararia,Chiasmia ozararia,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10876400,Lepidoptera,Geometridae,Chiasmia,Chiasmia translineata,,Chiasmia translineata,Chiasmia translineata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1991943,Lepidoptera,Geometridae,Chorodna,Chorodna complicataria,,Chorodna complicataria,Chorodna complicataria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5148055,Lepidoptera,Geometridae,Cleora,Cleora alienaria,,Cleora alienaria,Cleora alienaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5147999,Lepidoptera,Geometridae,Cleora,Cleora determinata,,Cleora determinata,Cleora determinata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5147968,Lepidoptera,Geometridae,Cleora,Cleora fraterna,,Cleora fraterna,Cleora fraterna,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5147917,Lepidoptera,Geometridae,Cleora,Cleora injectaria,"Walker, 1860",Cleora injectaria,Cleora injectaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5148214,Lepidoptera,Geometridae,Cleora,Cleora repetita,,Cleora repetita,Cleora repetita,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5148096,Lepidoptera,Geometridae,Cleora,Cleora scriptaria,,Cleora scriptaria,Cleora scriptaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10835450,Lepidoptera,Geometridae,Coremecis,Coremecis maculata,"Warren,1899",Coremecis maculata,Coremecis maculata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11882311,Lepidoptera,Geometridae,Coremecis,Coremecis nigrovittata,,Coremecis nigrovittata,Coremecis nigrovittata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1976216,Lepidoptera,Geometridae,Corymica,Corymica latimarginata,"Swinhoe, 1902",Corymica latimarginata,Corymica latimarginata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1962292,Lepidoptera,Geometridae,Curbia,Curbia martiata,,Curbia martiata,Curbia martiata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11856219,Lepidoptera,Geometridae,Dasyboarmia,Dasyboarmia subpilosa,,Dasyboarmia subpilosa,Dasyboarmia subpilosa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1980145,Lepidoptera,Geometridae,Diplurodes,Diplurodes inundata,,Diplurodes inundata,Diplurodes inundata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1980827,Lepidoptera,Geometridae,Ectropis,Ectropis bhurmitra,,Ectropis bhurmitra,Ectropis bhurmitra,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1962542,Lepidoptera,Geometridae,Eutoea,Eutoea heteroneurata,,Eutoea heteroneurata,Eutoea heteroneurata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1987350,Lepidoptera,Geometridae,Fascellina,Fascellina castanea,"Moore, 1877",Fascellina castanea,Fascellina castanea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1987377,Lepidoptera,Geometridae,Fascellina,Fascellina chromataria,"Walker, 1860",Fascellina chromataria,Fascellina chromataria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1987381,Lepidoptera,Geometridae,Fascellina,Fascellina clausaria,,Fascellina clausaria,Fascellina clausaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1987360,Lepidoptera,Geometridae,Fascellina,Fascellina meligerys,,Fascellina meligerys,Fascellina meligerys,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11850656,Lepidoptera,Geometridae,Fascellina,Fascellina viridicosta,"Holloway,1993",Fascellina viridicosta,Fascellina viridicosta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6216607,Lepidoptera,Geometridae,Genusa,Genusa bigutta,,Genusa bigutta,Genusa bigutta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1975712,Lepidoptera,Geometridae,Gonodontis,Gonodontis clelia,"Cramer, 1780",Gonodontis clelia,Gonodontis clelia,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1975711,Lepidoptera,Geometridae,Gonodontis,Gonodontis pallida,,Gonodontis pallida,Gonodontis pallida,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1973396,Lepidoptera,Geometridae,Heteralex,Heteralex rectilineata,"Guenée,1857",Heteralex rectilineata,Heteralex rectilineata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1989955,Lepidoptera,Geometridae,Heterostegane,Heterostegane tritocampsis,,Heterostegane tritocampsis,Heterostegane tritocampsis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1989968,Lepidoptera,Geometridae,Heterostegane,Heterostegane warreni,,Heterostegane warreni,Heterostegane warreni,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5149609,Lepidoptera,Geometridae,Hyperythra,Hyperythra lutea,,Hyperythra lutea,Hyperythra lutea,98,ACCEPTED,EXACT,SPECIES,London06October2023
+9962269,Lepidoptera,Geometridae,Hypochrosis,Hypochrosis binexata,,Hypochrosis binexata,Hypochrosis binexata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1978516,Lepidoptera,Geometridae,Hypomecis,Hypomecis costaria,"Guenée, 1857",Hypomecis costaria,Hypomecis costaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6118096,Lepidoptera,Geometridae,Hypomecis,Hypomecis separata,,Hypomecis separata,Hypomecis separata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1978524,Lepidoptera,Geometridae,Hypomecis,Hypomecis transcissa,,Hypomecis transcissa,Hypomecis transcissa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1958475,Lepidoptera,Geometridae,Hyposidra,Hyposidra incomptaria,,Hyposidra incomptaria,Hyposidra incomptaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1958463,Lepidoptera,Geometridae,Hyposidra,Hyposidra infixaria,"Walker, 1860",Hyposidra infixaria,Hyposidra infixaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1958434,Lepidoptera,Geometridae,Hyposidra,Hyposidra picaria,,Hyposidra picaria,Hyposidra picaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1958454,Lepidoptera,Geometridae,Hyposidra,Hyposidra talaca,,Hyposidra talaca,Hyposidra talaca,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11820105,Lepidoptera,Geometridae,Hypulia,Hypulia eleuthera,,Hypulia eleuthera,Hypulia eleuthera,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1964023,Lepidoptera,Geometridae,Krananda,Krananda extranotata,,Krananda extranotata,Krananda extranotata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1964024,Lepidoptera,Geometridae,Krananda,Krananda semihyalina,"Moore,1868",Krananda semihyalina,Krananda semihyalina,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1986054,Lepidoptera,Geometridae,Lomographa,Lomographa inamata,,Lomographa inamata,Lomographa inamata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1986045,Lepidoptera,Geometridae,Lomographa,Lomographa luciferata,,Lomographa luciferata,Lomographa luciferata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1977812,Lepidoptera,Geometridae,Luxiaria,Luxiaria acutaria,"Snellen, 1877",Luxiaria acutaria,Luxiaria acutaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11653232,Lepidoptera,Geometridae,Luxiaria,Luxiaria fictaria,,Luxiaria fictaria,Luxiaria fictaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1977830,Lepidoptera,Geometridae,Luxiaria,Luxiaria submonstrata,"Walker, 1861",Luxiaria submonstrata,Luxiaria submonstrata,98,ACCEPTED,EXACT,SPECIES,London06October2023
+9897424,Lepidoptera,Geometridae,Microcalicha,Microcalicha punctimarginaria,"Leech,1897",Microcalicha punctimarginaria,Microcalicha punctimarginaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1968180,Lepidoptera,Geometridae,Nothomiza,Nothomiza xanthocolona,"Meyrick,1897",Nothomiza xanthocolona,Nothomiza xanthocolona,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1964119,Lepidoptera,Geometridae,Ophthalmitis,Ophthalmitis rufilauta,,Ophthalmitis rufilauta,Ophthalmitis rufilauta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+9073859,Lepidoptera,Geometridae,Ophthalmitis,Ophthalmitis viridior,,Ophthalmitis viridior,Ophthalmitis viridior,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1979521,Lepidoptera,Geometridae,Pareumelea,Pareumelea eugeniata,,Pareumelea eugeniata,Pareumelea eugeniata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1979520,Lepidoptera,Geometridae,Pareumelea,Pareumelea hortensiata,,Pareumelea hortensiata,Pareumelea hortensiata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1966165,Lepidoptera,Geometridae,Peratophyga,Peratophyga venetia,,Peratophyga venetia,Peratophyga venetia,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1966166,Lepidoptera,Geometridae,Peratophyga,Peratophyga xanthyala,"Hampson,1896",Peratophyga xanthyala,Peratophyga xanthyala,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1975174,Lepidoptera,Geometridae,Petelia,Petelia delostigma,,Petelia delostigma,Petelia delostigma,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1975164,Lepidoptera,Geometridae,Petelia,Petelia medardaria,,Petelia medardaria,Petelia medardaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1958148,Lepidoptera,Geometridae,Plutodes,Plutodes cyclaria,,Plutodes cyclaria,Plutodes cyclaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1958152,Lepidoptera,Geometridae,Plutodes,Plutodes flavescens,,Plutodes flavescens,Plutodes flavescens,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5880539,Lepidoptera,Geometridae,Macaria,Psamatodes abydata,,Psamatodes abydata,Macaria abydata,99,SYNONYM,EXACT,SPECIES,London06October2023
+1976314,Lepidoptera,Geometridae,Racotis,Racotis inconclusa,,Racotis inconclusa,Racotis inconclusa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10045357,Lepidoptera,Geometridae,Ruttellerona,Ruttellerona pallicostaria,,Ruttellerona pallicostaria,Ruttellerona pallicostaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1970070,Lepidoptera,Geometridae,Synegia,Synegia imitaria,,Synegia imitaria,Synegia imitaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1955808,Lepidoptera,Geometridae,Tasta,Tasta micaceata,,Tasta micaceata,Tasta micaceata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+9933012,Lepidoptera,Geometridae,Tasta,Tasta montana,"Holloway, 1993",Tasta montana,Tasta montana,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1961789,Lepidoptera,Geometridae,Zamarada,Zamarada baliata,,Zamarada baliata,Zamarada baliata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1962016,Lepidoptera,Geometridae,Zamarada,Zamarada eogenaria,,Zamarada eogenaria,Zamarada eogenaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11834199,Lepidoptera,Geometridae,Zeheba,Zeheba aureatoides,,Zeheba aureatoides,Zeheba aureatoides,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1985152,Lepidoptera,Geometridae,Agathia,Agathia laetata,,Agathia laetata,Agathia laetata,98,ACCEPTED,EXACT,SPECIES,London06October2023
+10864093,Lepidoptera,Geometridae,Albinospila,Albinospila floresaria,,Albinospila floresaria,Albinospila floresaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1963629,Lepidoptera,Geometridae,Aporandria,Aporandria specularia,,Aporandria specularia,Aporandria specularia,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6133659,Lepidoptera,Geometridae,Argyrocosma,Argyrocosma inductaria,,Argyrocosma inductaria,Argyrocosma inductaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5146287,Lepidoptera,Geometridae,Berta,Berta chrysolineata,,Berta chrysolineata,Berta chrysolineata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10632124,Lepidoptera,Geometridae,Comibaena,Comibaena attenuata,,Comibaena attenuata,Comibaena attenuata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6133596,Lepidoptera,Geometridae,Comibaena,Comibaena cassidara,"Guenée, 1857",Comibaena cassidara,Comibaena cassidara,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1987751,Lepidoptera,Geometridae,Comostola,Comostola chlorargyra,,Comostola chlorargyra,Comostola chlorargyra,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1987759,Lepidoptera,Geometridae,Comostola,Comostola iodioides,,Comostola iodioides,Comostola iodioides,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1987775,Lepidoptera,Geometridae,Comostola,Comostola laesaria,,Comostola laesaria,Comostola laesaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11851868,Lepidoptera,Geometridae,Comostola,Comostola quantula,,Comostola quantula,Comostola quantula,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1967606,Lepidoptera,Geometridae,Comostolopsis,Comostolopsis stillata,,Comostolopsis stillata,Comostolopsis stillata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1976482,Lepidoptera,Geometridae,Dindica,Dindica olivacea,,Dindica olivacea,Dindica olivacea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5149059,Lepidoptera,Geometridae,Dysphania,Dysphania bivexillata,,Dysphania bivexillata,Dysphania bivexillata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5149056,Lepidoptera,Geometridae,Dysphania,Dysphania discalis,,Dysphania discalis,Dysphania discalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5149178,Lepidoptera,Geometridae,Dysphania,Dysphania glaucescens,"Walker, 1861",Dysphania glaucescens,Dysphania glaucescens,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5149101,Lepidoptera,Geometridae,Dysphania,Dysphania malayanus,"GuérinMéneville, 1843",Dysphania malayanus,Dysphania malayanus,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5149174,Lepidoptera,Geometridae,Dysphania,Dysphania militaris,,Dysphania militaris,Dysphania militaris,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5149136,Lepidoptera,Geometridae,Dysphania,Dysphania subrepleta,"Walker,1854",Dysphania subrepleta,Dysphania subrepleta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10210550,Lepidoptera,Geometridae,Eucyclodes,Eucyclodes albisparsa,,Eucyclodes albisparsa,Eucyclodes albisparsa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1991378,Lepidoptera,Geometridae,Hemithea,Hemithea tritonaria,"Walker, 1863",Hemithea tritonaria,Hemithea tritonaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10650546,Lepidoptera,Geometridae,Herochroma,Herochroma clariscripta,,Herochroma clariscripta,Herochroma clariscripta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1991462,Lepidoptera,Geometridae,Idiochlora,Idiochlora minuscula,,Idiochlora minuscula,Idiochlora minuscula,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1975280,Lepidoptera,Geometridae,Maxates,Maxates coelataria,,Maxates coelataria,Maxates coelataria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11753051,Lepidoptera,Geometridae,Maxates,Maxates magnipuncta,"Prout,1916",Maxates magnipuncta,Maxates magnipuncta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11686453,Lepidoptera,Geometridae,Maxates,Maxates melancholica,"Prout, 1912",Maxates melancholica,Maxates melancholica,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1991310,Lepidoptera,Geometridae,Oenospila,Oenospila flavifusata,,Oenospila flavifusata,Oenospila flavifusata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1954867,Lepidoptera,Geometridae,Ornithospila,Ornithospila bipunctata,,Ornithospila bipunctata,Ornithospila bipunctata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1954870,Lepidoptera,Geometridae,Ornithospila,Ornithospila submonstrans,,Ornithospila submonstrans,Ornithospila submonstrans,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1954859,Lepidoptera,Geometridae,Ornithospila,Ornithospila sundaensis,,Ornithospila sundaensis,Ornithospila sundaensis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+7926998,Lepidoptera,Geometridae,Orothalassodes,Orothalassodes hypocrites,,Orothalassodes hypocrites,Orothalassodes hypocrites,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11579276,Lepidoptera,Geometridae,Orothalassodes,Orothalassodes leucoceraea,,Orothalassodes leucoceraea,Orothalassodes leucoceraea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6133562,Lepidoptera,Geometridae,Pelagodes,Pelagodes antiquadraria,,Pelagodes antiquadraria,Pelagodes antiquadraria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1982267,Lepidoptera,Geometridae,Pingasa,Pingasa ruginaria,"Guenée, 1857",Pingasa ruginaria,Pingasa ruginaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11848964,Lepidoptera,Geometridae,Protuliocnemis,Protuliocnemis helpsi,"Holloway,1996",Protuliocnemis helpsi,Protuliocnemis helpsi,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11427182,Lepidoptera,Geometridae,Rhombocentra,Rhombocentra semipurpurea,"Warren,1897",Rhombocentra semipurpurea,Rhombocentra semipurpurea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1970123,Lepidoptera,Geometridae,Spaniocentra,Spaniocentra lobata,,Spaniocentra lobata,Spaniocentra lobata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1970124,Lepidoptera,Geometridae,Spaniocentra,Spaniocentra megaspilaria,,Spaniocentra megaspilaria,Spaniocentra megaspilaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1970138,Lepidoptera,Geometridae,Spaniocentra,Spaniocentra spicata,,Spaniocentra spicata,Spaniocentra spicata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1960174,Lepidoptera,Geometridae,Tanaorhinus,Tanaorhinus rafflesii,,Tanaorhinus rafflesii,Tanaorhinus rafflesii,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1964367,Lepidoptera,Geometridae,Thalassodes,Thalassodes quadraria,,Thalassodes quadraria,Thalassodes quadraria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11569392,Lepidoptera,Geometridae,Bosara,Bosara emarginaria,,Bosara emarginaria,Bosara emarginaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1958221,Lepidoptera,Geometridae,Carbia,Carbia calescens,,Carbia calescens,Carbia calescens,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11870475,Lepidoptera,Geometridae,Carbia,Carbia pulchrilinea,,Carbia pulchrilinea,Carbia pulchrilinea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1989641,Lepidoptera,Geometridae,Eois,Eois grataria,,Eois grataria,Eois grataria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1989804,Lepidoptera,Geometridae,Eois,Eois plumbacea,,Eois plumbacea,Eois plumbacea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11635419,Lepidoptera,Geometridae,Gymnoscelis,Gymnoscelis admixtaria,,Gymnoscelis admixtaria,Gymnoscelis admixtaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5149858,Lepidoptera,Geometridae,Gymnoscelis,Gymnoscelis fasciata,"Hampson ,1891",Gymnoscelis fasciata,Gymnoscelis fasciata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5149877,Lepidoptera,Geometridae,Gymnoscelis,Gymnoscelis imparatalis,,Gymnoscelis imparatalis,Gymnoscelis imparatalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1986715,Lepidoptera,Geometridae,Sauris,Sauris contorta,,Sauris contorta,Sauris contorta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5149929,Lepidoptera,Geometridae,Gymnoscelis,Spiralisigna subpumilata,,Spiralisigna subpumilata,Gymnoscelis subpumilata,99,SYNONYM,EXACT,SPECIES,London06October2023
+11863141,Lepidoptera,Geometridae,Symmimetis,Symmimetis heveli,,Symmimetis heveli,Symmimetis heveli,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11811238,Lepidoptera,Geometridae,Chrysocraspeda,Chrysocraspeda argentimacula,"Holloway,1997",Chrysocraspeda argentimacula,Chrysocraspeda argentimacula,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1972733,Lepidoptera,Geometridae,Chrysocraspeda,Chrysocraspeda croceomarginata,,Chrysocraspeda croceomarginata,Chrysocraspeda croceomarginata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11573285,Lepidoptera,Geometridae,Chrysocraspeda,Chrysocraspeda dilucida,,Chrysocraspeda dilucida,Chrysocraspeda dilucida,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11726086,Lepidoptera,Geometridae,Chrysocraspeda,Chrysocraspeda dipyramida,,Chrysocraspeda dipyramida,Chrysocraspeda dipyramida,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10732353,Lepidoptera,Geometridae,Chrysocraspeda,Chrysocraspeda faganaria,,Chrysocraspeda faganaria,Chrysocraspeda faganaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1972779,Lepidoptera,Geometridae,Chrysocraspeda,Chrysocraspeda mitigata,,Chrysocraspeda mitigata,Chrysocraspeda mitigata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11770483,Lepidoptera,Geometridae,Chrysocraspeda,Chrysocraspeda phlogea,"Prout,1938",Chrysocraspeda phlogea,Chrysocraspeda phlogea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1972764,Lepidoptera,Geometridae,Chrysocraspeda,Chrysocraspeda plumbeofusa,,Chrysocraspeda plumbeofusa,Chrysocraspeda plumbeofusa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11888211,Lepidoptera,Geometridae,Chrysocraspeda,Chrysocraspeda porphyrochlamys,,Chrysocraspeda porphyrochlamys,Chrysocraspeda porphyrochlamys,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11852255,Lepidoptera,Geometridae,Chrysocraspeda,Chrysocraspeda tigrina,,Chrysocraspeda tigrina,Chrysocraspeda tigrina,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10571523,Lepidoptera,Geometridae,Cyclophora,Cyclophora frenaria,,Cyclophora frenaria,Cyclophora frenaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10263383,Lepidoptera,Geometridae,Cyclophora,Cyclophora obstataria,,Cyclophora obstataria,Cyclophora obstataria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5144134,Lepidoptera,Geometridae,Erythrolophus,Erythrolophus fascicorpus,,Erythrolophus fascicorpus,Erythrolophus fascicorpus,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5146566,Lepidoptera,Geometridae,Idaea,Idaea costiguttata,,Idaea costiguttata,Idaea costiguttata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5146508,Lepidoptera,Geometridae,Idaea,Idaea craspedota,"Prout, 1934",Idaea craspedota,Idaea craspedota,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5146434,Lepidoptera,Geometridae,Idaea,Idaea impexa,,Idaea impexa,Idaea impexa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5146752,Lepidoptera,Geometridae,Idaea,Idaea macrospila,,Idaea macrospila,Idaea macrospila,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11592590,Lepidoptera,Geometridae,Lophophleps,Lophophleps phoenicoptera,"Hampson, 1896",Lophophleps phoenicoptera,Lophophleps phoenicoptera,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6133604,Lepidoptera,Geometridae,Lophophleps,Lophophleps purpurea,,Lophophleps purpurea,Lophophleps purpurea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11780161,Lepidoptera,Geometridae,Lophophleps,Lophophleps triangularis,,Lophophleps triangularis,Lophophleps triangularis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11536528,Lepidoptera,Geometridae,Mesotrophe,Mesotrophe intortaria,"Guenée, 1857",Mesotrophe intortaria,Mesotrophe intortaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1960683,Lepidoptera,Geometridae,Organopoda,Organopoda perorbata,"Prout,1937",Organopoda perorbata,Organopoda perorbata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6133523,Lepidoptera,Geometridae,Perixera,Perixera absconditaria,,Perixera absconditaria,Perixera absconditaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11452041,Lepidoptera,Geometridae,Perixera,Perixera argentosa,"Prout, 1920",Perixera argentosa,Perixera argentosa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10399427,Lepidoptera,Geometridae,Perixera,Perixera clandestina,"Prout, 1918",Perixera clandestina,Perixera clandestina,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11743760,Lepidoptera,Geometridae,Perixera,Perixera gaeta,,Perixera gaeta,Perixera gaeta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6133525,Lepidoptera,Geometridae,Perixera,Perixera illepidaria,,Perixera illepidaria,Perixera illepidaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10682335,Lepidoptera,Geometridae,Perixera,Perixera jocosa,,Perixera jocosa,Perixera jocosa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11479444,Lepidoptera,Geometridae,Perixera,Perixera obliviaria,,Perixera obliviaria,Perixera obliviaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5144116,Lepidoptera,Geometridae,Problepsis,Problepsis delphiaria,,Problepsis delphiaria,Problepsis delphiaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5144092,Lepidoptera,Geometridae,Problepsis,Problepsis vulgaris,,Problepsis vulgaris,Problepsis vulgaris,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5145470,Lepidoptera,Geometridae,Scopula,Scopula actuaria,,Scopula actuaria,Scopula actuaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+9194811,Lepidoptera,Geometridae,Scopula,Scopula divisaria,"Christoph,1893",Scopula divisaria,Scopula divisaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5145502,Lepidoptera,Geometridae,Scopula,Scopula minorata,,Scopula minorata,Scopula minorata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5145608,Lepidoptera,Geometridae,Scopula,Scopula parodites,,Scopula parodites,Scopula parodites,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5144747,Lepidoptera,Geometridae,Scopula,Scopula rufistigma,,Scopula rufistigma,Scopula rufistigma,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5145560,Lepidoptera,Geometridae,Scopula,Scopula umbilicata,,Scopula umbilicata,Scopula umbilicata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1968779,Lepidoptera,Geometridae,Somatina,Somatina obscuriciliata,,Somatina obscuriciliata,Somatina obscuriciliata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6133643,Lepidoptera,Geometridae,Traminda,Traminda aventiaria,"Guenée,1857",Traminda aventiaria,Traminda aventiaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1969581,Lepidoptera,Geometridae,Traminda,Traminda mundissima,"Walker,1861",Traminda mundissima,Traminda mundissima,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11858774,Lepidoptera,Geometridae,Traminda,Traminda rubra,,Traminda rubra,Traminda rubra,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1988256,Lepidoptera,Geometridae,Zythos,Zythos strigata,,Zythos strigata,Zythos strigata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1988266,Lepidoptera,Geometridae,Zythos,Zythos turbata,,Zythos turbata,Zythos turbata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1749678,Lepidoptera,Gracillariidae,Neolithocolletis,Neolithocolletis pentadesma,,Neolithocolletis pentadesma,Neolithocolletis pentadesma,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1749580,Lepidoptera,Gracillariidae,Phyllocnistis,Phyllocnistis citrella,,Phyllocnistis citrella,Phyllocnistis citrella,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1749571,Lepidoptera,Gracillariidae,Phyllocnistis,Phyllocnistis nepenthae,"Hering,1931",Phyllocnistis nepenthae,Phyllocnistis nepenthae,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1992283,Lepidoptera,Hyblaeidae,Hyblaea,Hyblaea constellata,,Hyblaea constellata,Hyblaea constellata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1992315,Lepidoptera,Hyblaeidae,Hyblaea,Hyblaea puera,,Hyblaea puera,Hyblaea puera,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1758530,Lepidoptera,Immidae,Imma,Imma homocrossa,,Imma homocrossa,Imma homocrossa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1758562,Lepidoptera,Immidae,Imma,Imma mackwoodii,,Imma mackwoodii,Imma mackwoodii,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1758461,Lepidoptera,Immidae,Imma,Imma mylias,,Imma mylias,Imma mylias,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1758537,Lepidoptera,Immidae,Imma,Imma tetrascia,,Imma tetrascia,Imma tetrascia,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1758587,Lepidoptera,Immidae,Imma,Imma transversella,,Imma transversella,Imma transversella,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1758423,Lepidoptera,Immidae,Moca,Moca auxobathra,,Moca auxobathra,Moca auxobathra,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1758416,Lepidoptera,Immidae,Moca,Moca tesseraria,,Moca tesseraria,Moca tesseraria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1758076,Lepidoptera,Lacturidae,Anticrates,Anticrates eulimna,,Anticrates eulimna,Anticrates eulimna,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1734941,Lepidoptera,Lasiocampidae,Arguda,Arguda rosemariae,"Holloway,1987",Arguda rosemariae,Arguda rosemariae,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5102242,Lepidoptera,Lasiocampidae,Euthrix,Euthrix laeta,,Euthrix laeta,Euthrix laeta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1733155,Lepidoptera,Lasiocampidae,Kunugia,Kunugia divaricata,,Kunugia divaricata,Kunugia divaricata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1733183,Lepidoptera,Lasiocampidae,Kunugia,Kunugia drakei,,Kunugia drakei,Kunugia drakei,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1733156,Lepidoptera,Lasiocampidae,Kunugia,Kunugia gynandra,,Kunugia gynandra,Kunugia gynandra,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1733160,Lepidoptera,Lasiocampidae,Kunugia,Kunugia latipennis,,Kunugia latipennis,Kunugia latipennis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1733221,Lepidoptera,Lasiocampidae,Lajonquierea,Lajonquierea poeciloptera,,Lajonquierea poeciloptera,Lajonquierea poeciloptera,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1734514,Lepidoptera,Lasiocampidae,Lebeda,Lebeda cognata,,Lebeda cognata,Lebeda cognata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1734519,Lepidoptera,Lasiocampidae,Lebeda,Lebeda nobilis,,Lebeda nobilis,Lebeda nobilis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1732824,Lepidoptera,Lasiocampidae,Metanastria,Metanastria gemella,,Metanastria gemella,Metanastria gemella,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1732830,Lepidoptera,Lasiocampidae,Metanastria,Metanastria hyrtaca,,Metanastria hyrtaca,Metanastria hyrtaca,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11776205,Lepidoptera,Lasiocampidae,Metanastria,Metanastria mantra,,Metanastria mantra,Metanastria mantra,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5102288,Lepidoptera,Lasiocampidae,Odonestis,Odonestis angulata,,Odonestis angulata,Odonestis angulata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5102283,Lepidoptera,Lasiocampidae,Odonestis,Odonestis erectilinea,,Odonestis erectilinea,Odonestis erectilinea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5101636,Lepidoptera,Lasiocampidae,Paralebeda,Paralebeda lucifuga,,Paralebeda lucifuga,Paralebeda lucifuga,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1734545,Lepidoptera,Lasiocampidae,Suana,Suana riemsdyki,"Heylaerts,1889",Suana riemsdyki,Suana riemsdyki,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1732137,Lepidoptera,Lasiocampidae,Trabala,Trabala krishna,,Trabala krishna,Trabala krishna,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1732114,Lepidoptera,Lasiocampidae,Trabala,Trabala pallida,,Trabala pallida,Trabala pallida,98,ACCEPTED,EXACT,SPECIES,London06October2023
+1732116,Lepidoptera,Lasiocampidae,Trabala,Trabala shiva,,Trabala shiva,Trabala shiva,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1732115,Lepidoptera,Lasiocampidae,Trabala,Trabala vishnou,"Lefèbvre, 1827",Trabala vishnou,Trabala vishnou,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5102281,Lepidoptera,Lasiocampidae,Odonestis,Odonestis vita,"Moore, 1859",Odonestis vita,Odonestis vita,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1733709,Lepidoptera,Lasiocampidae,Streblote,Streblote dorsalis,,Streblote dorsalis,Streblote dorsalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1733752,Lepidoptera,Lasiocampidae,Streblote,Streblote stupidum,,Streblote stupidum,Streblote stupidum,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11694787,Lepidoptera,Lecithoceridae,Halolaguna,Lecithocera biferrinella,,Lecithocera biferrinella,Halolaguna biferrinella,99,SYNONYM,EXACT,SPECIES,London06October2023
+1831983,Lepidoptera,Lecithoceridae,Lecithocera,Lecithocera concinna,,Lecithocera concinna,Lecithocera concinna,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1832258,Lepidoptera,Lecithoceridae,Tisis,Tisis charadraea,,Tisis charadraea,Tisis charadraea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1832253,Lepidoptera,Lecithoceridae,Tisis,Tisis meliorella,,Tisis meliorella,Tisis meliorella,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11800846,Lepidoptera,Lecithoceridae,Thubana,Thubana erycinae,,Thubana erycinae,Thubana erycinae,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11673281,Lepidoptera,Lecithoceridae,Torodora,Torodora epicharis,,Torodora epicharis,Torodora epicharis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1832187,Lepidoptera,Lecithoceridae,Torodora,Torodora leucochlora,,Torodora leucochlora,Torodora leucochlora,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1832435,Lepidoptera,Lecithoceridae,Tiriza,Tiriza leucotella,,Tiriza leucotella,Tiriza leucotella,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1753764,Lepidoptera,Limacodidae,Mambarona,Birthama congrua,,Birthama congrua,Mambarona congrua,99,SYNONYM,EXACT,SPECIES,London06October2023
+10955682,Lepidoptera,Limacodidae,Birthamula,Birthamula rufa,,Birthamula rufa,Birthamula rufa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11777074,Lepidoptera,Limacodidae,Birthosea,Birthosea bisura,,Birthosea bisura,Birthosea bisura,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1752492,Lepidoptera,Limacodidae,Cania,Cania bandura,"Moore, 1859",Cania bandura,Cania bandura,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11705452,Lepidoptera,Limacodidae,Cania,Cania minuta,,Cania minuta,Cania minuta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1752903,Lepidoptera,Limacodidae,Chalcocelis,Chalcocelis albiguttatus,,Chalcocelis albiguttatus,Chalcocelis albiguttatus,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5105266,Lepidoptera,Limacodidae,Darna,Darna metaleuca,,Darna metaleuca,Darna metaleuca,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6207741,Lepidoptera,Limacodidae,Orthocraspeda,Darna sordida,,Darna sordida,Orthocraspeda sordida,99,SYNONYM,EXACT,SPECIES,London06October2023
+11879281,Lepidoptera,Limacodidae,Demonarosa,Demonarosa mediodorsata,,Demonarosa mediodorsata,Demonarosa mediodorsata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1752516,Lepidoptera,Limacodidae,Hyphorma,Hyphorma margaritacea,,Hyphorma margaritacea,Hyphorma margaritacea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1752357,Lepidoptera,Limacodidae,Idonauton,Idonauton apicalis,"Walker, 1855",Idonauton apicalis,Idonauton apicalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1753420,Lepidoptera,Limacodidae,Narosa,Narosa concinna,,Narosa concinna,Narosa concinna,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11432608,Lepidoptera,Limacodidae,Narosa,Narosa rosipuncta,,Narosa rosipuncta,Narosa rosipuncta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1753933,Lepidoptera,Limacodidae,Nirmides,Nirmides basalis,,Nirmides basalis,Nirmides basalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10932946,Lepidoptera,Limacodidae,Orthocraspeda,Orthocraspeda furva,,Orthocraspeda furva,Orthocraspeda furva,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11495548,Lepidoptera,Limacodidae,Orthocraspeda,Orthocraspeda trima,,Orthocraspeda trima,Orthocraspeda trima,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11014495,Lepidoptera,Limacodidae,Oxyplax,Oxyplax pallivitta,,Oxyplax pallivitta,Oxyplax pallivitta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5105547,Lepidoptera,Limacodidae,Parasa,Parasa lepida,,Parasa lepida,Parasa lepida,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1752161,Lepidoptera,Limacodidae,Phocoderma,Phocoderma velutina,,Phocoderma velutina,Phocoderma velutina,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1752407,Lepidoptera,Limacodidae,Ploneta,Ploneta diducta,,Ploneta diducta,Ploneta diducta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1752639,Lepidoptera,Limacodidae,Praesetora,Praesetora albitermina,,Praesetora albitermina,Praesetora albitermina,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10472473,Lepidoptera,Limacodidae,Pseudidonauton,Pseudidonauton bhaga,,Pseudidonauton bhaga,Pseudidonauton bhaga,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1752876,Lepidoptera,Limacodidae,Scopelodes,Scopelodes anthela,,Scopelodes anthela,Scopelodes anthela,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1753749,Lepidoptera,Limacodidae,Setora,Setora nitens,,Setora nitens,Setora nitens,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11591379,Lepidoptera,Limacodidae,Thespea,Thespea bicolor,,Thespea bicolor,Thespea bicolor,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1752598,Lepidoptera,Limacodidae,Thosea,Thosea monoloncha,,Thosea monoloncha,Thosea monoloncha,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1752603,Lepidoptera,Limacodidae,Thosea,Thosea sinensis,,Thosea sinensis,Thosea sinensis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+8282996,Lepidoptera,Limacodidae,Thosea,Thosea vetusta,"Walker, 1862",Thosea vetusta,Thosea vetusta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1752496,Lepidoptera,Limacodidae,Cania,Cania striola,"Hering,1931",Cania striola,Cania striola,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11754048,Lepidoptera,Metarbelidae,Squamura,Squamura disciplaga,"Swinhoe,1901",Squamura disciplaga,Squamura disciplaga,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1731079,Lepidoptera,Metarbelidae,Squamura,Squamura roepkei,,Squamura roepkei,Squamura roepkei,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1782682,Lepidoptera,Noctuidae,Acronicta,Acronicta hasta,,Acronicta hasta,Acronicta hasta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1775820,Lepidoptera,Noctuidae,Ancara,Ancara replicans,,Ancara replicans,Ancara replicans,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1782473,Lepidoptera,Noctuidae,Aucha,Aucha velans,"Walker, 1858",Aucha velans,Aucha velans,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11545231,Lepidoptera,Noctuidae,Aedia,Aedia lichenea,,Aedia lichenea,Aedia lichenea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11600539,Lepidoptera,Erebidae,Ecpatia,Ecpatia longinquua,,Ecpatia longinquua,Ecpatia longinquua,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10083246,Lepidoptera,Noctuidae,Callopistria,Mosara apicalis,,Mosara apicalis,Callopistria apicalis,99,SYNONYM,EXACT,SPECIES,London06October2023
+1793243,Lepidoptera,Noctuidae,Episteme,Episteme lectrix,,Episteme lectrix,Episteme lectrix,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1793238,Lepidoptera,Noctuidae,Episteme,Episteme vetula,"Geyer, 1832",Episteme vetula,Episteme vetula,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1774012,Lepidoptera,Noctuidae,Longicella,Longicella mollis,"Walker, 1856",Longicella mollis,Longicella mollis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1763741,Lepidoptera,Noctuidae,Mimeusemia,Mimeusemia postica,,Mimeusemia postica,Mimeusemia postica,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1774797,Lepidoptera,Noctuidae,Amyna,Amyna punctum,,Amyna punctum,Amyna punctum,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1758853,Lepidoptera,Noctuidae,Chasmina,Chasmina candida,,Chasmina candida,Chasmina candida,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1786579,Lepidoptera,Noctuidae,Dyrzela,Dyrzela bosca,,Dyrzela bosca,Dyrzela bosca,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10527172,Lepidoptera,Noctuidae,Dyrzela,Dyrzela boscoides,,Dyrzela boscoides,Dyrzela boscoides,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1786573,Lepidoptera,Noctuidae,Dyrzela,Dyrzela plagiata,,Dyrzela plagiata,Dyrzela plagiata,98,ACCEPTED,EXACT,SPECIES,London06October2023
+1768898,Lepidoptera,Erebidae,Ramadasa,Ramadasa pavo,,Ramadasa pavo,Ramadasa pavo,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5114394,Lepidoptera,Nolidae,Xanthodes,Xanthodes transversa,,Xanthodes transversa,Xanthodes transversa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1825510,Lepidoptera,Notodontidae,Porsica,Porsica punctifascia,"Hampson, 1893",Porsica punctifascia,Porsica punctifascia,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1786317,Lepidoptera,Erebidae,Hamodes,Hamodes propitia,"Boisduval, 1832",Hamodes propitia,Hamodes propitia,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10203499,Lepidoptera,Erebidae,Ischyja,Ischyja marapok,"Holloway, 2005",Ischyja marapok,Ischyja marapok,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1782482,Lepidoptera,Noctuidae,Aucha,Aucha villiana,,Aucha villiana,Aucha villiana,99,ACCEPTED,EXACT,SPECIES,London06October2023
+4688166,Lepidoptera,Noctuidae,Condica,Condica aroana,"BethuneBaker, 1906",Condica aroana,Condica aroana,99,ACCEPTED,EXACT,SPECIES,London06October2023
+4532704,Lepidoptera,Noctuidae,Condica,Condica conducta,,Condica conducta,Condica conducta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+4688172,Lepidoptera,Noctuidae,Condica,Condica illecta,"Walker, 1865",Condica illecta,Condica illecta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5113415,Lepidoptera,Noctuidae,Belciana,Belciana biformis,,Belciana biformis,Belciana biformis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5108752,Lepidoptera,Noctuidae,Callopistria,Callopistria exotica,"Guenée, 1852",Callopistria exotica,Callopistria exotica,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5108709,Lepidoptera,Noctuidae,Callopistria,Callopistria leucobasis,,Callopistria leucobasis,Callopistria leucobasis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5108671,Lepidoptera,Noctuidae,Callopistria,Callopistria maillardi,,Callopistria maillardi,Callopistria maillardi,98,ACCEPTED,EXACT,SPECIES,London06October2023
+5108724,Lepidoptera,Noctuidae,Callopistria,Callopistria rivularis,,Callopistria rivularis,Callopistria rivularis,98,ACCEPTED,EXACT,SPECIES,London06October2023
+5108669,Lepidoptera,Noctuidae,Callopistria,Callopistria trilineata,,Callopistria trilineata,Callopistria trilineata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5108771,Lepidoptera,Noctuidae,Callopistria,Callopistria wallacei,"Felder,1874",Callopistria wallacei,Callopistria wallacei,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6115946,Lepidoptera,Noctuidae,Amyna,Amyna axis,"Guenée, 1852",Amyna axis,Amyna axis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1767393,Lepidoptera,Noctuidae,Maliattha,Maliattha separata,,Maliattha separata,Maliattha separata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1767368,Lepidoptera,Noctuidae,Maliattha,Maliattha signifera,,Maliattha signifera,Maliattha signifera,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5108667,Lepidoptera,Noctuidae,Callopistria,Callopistria emiliusalis,"Walker, 1857",Callopistria emiliusalis,Callopistria emiliusalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+8108800,Lepidoptera,Noctuidae,Helicoverpa,Helicoverpa armigera,,Helicoverpa armigera,Helicoverpa armigera,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1778111,Lepidoptera,Noctuidae,Flammona,Flammona quadrifasciata,,Flammona quadrifasciata,Flammona quadrifasciata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1778109,Lepidoptera,Noctuidae,Flammona,Flammona trilineata,,Flammona trilineata,Flammona trilineata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1771040,Lepidoptera,Noctuidae,Agrotis,Agrotis segetum,"Denis & Schiffermüller, 1775",Agrotis segetum,Agrotis segetum,99,ACCEPTED,EXACT,SPECIES,London06October2023
+4687681,Lepidoptera,Noctuidae,Athetis,Athetis thoracica,,Athetis thoracica,Athetis thoracica,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10071853,Lepidoptera,Noctuidae,Bagada,Bagada labi,"Holloway,1989",Bagada labi,Bagada labi,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1777820,Lepidoptera,Noctuidae,Borbotana,Borbotana nivifascia,"Walker,1858",Borbotana nivifascia,Borbotana nivifascia,98,ACCEPTED,EXACT,SPECIES,London06October2023
+5111082,Lepidoptera,Noctuidae,Leucania,Leucania venalba,,Leucania venalba,Leucania venalba,98,ACCEPTED,EXACT,SPECIES,London06October2023
+5111535,Lepidoptera,Noctuidae,Leucania,Leucania yu,"Guenée, 1852",Leucania yu,Leucania yu,98,ACCEPTED,EXACT,SPECIES,London06October2023
+11839844,Lepidoptera,Noctuidae,Mudaria,Mudaria magniplaga,,Mudaria magniplaga,Mudaria magniplaga,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5883925,Lepidoptera,Noctuidae,Mythimna,Mythimna decisissima,"Walker, 1856",Mythimna decisissima,Mythimna decisissima,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1786455,Lepidoptera,Noctuidae,Pseudorthodes,Pseudorthodes vecors,,Pseudorthodes vecors,Pseudorthodes vecors,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11479304,Lepidoptera,Noctuidae,Magusa,Sasunaga longiplaga,,Sasunaga longiplaga,Magusa longiplaga,99,SYNONYM,EXACT,SPECIES,London06October2023
+5109843,Lepidoptera,Noctuidae,Spodoptera,Spodoptera cilium,,Spodoptera cilium,Spodoptera cilium,99,ACCEPTED,EXACT,SPECIES,London06October2023
+8352161,Lepidoptera,Noctuidae,Spodoptera,Spodoptera exigua,,Spodoptera exigua,Spodoptera exigua,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5109882,Lepidoptera,Noctuidae,Spodoptera,Spodoptera litura,"Fabricius,1775",Spodoptera litura,Spodoptera litura,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5109848,Lepidoptera,Noctuidae,Spodoptera,Spodoptera mauritia,,Spodoptera mauritia,Spodoptera mauritia,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5109898,Lepidoptera,Noctuidae,Spodoptera,Spodoptera pecten,"Guenée,1852",Spodoptera pecten,Spodoptera pecten,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5109872,Lepidoptera,Noctuidae,Spodoptera,Spodoptera picta,"GuérinMéneville, 1838",Spodoptera picta,Spodoptera picta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1794038,Lepidoptera,Noctuidae,Stenopterygia,Stenopterygia calida,,Stenopterygia calida,Stenopterygia calida,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6132957,Lepidoptera,Noctuidae,Tiracola,Tiracola aureata,,Tiracola aureata,Tiracola aureata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1766910,Lepidoptera,Noctuidae,Yepcalphis,Yepcalphis dilectissima,"Walker,1858",Yepcalphis dilectissima,Yepcalphis dilectissima,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1785181,Lepidoptera,Noctuidae,Chrysodeixis,Chrysodeixis acuta,,Chrysodeixis acuta,Chrysodeixis acuta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1785185,Lepidoptera,Noctuidae,Chrysodeixis,Chrysodeixis chalcites,,Chrysodeixis chalcites,Chrysodeixis chalcites,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1785145,Lepidoptera,Noctuidae,Chrysodeixis,Chrysodeixis eriosoma,,Chrysodeixis eriosoma,Chrysodeixis eriosoma,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1771555,Lepidoptera,Noctuidae,Plusiopalpa,Plusiopalpa adrasta,"Felder, 1874",Plusiopalpa adrasta,Plusiopalpa adrasta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1785251,Lepidoptera,Noctuidae,Scriptoplusia,Scriptoplusia nigriluna,,Scriptoplusia nigriluna,Scriptoplusia nigriluna,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1795068,Lepidoptera,Noctuidae,Thysanoplusia,Thysanoplusia orichalcea,,Thysanoplusia orichalcea,Thysanoplusia orichalcea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1786360,Lepidoptera,Noctuidae,Trichoplusia,Trichoplusia ni,,Trichoplusia ni,Trichoplusia ni,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1769095,Lepidoptera,Noctuidae,Zonoplusia,Zonoplusia ochreata,"Walker, 1865",Zonoplusia ochreata,Zonoplusia ochreata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5111728,Lepidoptera,Euteliidae,Stictoptera,Stictoptera clara,"Cramer, 1781",Stictoptera clara,Stictoptera clara,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1769388,Lepidoptera,Erebidae,Hexamitoptera,Hexamitoptera lawinda,,Hexamitoptera lawinda,Hexamitoptera lawinda,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10851646,Lepidoptera,Erebidae,Papuacola,Papuacola gemina,,Papuacola gemina,Papuacola gemina,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1801012,Lepidoptera,Nolidae,Beana,Beana terminigera,,Beana terminigera,Beana terminigera,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1800621,Lepidoptera,Nolidae,Aiteta,Aiteta musculina,,Aiteta musculina,Aiteta musculina,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1800212,Lepidoptera,Nolidae,Asinduma,Asinduma exscripta,,Asinduma exscripta,Asinduma exscripta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1800686,Lepidoptera,Nolidae,Carea,Carea angulata,,Carea angulata,Carea angulata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1800721,Lepidoptera,Nolidae,Carea,Carea inducens,"Walker, 1859",Carea inducens,Carea inducens,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1800821,Lepidoptera,Nolidae,Carea,Carea varipes,,Carea varipes,Carea varipes,98,ACCEPTED,EXACT,SPECIES,London06October2023
+1802951,Lepidoptera,Nolidae,Chandica,Chandica ayama,,Chandica ayama,Chandica ayama,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1802926,Lepidoptera,Nolidae,Chloriola,Chloriola gratissima,"Walker,1863",Chloriola gratissima,Chloriola gratissima,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1800649,Lepidoptera,Nolidae,Erizada,Erizada lichenaria,,Erizada lichenaria,Erizada lichenaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1800432,Lepidoptera,Nolidae,Etanna,Etanna basalis,"Walker, 1862",Etanna basalis,Etanna basalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10213314,Lepidoptera,Nolidae,Etanna,Etanna breviuscula,,Etanna breviuscula,Etanna breviuscula,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1800875,Lepidoptera,Nolidae,Garella,Garella rotundipennis,,Garella rotundipennis,Garella rotundipennis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1802025,Lepidoptera,Nolidae,Giaura,Giaura niveidisca,,Giaura niveidisca,Giaura niveidisca,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11529060,Lepidoptera,Nolidae,Gyrtothripa,Gyrtothripa papuana,,Gyrtothripa papuana,Gyrtothripa papuana,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1802931,Lepidoptera,Nolidae,Gyrtothripa,Gyrtothripa pusilla,,Gyrtothripa pusilla,Gyrtothripa pusilla,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1800948,Lepidoptera,Nolidae,Lasiolopha,Lasiolopha saturata,,Lasiolopha saturata,Lasiolopha saturata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+9998837,Lepidoptera,Nolidae,Nycteola,Nycteola indicatana,,Nycteola indicatana,Nycteola indicatana,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1801074,Lepidoptera,Nolidae,Siglophora,Siglophora haematica,,Siglophora haematica,Siglophora haematica,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11449771,Lepidoptera,Nolidae,Siglophora,Siglophora malickyi,,Siglophora malickyi,Siglophora malickyi,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10201679,Lepidoptera,Nolidae,Xenochroa,Xenochroa annae,,Xenochroa annae,Xenochroa annae,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10330190,Lepidoptera,Nolidae,Xenochroa,Xenochroa costiplaga,,Xenochroa costiplaga,Xenochroa costiplaga,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10598042,Lepidoptera,Nolidae,Xenochroa,Xenochroa xanthia,"Hampson,1902",Xenochroa xanthia,Xenochroa xanthia,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1803035,Lepidoptera,Nolidae,Earias,Earias flavida,,Earias flavida,Earias flavida,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1803078,Lepidoptera,Nolidae,Earias,Earias vittella,,Earias vittella,Earias vittella,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1802071,Lepidoptera,Nolidae,Gadirtha,Gadirtha pulchra,,Gadirtha pulchra,Gadirtha pulchra,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1801503,Lepidoptera,Nolidae,Ptisciana,Ptisciana seminivea,"Walker,1865",Ptisciana seminivea,Ptisciana seminivea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1801152,Lepidoptera,Nolidae,Selepa,Selepa celtis,,Selepa celtis,Selepa celtis,98,ACCEPTED,EXACT,SPECIES,London06October2023
+1801155,Lepidoptera,Nolidae,Selepa,Selepa molybdea,,Selepa molybdea,Selepa molybdea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1801160,Lepidoptera,Nolidae,Selepa,Selepa plumbeata,,Selepa plumbeata,Selepa plumbeata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+12188993,Lepidoptera,Nolidae,Aeneanola,Aeneanola acontioides,,Aeneanola acontioides,Aeneanola acontioides,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1802144,Lepidoptera,Nolidae,Aquis,Aquis albida,,Aquis albida,Aquis albida,99,ACCEPTED,EXACT,SPECIES,London06October2023
+12223139,Lepidoptera,Nolidae,Calonola,Calonola ectrocta,,Calonola ectrocta,Calonola ectrocta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1805087,Lepidoptera,Erebidae,Ctenane,Ctenane labuana,,Ctenane labuana,Ctenane labuana,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1802633,Lepidoptera,Nolidae,Manoba,Manoba major,,Manoba major,Manoba major,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10942408,Lepidoptera,Nolidae,Meganola,Meganola brunellus,,Meganola brunellus,Meganola brunellus,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10568196,Lepidoptera,Nolidae,Nola,Nola analis,,Nola analis,Nola analis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11738021,Lepidoptera,Nolidae,Nola,Nola euryzonata,,Nola euryzonata,Nola euryzonata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6133811,Lepidoptera,Nolidae,Nola,Nola fasciata,,Nola fasciata,Nola fasciata,98,ACCEPTED,EXACT,SPECIES,London06October2023
+6112598,Lepidoptera,Nolidae,Nola,Nola pumila,,Nola pumila,Nola pumila,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6112604,Lepidoptera,Nolidae,Nola,Nola quadrimaculata,,Nola quadrimaculata,Nola internella,99,SYNONYM,EXACT,SPECIES,London06October2023
+11475978,Lepidoptera,Nolidae,Sarbena,Sarbena lignifera,,Sarbena lignifera,Sarbena lignifera,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1800588,Lepidoptera,Nolidae,Risoba,Risoba basalis,,Risoba basalis,Risoba basalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1800582,Lepidoptera,Nolidae,Risoba,Risoba chlora,,Risoba chlora,Risoba chlora,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1800578,Lepidoptera,Nolidae,Risoba,Risoba diversipennis,,Risoba diversipennis,Risoba diversipennis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+9325062,Lepidoptera,Nolidae,Risoba,Risoba obscurivialis,"Holloway, 2003",Risoba obscurivialis,Risoba obscurivialis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1801461,Lepidoptera,Nolidae,Negeta,Negeta contrariata,,Negeta contrariata,Negeta contrariata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1801406,Lepidoptera,Nolidae,Pterogonia,Pterogonia aurigutta,"Walker, 1858",Pterogonia aurigutta,Pterogonia aurigutta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1801410,Lepidoptera,Nolidae,Pterogonia,Pterogonia cardinalis,,Pterogonia cardinalis,Pterogonia cardinalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5114465,Lepidoptera,Nolidae,Westermannia,Westermannia elliptica,,Westermannia elliptica,Westermannia elliptica,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5114515,Lepidoptera,Nolidae,Westermannia,Westermannia gloriosa,,Westermannia gloriosa,Westermannia gloriosa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5114484,Lepidoptera,Nolidae,Westermannia,Westermannia nobilis,,Westermannia nobilis,Westermannia nobilis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11431926,Lepidoptera,Nolidae,Miaromima,Westermannia pangolina,,Westermannia pangolina,Miaromima pangolina,99,SYNONYM,EXACT,SPECIES,London06October2023
+1802863,Lepidoptera,Nolidae,Chloroplaga,Chloroplaga nygmia,,Chloroplaga nygmia,Chloroplaga nygmia,98,ACCEPTED,EXACT,SPECIES,London06October2023
+10597565,Lepidoptera,Nolidae,Didigua,Didigua seticornis,,Didigua seticornis,Didigua seticornis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1801057,Lepidoptera,Nolidae,Gelastocera,Gelastocera viridimacula,,Gelastocera viridimacula,Gelastocera viridimacula,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1801526,Lepidoptera,Nolidae,Plectothripa,Plectothripa excisa,,Plectothripa excisa,Plectothripa excisa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1801339,Lepidoptera,Nolidae,Tathothripa,Tathothripa continua,,Tathothripa continua,Tathothripa continua,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1825336,Lepidoptera,Notodontidae,Netria,Netria viridescens,,Netria viridescens,Netria viridescens,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1824163,Lepidoptera,Notodontidae,Parasinga,Parasinga lichenina,,Parasinga lichenina,Parasinga lichenina,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6133700,Lepidoptera,Notodontidae,Stauropus,Stauropus alternus,,Stauropus alternus,Stauropus alternus,99,ACCEPTED,EXACT,SPECIES,London06October2023
+9921001,Lepidoptera,Notodontidae,Syntypistis,Syntypistis pallidifascia,,Syntypistis pallidifascia,Syntypistis pallidifascia,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11755685,Lepidoptera,Notodontidae,Chadisra,Chadisra basivacua,,Chadisra basivacua,Chadisra basivacua,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1822945,Lepidoptera,Notodontidae,Brykia,Brykia horsfieldi,,Brykia horsfieldi,Brykia horsfieldi,98,ACCEPTED,EXACT,SPECIES,London06October2023
+9877483,Lepidoptera,Notodontidae,Brykia,Brykia samarinda,,Brykia samarinda,Brykia samarinda,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1822473,Lepidoptera,Notodontidae,Calyptronotum,Calyptronotum singapura,,Calyptronotum singapura,Calyptronotum singapura,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1822297,Lepidoptera,Notodontidae,Caschara,Caschara punctifera,,Caschara punctifera,Caschara punctifera,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1825442,Lepidoptera,Notodontidae,Oxoia,Oxoia smaragdiplena,"Walker,1862",Oxoia smaragdiplena,Oxoia smaragdiplena,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10365797,Lepidoptera,Notodontidae,Semidonta,Semidonta nigribasis,,Semidonta nigribasis,Semidonta nigribasis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1836899,Lepidoptera,Oecophoridae,Hofmannophila,Hofmannophila pseudospretella,,Hofmannophila pseudospretella,Hofmannophila pseudospretella,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1833407,Lepidoptera,Xyloryctidae,Caenorycta,Caenorycta anholochrysa,,Caenorycta anholochrysa,Caenorycta anholochrysa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1758003,Lepidoptera,Phaudidae,Phauda,Phauda flammans,,Phauda flammans,Phauda flammans,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1831136,Lepidoptera,Plutellidae,Plutella,Plutella xylostella,,Plutella xylostella,Plutella xylostella,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1830812,Lepidoptera,Praydidae,Prays,Prays nephelomima,,Prays nephelomima,Prays nephelomima,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5122433,Lepidoptera,Psychidae,Eumeta,Eumeta minuscula,,Eumeta minuscula,Eumeta minuscula,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5122430,Lepidoptera,Psychidae,Eumeta,Eumeta variegata,,Eumeta variegata,Eumeta variegatus,97,ACCEPTED,FUZZY,SPECIES,London06October2023
+1854143,Lepidoptera,Psychidae,Cryptothelea,Cryptothelea gloverii,,Cryptothelea gloverii,Cryptothelea gloverii,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10546013,Lepidoptera,Psychidae,Lepidoscia,Lepidoscia protorna,,Lepidoscia protorna,Lepidoscia protorna,99,ACCEPTED,EXACT,SPECIES,London06October2023
+12238020,Lepidoptera,Psychidae,Pagodiella,Pagodiella hekmeyeri,,Pagodiella hekmeyeri,Pagodiella heckmeyeri,99,SYNONYM,EXACT,SPECIES,London06October2023
+1858967,Lepidoptera,Pterophoridae,Deuterocopus,Deuterocopus planeta,"Meyrick, 1908",Deuterocopus planeta,Deuterocopus planeta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1858947,Lepidoptera,Pterophoridae,Deuterocopus,Deuterocopus ritsemae,"Walsingham, 1884",Deuterocopus ritsemae,Deuterocopus ritsemae,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1858953,Lepidoptera,Pterophoridae,Deuterocopus,Deuterocopus socotranus,,Deuterocopus socotranus,Deuterocopus socotranus,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1859453,Lepidoptera,Pterophoridae,Diacrotricha,Diacrotricha fasciola,"Zeller, 1851",Diacrotricha fasciola,Diacrotricha fasciola,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6133397,Lepidoptera,Pterophoridae,Exelastis,Exelastis pumilio,,Exelastis pumilio,Exelastis pumilio,99,ACCEPTED,EXACT,SPECIES,London06October2023
+9749806,Lepidoptera,Pterophoridae,Nippoptilia,Nippoptilia cinctipedalis,,Nippoptilia cinctipedalis,Nippoptilia cinctipedalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5123180,Lepidoptera,Pterophoridae,Pterophorus,Pterophorus lacteipennis,"Walker,1864",Pterophorus lacteipennis,Pterophorus lacteipennis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1859932,Lepidoptera,Pterophoridae,Sphenarches,Sphenarches anisodactylus,,Sphenarches anisodactylus,Sphenarches anisodactylus,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1859935,Lepidoptera,Pterophoridae,Sphenarches,Sphenarches zanclistes,"Meyrick, 1905",Sphenarches zanclistes,Sphenarches zanclistes,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1860026,Lepidoptera,Pterophoridae,Stenoptilodes,Stenoptilodes taprobanes,,Stenoptilodes taprobanes,Stenoptilodes taprobanes,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1860079,Lepidoptera,Pterophoridae,Xyroptila,Xyroptila oenophanes,,Xyroptila oenophanes,Xyroptila oenophanes,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1875571,Lepidoptera,Pyralidae,Stericta,Stericta sectilis,,Stericta sectilis,Stericta sectilis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1870237,Lepidoptera,Pyralidae,Doloessa,Doloessa viridis,,Doloessa viridis,Doloessa viridis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1876542,Lepidoptera,Pyralidae,Galleria,Galleria mellonella,,Galleria mellonella,Galleria mellonella,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1873843,Lepidoptera,Pyralidae,Tirathaba,Tirathaba rufivena,,Tirathaba rufivena,Tirathaba rufivena,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1873861,Lepidoptera,Pyralidae,Tirathaba,Tirathaba ruptilinea,,Tirathaba ruptilinea,Tirathaba ruptilinea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5884888,Lepidoptera,Pyralidae,Ectomyelois,Ectomyelois ceratoniae,,Ectomyelois ceratoniae,Ectomyelois ceratoniae,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1878470,Lepidoptera,Pyralidae,Ephestia,Ephestia elutella,,Ephestia elutella,Ephestia elutella,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1875483,Lepidoptera,Pyralidae,Ephestiodes,Ephestiodes infimella,,Ephestiodes infimella,Ephestiodes infimella,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1877788,Lepidoptera,Pyralidae,Canthelea,Epicrocis oegnusalis,,Epicrocis oegnusalis,Canthelea oegnusalis,99,SYNONYM,EXACT,SPECIES,London06October2023
+1873626,Lepidoptera,Pyralidae,Indomyrlaea,Indomyrlaea ferreotincta,"Hampson, 1912",Indomyrlaea ferreotincta,Indomyrlaea ferreotincta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1873079,Lepidoptera,Pyralidae,Plodia,Plodia interpunctella,,Plodia interpunctella,Plodia interpunctella,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1871468,Lepidoptera,Pyralidae,Pseudodavara,Pseudodavara haemaphoralis,,Pseudodavara haemaphoralis,Pseudodavara haemaphoralis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5125602,Lepidoptera,Pyralidae,Endotricha,Endotricha mesenterialis,"Walker, 1859",Endotricha mesenterialis,Endotricha mesenterialis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1871407,Lepidoptera,Pyralidae,Hypsopygia,Hypsopygia costalis,,Hypsopygia costalis,Hypsopygia costalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1871397,Lepidoptera,Pyralidae,Hypsopygia,Hypsopygia mauritialis,,Hypsopygia mauritialis,Hypsopygia mauritialis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11852179,Lepidoptera,Pyralidae,Hypsopygia,Hypsopygia nigrivitta,,Hypsopygia nigrivitta,Hypsopygia nigrivitta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1870059,Lepidoptera,Pyralidae,Macna,Macna platychloralis,,Macna platychloralis,Macna platychloralis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1872901,Lepidoptera,Pyralidae,Pyralis,Pyralis farinalis,,Pyralis farinalis,Pyralis farinalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1872873,Lepidoptera,Pyralidae,Pyralis,Pyralis manihotalis,,Pyralis manihotalis,Pyralis manihotalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1872850,Lepidoptera,Pyralidae,Pyralis,Pyralis pictalis,,Pyralis pictalis,Pyralis pictalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5124716,Lepidoptera,Saturniidae,Attacus,Attacus atlas,"Linnaeus,1758",Attacus atlas,Attacus atlas,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1867928,Lepidoptera,Saturniidae,Saturnia,Saturnia pyri,,Saturnia pyri,Saturnia pyri,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5120278,Lepidoptera,Scythrididae,Eretmocera,Eretmocera impactella,,Eretmocera impactella,Eretmocera impactella,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11901335,Lepidoptera,Sesiidae,Tyrictaca,Tyrictaca pulchra,,Tyrictaca pulchra,Tyrictaca pulchra,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1861933,Lepidoptera,Sphingidae,Acosmeryx,Acosmeryx shervillii,,Acosmeryx shervillii,Acosmeryx shervillii,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1863354,Lepidoptera,Sphingidae,Angonyx,Angonyx testacea,,Angonyx testacea,Angonyx testacea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1863467,Lepidoptera,Sphingidae,Cechenena,Cechenena helops,,Cechenena helops,Cechenena helops,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1863034,Lepidoptera,Sphingidae,Cephonodes,Cephonodes hylas,,Cephonodes hylas,Cephonodes hylas,98,ACCEPTED,EXACT,SPECIES,London06October2023
+1862394,Lepidoptera,Sphingidae,Daphnis,Daphnis hypothous,"Cramer, 1780",Daphnis hypothous,Daphnis hypothous,98,ACCEPTED,EXACT,SPECIES,London06October2023
+1862401,Lepidoptera,Sphingidae,Daphnis,Daphnis nerii,"Linnaeus,1758",Daphnis nerii,Daphnis nerii,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1863646,Lepidoptera,Sphingidae,Elibia,Elibia dolichus,"Westwood,1847",Elibia dolichus,Elibia dolichus,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1863388,Lepidoptera,Sphingidae,Enpinanga,Enpinanga borneensis,"Butler,1879",Enpinanga borneensis,Enpinanga borneensis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1863393,Lepidoptera,Sphingidae,Enpinanga,Enpinanga vigens,,Enpinanga vigens,Enpinanga vigens,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1863904,Lepidoptera,Sphingidae,Eupanacra,Eupanacra elegantulus,,Eupanacra elegantulus,Eupanacra elegantulus,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1863910,Lepidoptera,Sphingidae,Eupanacra,Eupanacra mydon,,Eupanacra mydon,Eupanacra mydon,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1863907,Lepidoptera,Sphingidae,Eupanacra,Eupanacra regularis,,Eupanacra regularis,Eupanacra regularis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5124059,Lepidoptera,Sphingidae,Eurypteryx,Eurypteryx bhaga,"Moore,1865",Eurypteryx bhaga,Eurypteryx bhaga,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1862318,Lepidoptera,Sphingidae,Hippotion,Hippotion boerhaviae,,Hippotion boerhaviae,Hippotion boerhaviae,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1862293,Lepidoptera,Sphingidae,Hippotion,Hippotion celerio,,Hippotion celerio,Hippotion celerio,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1862328,Lepidoptera,Sphingidae,Hippotion,Hippotion echeclus,,Hippotion echeclus,Hippotion echeclus,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1862363,Lepidoptera,Sphingidae,Hippotion,Hippotion rosetta,"Swinhoe, 1892",Hippotion rosetta,Hippotion rosetta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5124415,Lepidoptera,Sphingidae,Macroglossum,Macroglossum bombylans,,Macroglossum bombylans,Macroglossum bombylans,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11954157,Lepidoptera,Sphingidae,Macroglossum,Macroglossum corythus,"Walker, 1856",Macroglossum corythus,Macroglossum corythus,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5124348,Lepidoptera,Sphingidae,Macroglossum,Macroglossum divergens,,Macroglossum divergens,Macroglossum divergens,98,ACCEPTED,EXACT,SPECIES,London06October2023
+5124358,Lepidoptera,Sphingidae,Macroglossum,Macroglossum multifascia,"Rothschild & Jordan,1903",Macroglossum multifascia,Macroglossum multifascia,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5124414,Lepidoptera,Sphingidae,Macroglossum,Macroglossum prometheus,,Macroglossum prometheus,Macroglossum prometheus,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5124332,Lepidoptera,Sphingidae,Macroglossum,Macroglossum pyrrhosticta,,Macroglossum pyrrhosticta,Macroglossum pyrrhosticta,98,ACCEPTED,EXACT,SPECIES,London06October2023
+5124374,Lepidoptera,Sphingidae,Macroglossum,Macroglossum sitiene,"Walker, 1856",Macroglossum sitiene,Macroglossum sitiene,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5124402,Lepidoptera,Sphingidae,Macroglossum,Macroglossum variegatum,"Rothschild & Jordan, 1903",Macroglossum variegatum,Macroglossum variegatum,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6106759,Lepidoptera,Sphingidae,Neogurelca,Neogurelca hyas,"Walker, 1856",Neogurelca hyas,Neogurelca hyas,98,ACCEPTED,EXACT,SPECIES,London06October2023
+1863944,Lepidoptera,Sphingidae,Pergesa,Pergesa acteus,"Cramer, 1779",Pergesa acteus,Pergesa acteus,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1862517,Lepidoptera,Sphingidae,Theretra,Theretra alecto,,Theretra alecto,Theretra alecto,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1862430,Lepidoptera,Sphingidae,Theretra,Theretra clotho,,Theretra clotho,Theretra clotho,98,ACCEPTED,EXACT,SPECIES,London06October2023
+1862526,Lepidoptera,Sphingidae,Theretra,Theretra latreillii,,Theretra latreillii,Theretra latreillii,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1862481,Lepidoptera,Sphingidae,Theretra,Theretra lucasii,,Theretra lucasii,Theretra rhesus,96,SYNONYM,FUZZY,SPECIES,London06October2023
+1862475,Lepidoptera,Sphingidae,Theretra,Theretra nessus,"Drury, 1773",Theretra nessus,Theretra nessus,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1862449,Lepidoptera,Sphingidae,Theretra,Theretra oldenlandiae,,Theretra oldenlandiae,Theretra oldenlandiae,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1862516,Lepidoptera,Sphingidae,Theretra,Theretra silhetensis,,Theretra silhetensis,Theretra silhetensis,98,ACCEPTED,EXACT,SPECIES,London06October2023
+1862467,Lepidoptera,Sphingidae,Theretra,Theretra suffusa,"Walker, 1856",Theretra suffusa,Theretra suffusa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5123884,Lepidoptera,Sphingidae,Ambulyx,Ambulyx canescens,,Ambulyx canescens,Ambulyx canescens,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5123888,Lepidoptera,Sphingidae,Ambulyx,Ambulyx clavata,,Ambulyx clavata,Ambulyx clavata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+8810912,Lepidoptera,Sphingidae,Ambulyx,Ambulyx moorei,"Moore, 1858",Ambulyx moorei,Ambulyx moorei,98,ACCEPTED,EXACT,SPECIES,London06October2023
+5123870,Lepidoptera,Sphingidae,Ambulyx,Ambulyx pryeri,,Ambulyx pryeri,Ambulyx pryeri,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5123707,Lepidoptera,Sphingidae,Amplypterus,Amplypterus panopus,,Amplypterus panopus,Amplypterus panopus,98,ACCEPTED,EXACT,SPECIES,London06October2023
+1863431,Lepidoptera,Sphingidae,Cypa,Cypa decolor,"Walker, 1856",Cypa decolor,Cypa decolor,98,ACCEPTED,EXACT,SPECIES,London06October2023
+1861975,Lepidoptera,Sphingidae,Daphnusa,Daphnusa ocellaris,"Walker, 1856",Daphnusa ocellaris,Daphnusa ocellaris,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1861721,Lepidoptera,Sphingidae,Marumba,Marumba dyras,,Marumba dyras,Marumba dyras,98,ACCEPTED,EXACT,SPECIES,London06October2023
+1861488,Lepidoptera,Sphingidae,Acherontia,Acherontia lachesis,"Fabricius, 1798",Acherontia lachesis,Acherontia lachesis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1861494,Lepidoptera,Sphingidae,Acherontia,Acherontia styx,"Westwood, 1847",Acherontia styx,Acherontia styx,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1861644,Lepidoptera,Sphingidae,Agrius,Agrius convolvuli,,Agrius convolvuli,Agrius convolvuli,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1862008,Lepidoptera,Sphingidae,Meganoton,Meganoton nyctiphanes,"Walker, 1856",Meganoton nyctiphanes,Meganoton nyctiphanes,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10005133,Lepidoptera,Sphingidae,Notonagemia,Notonagemia analis,,Notonagemia analis,Notonagemia analis,98,DOUBTFUL,EXACT,SPECIES,London06October2023
+1861451,Lepidoptera,Sphingidae,Psilogramma,Psilogramma discistriga,,Psilogramma discistriga,Psilogramma discistriga,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10299506,Lepidoptera,Sphingidae,Psilogramma,Psilogramma edii,,Psilogramma edii,Psilogramma edii,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1861456,Lepidoptera,Sphingidae,Psilogramma,Psilogramma increta,,Psilogramma increta,Psilogramma increta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1861457,Lepidoptera,Sphingidae,Psilogramma,Psilogramma menephron,"Cramer, 1780",Psilogramma menephron,Psilogramma menephron,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1831458,Lepidoptera,Stathmopodidae,Stathmopoda,Stathmopoda auriferella,,Stathmopoda auriferella,Stathmopoda auriferella,99,ACCEPTED,EXACT,SPECIES,London06October2023
+9890756,Lepidoptera,Thyrididae,Hypolamprus,Hypolamprus bastialis,,Hypolamprus bastialis,Hypolamprus bastialis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1992924,Lepidoptera,Thyrididae,Aglaopus,Aglaopus decussata,,Aglaopus decussata,Aglaopus decussata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1992602,Lepidoptera,Thyrididae,Banisia,Banisia idalialis,,Banisia idalialis,Banisia idalialis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1992589,Lepidoptera,Thyrididae,Banisia,Banisia lobata,"Moore, 1882",Banisia lobata,Banisia lobata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1992634,Lepidoptera,Thyrididae,Banisia,Banisia myrsusalis,"Walker, 1859",Banisia myrsusalis,Banisia myrsusalis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1992781,Lepidoptera,Thyrididae,Dysodia,Dysodia miniata,,Dysodia miniata,Dysodia miniata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1992793,Lepidoptera,Thyrididae,Dysodia,Dysodia pennitarsis,,Dysodia pennitarsis,Dysodia pennitarsis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1993491,Lepidoptera,Thyrididae,Striglina,Striglina buergersi,,Striglina buergersi,Striglina buergersi,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1993536,Lepidoptera,Thyrididae,Striglina,Striglina duplicifimbria,,Striglina duplicifimbria,Striglina duplicifimbria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1993532,Lepidoptera,Thyrididae,Striglina,Striglina fidelia,,Striglina fidelia,Striglina fidelia,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1993496,Lepidoptera,Thyrididae,Striglina,Striglina scitaria,,Striglina scitaria,Striglina scitaria,98,ACCEPTED,EXACT,SPECIES,London06October2023
+1993008,Lepidoptera,Thyrididae,Telchines,Telchines vialis,,Telchines vialis,Telchines vialis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1857380,Lepidoptera,Tineidae,Erechthias,Erechthias zebrina,,Erechthias zebrina,Erechthias zebrina,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1858557,Lepidoptera,Tineidae,Pyloetis,Pyloetis mimosae,,Pyloetis mimosae,Pyloetis mimosae,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1855678,Lepidoptera,Tineidae,Phaeoses,Phaeoses leucodeta,,Phaeoses leucodeta,Phaeoses leucodeta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1858283,Lepidoptera,Tineidae,Phereoeca,Phereoeca uterella,"Walsingham,1897",Phereoeca uterella,Phereoeca uterella,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1858163,Lepidoptera,Tineidae,Tinea,Tinea pellionella,,Tinea pellionella,Tinea pellionella,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1857626,Lepidoptera,Tineidae,Tineola,Tineola bisselliella,,Tineola bisselliella,Tineola bisselliella,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1737015,Lepidoptera,Tortricidae,Cryptophlebia,Cryptophlebia ombrodelta,,Cryptophlebia ombrodelta,Cryptophlebia ombrodelta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1738194,Lepidoptera,Tortricidae,Dactylioglypha,Dactylioglypha pallens,,Dactylioglypha pallens,Dactylioglypha pallens,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1740828,Lepidoptera,Tortricidae,Dudua,Dudua aprobola,,Dudua aprobola,Dudua aprobola,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1746714,Lepidoptera,Tortricidae,Gatesclarkeana,Gatesclarkeana idia,,Gatesclarkeana idia,Gatesclarkeana idia,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1736469,Lepidoptera,Tortricidae,Grapholita,Grapholita comanticosta,,Grapholita comanticosta,Grapholita comanticosta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1736499,Lepidoptera,Tortricidae,Grapholita,Grapholita delineana,,Grapholita delineana,Grapholita delineana,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1740524,Lepidoptera,Tortricidae,Lobesia,Lobesia aeolopa,,Lobesia aeolopa,Lobesia aeolopa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1740797,Lepidoptera,Tortricidae,Loboschiza,Loboschiza koenigiana,,Loboschiza koenigiana,Loboschiza koenigiana,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10509613,Lepidoptera,Tortricidae,Ophiorrhabda,Ophiorrhabda mormopa,,Ophiorrhabda mormopa,Ophiorrhabda mormopa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10113756,Lepidoptera,Tortricidae,Ophiorrhabda,Ophiorrhabda scaristis,,Ophiorrhabda scaristis,Ophiorrhabda scaristis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1743395,Lepidoptera,Tortricidae,Sisona,Sisona albitibiana,,Sisona albitibiana,Sisona albitibiana,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1747682,Lepidoptera,Tortricidae,Sorolopha,Sorolopha cyclotoma,"Lower, 1901",Sorolopha cyclotoma,Sorolopha cyclotoma,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1747680,Lepidoptera,Tortricidae,Sorolopha,Sorolopha phyllochlora,,Sorolopha phyllochlora,Sorolopha phyllochlora,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1741559,Lepidoptera,Tortricidae,Statherotis,Statherotis leucaspis,,Statherotis leucaspis,Statherotis leucaspis,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1747100,Lepidoptera,Tortricidae,Sycacantha,Sycacantha inodes,,Sycacantha inodes,Sycacantha inodes,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1740455,Lepidoptera,Tortricidae,Adoxophyes,Adoxophyes moderatana,,Adoxophyes moderatana,Adoxophyes moderatana,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1740469,Lepidoptera,Tortricidae,Adoxophyes,Adoxophyes privatana,"Walker, 1863",Adoxophyes privatana,Adoxophyes privatana,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1746893,Lepidoptera,Tortricidae,Archips,Archips micaceana,,Archips micaceana,Archips micaceana,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1745947,Lepidoptera,Tortricidae,Homona,Homona coffearia,"Nietner, 1861",Homona coffearia,Homona coffearia,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10714586,Lepidoptera,Tortricidae,Homona,Homona eductana,,Homona eductana,Homona eductana,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1747229,Lepidoptera,Tortricidae,Meridemis,Meridemis furtiva,"Diakonoff, 1976",Meridemis furtiva,Meridemis furtiva,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1737313,Lepidoptera,Tortricidae,Neocalyptis,Neocalyptis affinisana,"Walker,1863",Neocalyptis affinisana,Neocalyptis affinisana,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6118011,Lepidoptera,Tortricidae,Phricanthes,Phricanthes flexilineana,"Walker, 1863",Phricanthes flexilineana,Phricanthes flexilineana,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1738619,Lepidoptera,Tortricidae,Polemograptis,Polemograptis miltocosma,"Meyrick,1910",Polemograptis miltocosma,Polemograptis miltocosma,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6132711,Lepidoptera,Uraniidae,Dysaethria,Dysaethria flavistriga,,Dysaethria flavistriga,Dysaethria flavistriga,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11759783,Lepidoptera,Uraniidae,Dysaethria,Dysaethria indignaria,"Walker, 1866",Dysaethria indignaria,Dysaethria indignaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11845979,Lepidoptera,Uraniidae,Dysaethria,Dysaethria lilacina,,Dysaethria lilacina,Dysaethria lilacina,99,ACCEPTED,EXACT,SPECIES,London06October2023
+9960530,Lepidoptera,Uraniidae,Dysaethria,Dysaethria plicata,,Dysaethria plicata,Dysaethria plicata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6132712,Lepidoptera,Uraniidae,Dysaethria,Dysaethria quadricaudata,,Dysaethria quadricaudata,Dysaethria quadricaudata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6132720,Lepidoptera,Uraniidae,Europlema,Europlema desistaria,,Europlema desistaria,Europlema desistaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11815566,Lepidoptera,Uraniidae,Europlema,Europlema poecilaria,,Europlema poecilaria,Europlema poecilaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+9214876,Lepidoptera,Uraniidae,Europlema,Europlema semibrunnea,,Europlema semibrunnea,Europlema semibrunnea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1953321,Lepidoptera,Uraniidae,Monobolodes,Monobolodes parvinigrata,,Monobolodes parvinigrata,Monobolodes parvinigrata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6132731,Lepidoptera,Uraniidae,Monobolodes,Monobolodes prunaria,"Moore, 1887",Monobolodes prunaria,Monobolodes prunaria,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1953949,Lepidoptera,Uraniidae,Phazaca,Phazaca erosioides,,Phazaca erosioides,Phazaca erosioides,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5143258,Lepidoptera,Uraniidae,Acropteris,Acropteris grammearia,,Acropteris grammearia,Acropteris grammearia,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5143252,Lepidoptera,Uraniidae,Acropteris,Acropteris rectinervata,"Guenée, 1857",Acropteris rectinervata,Acropteris rectinervata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1953423,Lepidoptera,Uraniidae,Micronia,Micronia aculeata,"Guenée, 1857",Micronia aculeata,Micronia aculeata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1953196,Lepidoptera,Uraniidae,Lyssa,Lyssa zampa,"Butler,1869",Lyssa zampa,Lyssa zampa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1954120,Lepidoptera,Uraniidae,Urapteroides,Urapteroides astheniata,"Guenée, 1857",Urapteroides astheniata,Urapteroides astheniata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1754411,Lepidoptera,Zygaenidae,Anarbudas,Anarbudas bipartita,"Walker, 1864",Anarbudas bipartita,Anarbudas bipartita,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11605327,Lepidoptera,Zygaenidae,Boradiopsis,Boradiopsis bipartita,,Boradiopsis bipartita,Boradiopsis bipartita,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11461995,Lepidoptera,Zygaenidae,Boradiopsis,Boradiopsis harmani,,Boradiopsis harmani,Boradiopsis harmani,99,ACCEPTED,EXACT,SPECIES,London06October2023
+6208150,Lepidoptera,Zygaenidae,Chalcosia,Chalcosia coliadoides,"Walker,1862",Chalcosia coliadoides,Chalcosia phalaenaria,99,SYNONYM,EXACT,SPECIES,London06October2023
+5108266,Lepidoptera,Zygaenidae,Cyclosia,Cyclosia inclusus,"Walker,1864",Cyclosia inclusus,Cyclosia inclusus,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5108256,Lepidoptera,Zygaenidae,Cyclosia,Cyclosia macularia,,Cyclosia macularia,Cyclosia macularia,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5108312,Lepidoptera,Zygaenidae,Cyclosia,Cyclosia nivipetens,"Walker, 1863",Cyclosia nivipetens,Cyclosia nivipetens,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5108318,Lepidoptera,Zygaenidae,Cyclosia,Cyclosia papilionaris,,Cyclosia papilionaris,Cyclosia papilionaris,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5108335,Lepidoptera,Zygaenidae,Cyclosia,Cyclosia pieridoides,"HerrichSchäffer,1854",Cyclosia pieridoides,Cyclosia pieridoides,99,ACCEPTED,EXACT,SPECIES,London06October2023
+5108259,Lepidoptera,Zygaenidae,Cyclosia,Cyclosia sordidus,"Walker, 1862",Cyclosia sordidus,Cyclosia sordidus,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1754368,Lepidoptera,Zygaenidae,Eterusia,Eterusia aedea,,Eterusia aedea,Eterusia aedea,99,ACCEPTED,EXACT,SPECIES,London06October2023
+10094566,Lepidoptera,Zygaenidae,Eterusia,Eterusia risa,,Eterusia risa,Eterusia risa,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1754533,Lepidoptera,Zygaenidae,Pidorus,Pidorus corculum,"Butler,1879",Pidorus corculum,Pidorus corculum,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1754263,Lepidoptera,Zygaenidae,Pompelon,Pompelon marginata,"Guerin,1843",Pompelon marginata,Pompelon marginata,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1754497,Lepidoptera,Zygaenidae,Prosopandrophila,Prosopandrophila distincta,,Prosopandrophila distincta,Prosopandrophila distincta,99,ACCEPTED,EXACT,SPECIES,London06October2023
+1754712,Lepidoptera,Zygaenidae,Psaphis,Psaphis camadeva,"Doubleday,1847",Psaphis camadeva,Psaphis camadeva,99,ACCEPTED,EXACT,SPECIES,London06October2023
+11765987,Lepidoptera,Zygaenidae,Artona,Artona hainana,"Butler, 1876",Artona hainana,Artona walkeri,99,SYNONYM,EXACT,SPECIES,London06October2023
