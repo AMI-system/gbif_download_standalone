@@ -5,6 +5,7 @@
 #SBATCH --nodes 1
 #SBATCH --cpus-per-task 36
 #SBATCH --mem=5G
+#SBATCH --output=all.out
 
 # Module loading
 module purge # unloads and loaded modules and resets the environment
@@ -25,11 +26,17 @@ export CONDA_ENV_PATH="/bask/projects/v/vjgo8416-amber/conda_envs/gbif_download_
 conda activate "${CONDA_ENV_PATH}"
 
 # Execute your python programme
+regions=("madagascar" "japan" "kenya-uganda" "nigeria")
 
-python fetch_taxon_keys.py \
---species_filepath ../species_checklists/costarica-moths-preprocessed.csv \
---column_name_species species_name_provided \
---column_name_authority authority_name_provided \
---output_filepath ../species_checklists/costarica-moths-keys.csv \
---place London01Oct2024 \
---use_multithreading True
+for region in "${regions[@]}"; do
+    echo "$region"
+    echo "using ./species_checklists/${region}-moths-preprocessed.csv"
+
+    python fetch_taxon_keys.py \
+    --species_filepath ../species_checklists/${region}-moths-preprocessed.csv \
+    --column_name_species species_name_provided \
+    --column_name_authority authority_name_provided \
+    --output_filepath ../species_checklists/${region}-moths-keys.csv \
+    --place Leeds13Nov2024 \
+    --use_multithreading True
+done
