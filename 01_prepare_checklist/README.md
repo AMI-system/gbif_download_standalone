@@ -9,7 +9,7 @@ Run `01_preprocess_species_list.ipynb` to load the checklist and modify the spec
 
 ### 2. Fetch taxonomic keys from GBIF
 
-For quickly calling the `fetch_taxon_keys.py`, use `02_fetch_taxon_keys_wrapper.ipynb` where you can define and modify the arguments. Otherwise you can use `02_fetch_taxon_keys.sh` for slurm calls.
+The next step fetches the corresponding taxon keys from [GBIF](https://www.gbif.org/). To quickly call the `fetch_taxon_keys.py`, use `02_fetch_taxon_keys_wrapper.ipynb` where you can define and modify the arguments. Otherwise it is recommended you use `02_fetch_taxon_keys.sh` for slurm calls.
 
 ```sh
 python fetch_taxon_keys.py \
@@ -38,3 +38,7 @@ Species often have synonyms, and checklist often contain accepted species names 
 Run `03_remove_duplicate_species.ipynb` to identify duplicate rows and remove them, so images are downloaded only once per species.
 
 The code also removes rows for species that are not available on GBIF, so that the downstream code that downloads GBIF images does not needlessly loop over them.
+
+### 4. Consult the failed instances
+
+Step 3 outputs the species names which failed to `../species_checklists/failed_searches`. Inspect this to see if you can troubleshoot why those names cannot be found on GBIF. 
