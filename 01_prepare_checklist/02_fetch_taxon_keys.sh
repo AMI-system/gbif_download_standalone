@@ -28,11 +28,11 @@ export CONDA_ENV_PATH="/bask/projects/v/vjgo8416-amber/conda_envs/gbif_download_
 conda activate "${CONDA_ENV_PATH}"
 
 # Execute your python programme
-regions=("madagascar" "japan" "kenya-uganda" "nigeria" "costarica")
+regions=("kenya-uganda" "nigeria" "costarica", "uksi", "singapore", "thailand") #"madagascar" "japan"
 
 for region in "${regions[@]}"; do
-    echo "$region"
-    echo "using ./species_checklists/${region}-moths-preprocessed.csv"
+    echo "\033[1m ${region} \033[0m"
+    echo "- using ./species_checklists/${region}-moths-preprocessed.csv"
 
     python fetch_taxon_keys.py \
     --species_filepath ../species_checklists/${region}-moths-preprocessed.csv \
@@ -41,4 +41,6 @@ for region in "${regions[@]}"; do
     --output_filepath ../species_checklists/${region}-moths-keys.csv \
     --place Leeds13Nov2024 \
     --use_multithreading True
+
+    echo "Finished for ${region}"
 done
