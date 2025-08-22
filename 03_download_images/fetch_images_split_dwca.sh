@@ -17,7 +17,7 @@ python fetch_images_split_dwca.py \
     --write_directory "/gws/nopw/j04/ceh_generic/kgoldmann/gbif_images" \
     --occ_files "/gws/nopw/j04/ceh_generic/kgoldmann/dwca_preprocessed/occurrence_dataframes_20250815/" \
     --media_file "/gws/nopw/j04/ceh_generic/kgoldmann/dwca_preprocessed/multimedia_lepidoptera_20250815.csv" \
-    --species_checklist "/home/users/katriona/gbif_download_standalone/species_checklists/thailand-keys-nodup.csv" \
+    --species_checklist "/home/users/katriona/gbif_download_standalone/species_checklists/thailand-moths-keys-nodup.csv" \
     --max_data_sp 1000 \
     --skip_non_adults
 
