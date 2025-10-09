@@ -154,7 +154,7 @@ def check_stats(args):
 
             # If directory for this species doesn't exist, then the species didn't exist
             # on GBIF so has no images.
-            n_images_on_disk = 0
+            n_images_on_disk = float('nan')
 
         # print(f"{species} has {n_images_on_disk} images")
 

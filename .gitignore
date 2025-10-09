@@ -19,3 +19,4 @@ species_checklists/
 
 *.out
 *.stats
+plots/*

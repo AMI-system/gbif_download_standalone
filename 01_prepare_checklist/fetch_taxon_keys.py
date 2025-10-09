@@ -94,21 +94,25 @@ def get_gbif_key_backbone(name_species, name_authority, place):
 
 
         # Try searching with the authority in the name as well
-        if isinstance(name_authority, str):
 
-            search_name = name_species + " " + name_authority
-
-            print("Could not find data for ",
-                  name_species,
-                  " Retrying for ",
-                  search_name)
-
-            # Change the default value
-            search_species = [search_name]
-
-            data = species_api.name_backbone(name=search_name,
-                                             strict=True,
-                                             rank="species")
+        # Safely handle NaN or non-string values for name_species and name_authority
+        try:
+            if pd.isna(name_species) or pd.isna(name_authority):
+                print(f"Skipping due to NaN: species='{name_species}', authority='{name_authority}'")
+            else:
+                if isinstance(name_authority, str):
+                    search_name = str(name_species) + " " + str(name_authority)
+                    print("Could not find data for ",
+                        name_species,
+                        " Retrying for ",
+                        search_name)
+                    # Change the default value
+                    search_species = [search_name]
+                    data = species_api.name_backbone(name=search_name,
+                                                    strict=True,
+                                                    rank="species")
+        except Exception as e:
+            print(f"Error combining species and authority: {e}. Skipping entry.")
 
 
     # try again with a more lenient search

@@ -12,6 +12,8 @@ There are also bash files available to run these using slurm:
 - fetch_images_split_dwca.sh
 - fetch_images_whole_dwca.sh
 
+To run with slurm for all regions, use `fetch_images_split_dwca_all_regions.sh`. You will need to edit these files to specify the correct paths for your system.
+
 Finally, once images are downloaded, use `calculate_data_stats.py` to create a csv file documenting how many images we have for each species in a checklist.
 
 ## 1. Fetching the Images
