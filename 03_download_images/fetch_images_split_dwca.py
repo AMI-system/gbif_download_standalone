@@ -4,7 +4,7 @@
 """
 Author        : Aditya Jain
 Edited by     : Levan Bokeria, Katriona Goldmann
-Last modified : 22 Nov, 2023
+Last modified : 10 Oct, 2025
 About	      : Split the Occurrence CSV file by species
 """
 
@@ -14,10 +14,17 @@ import json
 import logging
 import os
 import time
-from concurrent.futures import ProcessPoolExecutor, ThreadPoolExecutor
+from concurrent.futures import ProcessPoolExecutor, ThreadPoolExecutor, as_completed
 from urllib.request import urlretrieve
 
 import pandas as pd
+
+
+# optional nice progress bar
+try:
+    from tqdm import tqdm
+except Exception:
+    tqdm = None
 
 
 def fetch_meta_data(data: pd.DataFrame):
@@ -329,30 +336,36 @@ def prep_and_read_files(args):
     # Lastly, call the function with your taxon keys:
     begin = time.time()
 
+    # determine number of workers
+    n_workers = int(args.n_workers) if args.n_workers is not None else max(4, (os.cpu_count() or 4))
+    n_workers = min(n_workers, max(1, len(taxon_keys)))
+
     if args.use_parallel:
-        # If using multiprocessing (not set up)
-        if args.use_multiproc:
+        # prefer threads for network I/O to avoid duplicating large DataFrames
+        print(f"Using ThreadPoolExecutor with {n_workers} workers")
+        try:
+            executor_cls = ThreadPoolExecutor
+            futures = []
+            with executor_cls(max_workers=n_workers) as executor:
+                for k in taxon_keys:
+                    futures.append(executor.submit(fetch_image_data, k, rerun_nonzero))
 
-            try:
-                with ProcessPoolExecutor() as executor:
-
-                    executor.map(fetch_image_data, taxon_keys)
-
-            except Exception as e:
-                print(f"Error: {e}")
-
-        # If using multithreading
-        else:
-
-            with ThreadPoolExecutor() as executor:
-
-                executor.map(fetch_image_data, taxon_keys)
+                # progress
+                if tqdm:
+                    for _ in tqdm(as_completed(futures), total=len(futures)):
+                        pass
+                else:
+                    for fut in as_completed(futures):
+                        # raise exception if occurred
+                        fut.result()
+        except Exception as e:
+            print(f"Error in threaded download: {e}")
 
     # If doing in a for loop
     else:
-        for i_taxon_key in taxon_keys:
-            print(f"Calling for {i_taxon_key}")
 
+        for i_taxon_key in taxon_keys:
+            # print(f"Calling for {i_taxon_key}")
             fetch_image_data(i_taxon_key, rerun_nonzero)
 
     end = time.time()
@@ -385,6 +398,10 @@ if __name__ == "__main__":
     parser.add_argument(
         "--use_multiproc", help="use multiprocessing or not",
         default=False, action='store_true'
+    )
+    parser.add_argument(
+        "--n_workers", help="number of threads/workers to use (threads recommended)",
+        type=int, default=None
     )
     parser.add_argument(
         "--max_data_sp", help="number of images per species", required=True

@@ -3,13 +3,13 @@
 
 # List of region names (update as needed)
 regions=(
-    "anguilla"
+    # "anguilla"
     "costarica"
     "japan"
-    "kenya-uganda"
-    "madagascar"
-    "namibia"
-    "nigeria"
+    # "kenya-uganda"
+    # "madagascar"
+    # "namibia"
+    # "nigeria"
     "singapore"
     "thailand"
     "uksi"
